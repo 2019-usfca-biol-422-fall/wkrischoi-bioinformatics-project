@@ -9,8 +9,11 @@ bibliography: references.bib
 
 # Overview of Proposed Project
 
+## Question
 
+## Hypothesis
 
+## Study Design
 
 # Sources Cited
 
