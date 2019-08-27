@@ -3,8 +3,15 @@ title: "BIOL 422 Semester-long Project"
 author: "Kris Choi"
 date: "8/27/2019"
 output: word_document
+csl: bioinformatics.csl
+bibliography: references.bib
 ---
 
 # Overview of Proposed Project
 
 
+
+
+
+
+# Sources Cited
