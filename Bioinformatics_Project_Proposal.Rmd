@@ -21,6 +21,12 @@ If fermented food and/or beverages are stored at room temperature, the number of
 
 Samples will be obtained from three different fermented food and beverage; wine, yogurt, and miso. The first treatment group will be immediately refrigerated after purchase and the second group will be stored at room temperature. Subsampling will be performed after 72 hours from the time it was stored.
 
+### Materials needed for Subsampling
+
+* 6 sterile tubes
+* 6 disposable spatulas
+* Lysis buffer
+
 # Sources Cited
 
 
