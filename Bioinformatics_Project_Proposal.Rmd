@@ -2,7 +2,9 @@
 title: "BIOL 422 Bioinformatics Project - Probiotics in Fermented Food and Beverages"
 author: "Kris Choi"
 date: "8/27/2019"
-output: word_document
+output:
+  html_document:
+    df_print: paged
 csl: bioinformatics.csl
 bibliography: references.bib
 ---
