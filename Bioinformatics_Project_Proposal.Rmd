@@ -28,6 +28,7 @@ Samples will be collected from three different fermented food and beverage; wine
 * 6 sterile tubes
 * 6 disposable spatulas
 * Lysis buffer
+* Gloves
 
 ### Timeline for Subsampling
 
