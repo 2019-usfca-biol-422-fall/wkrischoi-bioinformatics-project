@@ -13,7 +13,7 @@ bibliography: references.bib
 
 ## Questions
 
-I will look into the probiotics that can be found in fermented food and beverages and its survival rate under different storage conditions.
+I will look into the microorganisms in ground pork under different storage conditions.
 
 ## Hypothesis
 
