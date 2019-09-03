@@ -13,7 +13,7 @@ bibliography: references.bib
 
 ## Questions
 
-Investigating microbial communitiesd eveloped in ground beef under different storage conditions.
+Investigating microbial communities developed in ground beef under different storage conditions.
 
 ## Hypothesis
 
