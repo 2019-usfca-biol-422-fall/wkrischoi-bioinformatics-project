@@ -17,7 +17,7 @@ Investigating microbial communities developed in ground beef under different sto
 
 ## Hypothesis
 
-More diversed microbial communities will be developed if the meat is stored at room temperature in comparison to the ones kept in a refrigerator as low temperature storage is an essentail method to prevent or slower microbial growth.
+More diversed microbial communities will be developed if the meat is stored at room temperature in comparison to the ones kept in a refrigerator as low temperature storage is an essentail method to prevent or slower microbial growth [@dave2011meat].
 
 ## Study Design
 
