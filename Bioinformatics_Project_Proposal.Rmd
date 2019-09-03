@@ -13,14 +13,14 @@ bibliography: references.bib
 
 ## Questions
 
-I will look into the microorganisms in ground pork under different storage conditions.
+Investigating microbial communitiesd eveloped in ground beef under different storage conditions.
 
 ## Hypothesis
 
 
 ## Study Design
 
-The experiment will be conducted using ground beef. Two samples will be purchased from each brand (total of six samples) and immediately refrigerated after purchase. Once the experiment begins, the first treatment group will remain refrigerated and the second group will be stored at room temperature. Subsampling is going to be performed after 72 hours from the time it was stored.
+The experiment will be conducted using ground beef. Two samples will be purchased from each brand (total of six samples, three different brands) and immediately refrigerated after purchase. Once the experiment begins, the first treatment group will remain refrigerated and the second group will be stored at room temperature. Subsampling will be performed after 72 hours from the time it was stored.
 
 ### Materials needed for Subsampling
 
