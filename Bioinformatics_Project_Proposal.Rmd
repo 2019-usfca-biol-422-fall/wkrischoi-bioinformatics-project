@@ -27,7 +27,7 @@ The experiment will be conducted using ground beef. Two samples will be purchase
 
 ### Materials needed for Subsampling
 
-* 12 sterile tubes
+* 12 1.5mL tubes
 * 12 cotton Swabs
 * 6 disposable spatulas
 * PBS buffer
