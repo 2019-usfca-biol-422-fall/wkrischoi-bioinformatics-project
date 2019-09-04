@@ -34,6 +34,10 @@ The experiment will be conducted using ground beef. Two samples will be purchase
 
 ### Methods for Subsampling
 
+1. Label the tube with initials, date, and ID number.
+2. Dip a sterile cotton swab in PBS buffer.
+3. Swab a sample on the surface at least 10 seconds.
+4. Break off the tip of the cotton swab into the labeled tube and close the cap.
 
 ### Sample Identification
 
