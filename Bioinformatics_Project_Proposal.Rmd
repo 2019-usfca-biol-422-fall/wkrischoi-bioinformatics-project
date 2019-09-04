@@ -57,12 +57,12 @@ The experiment will be conducted using ground beef. Two samples will be purchase
 
 ## Sample Identification
 
-* 1A: Teva kosher foods @ fridge
-* 1B: Teva kosher foods @ RT
-* 2A: Lucky @ fridge
-* 2B: Lucky @ RT
-* 3B: Butcher shop @ fridge
-* 3B: Butcher shop @ RT
+* 1A: Teva kosher foods @ fridge purchased from Trader Joe's
+* 1B: Teva kosher foods @ RT purchased from Trader Joe's
+* 2A: Lucky @ fridge purchased from Lucky Supermarkets
+* 2B: Lucky @ RT purchased from Lucky Supermarkets
+* 3B: Butcher shop @ fridge purchased from Trader Joe's
+* 3B: Butcher shop @ RT purchased from Trader Joe's
 
 # Sources Cited
 
