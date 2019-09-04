@@ -25,7 +25,7 @@ More diversed microbial communities will be developed if the meat is stored at r
 
 The experiment will be conducted using ground beef. Two samples will be purchased from each brand (total of six samples, three different brands) and immediately refrigerated after purchase. Once the experiment begins, the first treatment group will remain refrigerated and the second group will be stored at room temperature. Subsampling will be performed after 72 hours from the time it was stored.
 
-### Materials
+## Materials
 
 * 1.5mL tubes
 * Cotton Swabs
@@ -34,14 +34,14 @@ The experiment will be conducted using ground beef. Two samples will be purchase
 * Tryptic Soy Agar 100 mm Petri dishes
 * Beads
 
-### Methods for Subsampling
+## Methods
 
 1. Label the tube with initials, date, and ID number.
 2. Dip a sterile cotton swab in PBS buffer.
 3. Swab a sample on the surface at least 10 seconds.
 4. Break off the tip of the cotton swab into the labeled tube and close the cap.
 
-### Sample Identification
+## Sample Identification
 
 * 1A: Teva kosher foods @ fridge
 * 1B: Teva kosher foods @ RT
