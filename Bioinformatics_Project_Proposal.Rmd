@@ -25,6 +25,9 @@ More diversed microbial communities will be developed if the meat is stored at r
 
 The experiment will be conducted using ground beef. Two samples will be purchased from each brand (total of six samples, three different brands) and immediately refrigerated after purchase. Once the experiment begins, the first treatment group will remain refrigerated and the second group will be stored at room temperature. Subsampling will be performed after 80 hours from the time it was stored.
 
+* Experiment started at 10:18PM on 31 Aug 2019
+* Experiment ended at 6:18AM on 4 Sep 2019
+
 ## Materials
 
 * 1.5mL tubes
