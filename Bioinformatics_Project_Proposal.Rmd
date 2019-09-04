@@ -36,14 +36,14 @@ The experiment will be conducted using ground beef. Two samples will be purchase
 
 ## Methods
 
-### Subsampling
+### Part 1 - Subsampling
 
 1. Label 12 new tubes with initials, date, and ID number.
 2. Dip a sterile cotton swab in PBS buffer.
 3. Swab a sample on the surface at least 10 seconds.
 4. Break off the tip of the cotton swab into the labeled tube and close the cap.
 
-### 1:10/1:100 Dilution and Cell culture
+### Part 2 - 1:10/1:100 Dilution and Cell culture
 
 1. Label 12 new tubes with ID number, dilution factor (1:10 or 1:100), date, and initials.   
 2. Add 200uL of PBS buffer to each sample and vortex for 15 sec.
