@@ -38,12 +38,22 @@ The experiment will be conducted using ground beef. Two samples will be purchase
 
 ### Subsampling
 
-1. Label the tube with initials, date, and ID number.
+1. Label 12 new tubes with initials, date, and ID number.
 2. Dip a sterile cotton swab in PBS buffer.
 3. Swab a sample on the surface at least 10 seconds.
 4. Break off the tip of the cotton swab into the labeled tube and close the cap.
 
-### Cell culture
+### 1:10/1:100 Dilution and Cell culture
+
+1. Label 12 new tubes with ID number, dilution factor (1:10 or 1:100), date, and initials.   
+2. Add 200uL of PBS buffer to each sample and vortex for 15 sec.
+3. Add 180uL of PBS buffer to the labeled new tubes.
+4. Add 20uL of the stock from each original sample to the new 1:10 tube and vortex for 5 sec.
+5. Transfer 20uL of the 1:10 diluted solution to the new 1:100 tube and vortex for 5 sec.
+6. Label 18 new TSA petri dishes with ID number, dilution factor, date, and initials.
+7. Transfer 100uL of each sample to the petri dish.
+8. Add 8-10 beads in the petri dish and spread the solution with the beads for 10 sec.
+9. Store the dishes in a incubator.
 
 ## Sample Identification
 
