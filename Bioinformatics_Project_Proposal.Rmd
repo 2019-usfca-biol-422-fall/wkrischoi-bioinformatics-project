@@ -25,12 +25,15 @@ More diversed microbial communities will be developed if the meat is stored at r
 
 The experiment will be conducted using ground beef. Two samples will be purchased from each brand (total of six samples, three different brands) and immediately refrigerated after purchase. Once the experiment begins, the first treatment group will remain refrigerated and the second group will be stored at room temperature. Subsampling will be performed after 72 hours from the time it was stored.
 
-### Materials needed for Subsampling
+### Materials for Subsampling
 
 * 12 1.5mL tubes
 * 12 cotton Swabs
 * PBS buffer
 * Gloves
+
+### Methods for Subsampling
+
 
 ### Sample Identification
 
