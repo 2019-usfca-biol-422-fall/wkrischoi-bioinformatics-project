@@ -58,6 +58,17 @@ The experiment will be conducted using ground beef. Two samples will be purchase
 8. Add 8-10 beads in the petri dish and spread the solution with the beads for 10 sec.
 9. Store the dishes in a incubator.
 
+### Part 3 - DNA Extraction
+
+1. Label 1.5mL tube for each sample.
+2. Add cells from colony to tube using a sterile pipette tip.
+3. Add 100uL of extraction solution.
+4. Vortex for 60 seconds.
+5. Incubate at 95 degree C for 10 min.
+6. Vortex for 60 seconds.
+7. Add 100uL of dilution solution.
+8. Vortex for 5 seconds.
+
 ## Sample Identification
 
 * 1A: Teva kosher foods @ fridge purchased from Trader Joe's
