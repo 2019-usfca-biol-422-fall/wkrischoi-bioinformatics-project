@@ -68,6 +68,7 @@ The experiment will be conducted using ground beef. Two samples will be purchase
 6. Vortex for 60 seconds.
 7. Add 100uL of dilution solution.
 8. Vortex for 5 seconds.
+9. Centrifuge for 5 minutes at 14,000rpm.
 
 ## Sample Identification
 
