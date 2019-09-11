@@ -58,7 +58,7 @@ The experiment will be conducted using ground beef. Two samples will be purchase
 8. Add 8-10 beads in the petri dish and spread the solution with the beads for 10 sec.
 9. Store the dishes in a incubator.
 
-### Part 3 - DNA Extraction
+### Part 3 - DNA Extraction (cell culture)
 
 1. Label 1.5mL tube for each sample.
 2. Add cells from colony to tube using a sterile pipette tip.
@@ -78,6 +78,17 @@ The experiment will be conducted using ground beef. Two samples will be purchase
 * 2B: Lucky @ RT purchased from Lucky Supermarkets
 * 3B: Butcher shop @ fridge purchased from Trader Joe's
 * 3B: Butcher shop @ RT purchased from Trader Joe's
+
+## Results
+
+### DNA concentration from cell culture
+
+* 1: 1A stock - 10.5ng/uL
+* 2: 1A 1:100 - 25.5ng/uL
+* 3: 2A stock - 7.56ng/uL
+* 4: 2A stock - 15.1ng/uL
+* 5: 3A stock - 12.4ng/uL
+* 6: 3A stock - 14.3ng/uL
 
 # Sources Cited
 
