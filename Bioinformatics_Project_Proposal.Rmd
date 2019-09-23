@@ -88,6 +88,24 @@ The experiment will be conducted using ground beef. Two samples will be purchase
 * 1uL BSA
 * 6.4 H2O
 
+#### PCR Cycle Conditions
+
+1. Denature: 95C for 5 min
+2. Denature: 94C for 30 sec
+3. Annealing: 65C for 30 sec
+4. Elongation: 72C for 1 min
+
+(step down 1C of annealing temperature per cycle and repeat step 2-4 for 10 cycles)
+
+5. 94C for 30 sec
+6. 55C for 30 sec
+7. 72C for 1 min
+
+(Repeat step 5-7 for 25 cycles)
+
+8. 72C for 10 min
+9. 4C hold
+
 ## Sample Identification
 
 * 1A: Teva kosher foods @ fridge purchased from Trader Joe's
