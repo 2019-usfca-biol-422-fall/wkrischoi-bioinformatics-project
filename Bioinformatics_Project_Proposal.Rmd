@@ -83,12 +83,21 @@ The experiment will be conducted using ground beef. Two samples will be purchase
 
 ### DNA concentration from cell culture
 
-* 1: 1A stock - 10.5ng/uL
-* 2: 1A 1:100 - 25.5ng/uL
-* 3: 2A stock - 7.56ng/uL
-* 4: 2A stock - 15.1ng/uL
-* 5: 3A stock - 12.4ng/uL
-* 6: 3A stock - 14.3ng/uL
+* 1: 1A stock - 10.5 ng/uL
+* 2: 1A 1:100 - 25.5 ng/uL
+* 3: 2A stock - 7.56 ng/uL
+* 4: 2A stock - 15.1 ng/uL
+* 5: 3A stock - 12.4 ng/uL
+* 6: 3A stock - 14.3 ng/uL
+
+### DNA concentration from swabs
+
+* 1A - 2.14 ng/uL
+* 1B - 3.39 ng/uL
+* 2A - 2.11 ng/uL
+* 2B - 2.17 ng/uL
+* 3A - 1.10 ng/uL
+* 3B - 4.62 ng/uL
 
 # Sources Cited
 
