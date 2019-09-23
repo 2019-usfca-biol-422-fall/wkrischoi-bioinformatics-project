@@ -70,6 +70,24 @@ The experiment will be conducted using ground beef. Two samples will be purchase
 8. Vortex for 5 seconds.
 9. Centrifuge for 5 minutes at 14,000rpm.
 
+### Part 4 - PCR
+
+1. Calculate volumes of reagents needed for Master Mix: (n+1)+10%.
+2. Transfer appropriate volumes for each ingredients.
+3. Aliquot to each sample tubes and make one more for a negative control.
+4. Add 1uL of sample to tubes and 1uL of H2O to a negative control.
+5. Load each sample on a 2% agarose gel containing SYBR safe dye.
+6. Run the electrophoresis for 30 min at 140V.
+7. Observe the gel under UV light.
+
+#### Ingrediants for Master Mix
+
+* 10uL Amp
+* 0.8uL 27f primer
+* 0.8uL 1492r primer
+* 1uL BSA
+* 6.4 H2O
+
 ## Sample Identification
 
 * 1A: Teva kosher foods @ fridge purchased from Trader Joe's
