@@ -23,8 +23,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Subsections are ok in the results section too
 
-```{r your-code-here}
-# Add code chunks as needed for your analyses
+```{r load-libraries}
+library("ggplot2")
+library("dplyr")
+library("tidyr")
+library("readr")
+```
+
+```{r read-in-culture-data}
+# read in the culture data from csv
+culture_data <- read_csv("data/raw_data/Raw_culture_count_data/Culturing_data.csv")
 ```
 
 # Discussion
