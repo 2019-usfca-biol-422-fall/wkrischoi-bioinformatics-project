@@ -54,7 +54,7 @@ storage conditions, 1x dilution")) +
 **Figure 1:** Boxplot of colony abundances at different storage conditions, 
 1x dilution. Despite a higher median number of colonies from room temperature 
 samples, the mean numbers of colonies were not significantly different between 
-the two storage conditions (Wilcox p = 0.0636).
+the two storage conditions (Wilcox p = 0.06).
 
 ```{r abundances-stats}
 # run a statistical test to compare the two groups of abundances
