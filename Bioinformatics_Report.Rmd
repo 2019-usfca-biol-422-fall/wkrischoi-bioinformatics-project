@@ -44,13 +44,56 @@ culture_data %>%
   ggplot(aes(x = sample_group,
              y = number_of_colonies)) +
   geom_boxplot() +
-  ggtitle("Comparison of colony abundances between 
-          refrigerated and room temperature storage conditions, 1x dilution") +
+  ggtitle(paste("Comparison of colony abundances between refrigerated and", 
+  "room temperature
+storage conditions, 1x dilution")) +
   xlab("Sample Group") +
   ylab("Number of colonies")
 ```
 
+**Figure 1:** Boxplot of colony abundances at different storage conditions, 
+1x dilution. Despite a higher median number of colonies from room temperature 
+samples, the mean numbers of colonies were not significantly different between 
+the two storage conditions (Wilcox p = 0.0636).
 
+```{r abundances-stats}
+# run a statistical test to compare the two groups of abundances
+culture_data %>%
+  filter(student_name == "Kris Choi") %>%
+  filter(dilution_1_10_or_100 == "1") %>%
+  wilcox.test(data = .,
+              number_of_colonies ~ sample_group)
+```
+
+
+
+```{r filter-and-plot-morphotypes}
+# filter out only my 100x dilutions and make a boxplot
+culture_data %>%
+  filter(student_name == "Kris Choi") %>%
+  filter(dilution_1_10_or_100 == "1") %>%
+  ggplot(aes(x = sample_group,
+             y = as.numeric(number_of_morphotypes))) +
+  geom_boxplot() +
+  ggtitle(paste("Comparison of colony morphotypes between refrigerated and", 
+  "room temperature
+storage conditions, 1x dilution")) +
+  xlab("Sample Group") +
+  ylab("Number of Morphotypes")
+```
+
+
+**Figure 2:** Boxplot showing the number of morphotypes from the two different storage conditions. There was no difference in the mean number of morphotypes (Wilcox p=0.19).
+
+
+```{r morphotypes-stats}
+# run a statistical test to compare the two groups of morphotypes
+culture_data %>%
+  filter(student_name == "Kris Choi") %>%
+  filter(dilution_1_10_or_100 == "1") %>%
+  wilcox.test(data = .,
+              as.numeric(number_of_morphotypes) ~ sample_group)
+```
 
 # Discussion
 
