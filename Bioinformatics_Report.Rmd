@@ -8,7 +8,7 @@ bibliography: references.bib
 ---
 
 ```{r setup, include = FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
 # Introduction
@@ -46,7 +46,7 @@ culture_data %>%
   geom_boxplot() +
   ggtitle(paste("Comparison of colony abundances between refrigerated and", 
   "room temperature
-storage conditions, 1x dilution")) +
+storage conditions, 10x dilution")) +
   xlab("Sample Group") +
   ylab("Number of colonies")
 ```
