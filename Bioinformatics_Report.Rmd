@@ -8,7 +8,7 @@ bibliography: references.bib
 ---
 
 ```{r setup, include = FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning =FALSE)
 ```
 
 # Introduction
@@ -28,6 +28,8 @@ library("ggplot2")
 library("dplyr")
 library("tidyr")
 library("readr")
+library("broom")
+library("knitr")
 ```
 
 ```{r read-in-culture-data}
@@ -62,7 +64,9 @@ culture_data %>%
   filter(student_name == "Kris Choi") %>%
   filter(dilution_1_10_or_100 == "1") %>%
   wilcox.test(data = .,
-              number_of_colonies ~ sample_group)
+              number_of_colonies ~ sample_group) %>%
+  broom::glance(x = .) %>%
+  knitr::kable()
 ```
 
 
@@ -92,7 +96,9 @@ culture_data %>%
   filter(student_name == "Kris Choi") %>%
   filter(dilution_1_10_or_100 == "1") %>%
   wilcox.test(data = .,
-              as.numeric(number_of_morphotypes) ~ sample_group)
+              as.numeric(number_of_morphotypes) ~ sample_group) %>%
+  broom::glance(x = .) %>%
+  knitr::kable()
 ```
 
 # Discussion
