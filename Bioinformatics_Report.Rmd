@@ -32,8 +32,25 @@ library("readr")
 
 ```{r read-in-culture-data}
 # read in the culture data from csv
-culture_data <- read_csv("data/raw_data/Raw_culture_count_data/Culturing_data.csv")
+culture_data <- read_csv(
+  "data/raw_data/Raw_culture_count_data/Culturing_data.csv")
 ```
+
+```{r filter-and-plot-abundances}
+# filter out only my 100x dilutions and make a boxplot
+culture_data %>%
+  filter(student_name == "Kris Choi") %>%
+  filter(dilution_1_10_or_100 == "1") %>%
+  ggplot(aes(x = sample_group,
+             y = number_of_colonies)) +
+  geom_boxplot() +
+  ggtitle("Comparison of colony abundances between 
+          refrigerated and room temperature storage conditions, 1x dilution") +
+  xlab("Sample Group") +
+  ylab("Number of colonies")
+```
+
+
 
 # Discussion
 
