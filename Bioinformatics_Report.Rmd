@@ -87,7 +87,9 @@ storage conditions, 1x dilution")) +
 ```
 
 
-**Figure 2:** Boxplot showing the number of morphotypes from the two different storage conditions. There was no difference in the mean number of morphotypes (Wilcox p=0.19).
+**Figure 2:** Boxplot showing the number of morphotypes from the two different 
+storage conditions. There was no difference in the mean number of morphotypes 
+(Wilcox p=0.19).
 
 
 ```{r morphotypes-stats}
