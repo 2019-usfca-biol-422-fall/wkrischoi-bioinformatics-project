@@ -47,7 +47,7 @@ culture_data %>%
   ggplot(aes(x = sample_group,
              y = number_of_colonies)) +
   geom_boxplot() +
-  ggtitle(paste("Comparison of colony abundances between refrigerated and", 
+  ggtitle(paste("Comparison of colony abundances between refrigerated and",
   "room temperature
 storage conditions, 10x dilution")) +
   xlab("Sample Group") +
@@ -80,7 +80,7 @@ culture_data %>%
   ggplot(aes(x = sample_group,
              y = as.numeric(number_of_morphotypes))) +
   geom_boxplot() +
-  ggtitle(paste("Comparison of colony morphotypes between refrigerated and", 
+  ggtitle(paste("Comparison of colony morphotypes between refrigerated and",
   "room temperature
 storage conditions, 1x dilution")) +
   xlab("Sample Group") +
