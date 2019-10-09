@@ -30,7 +30,6 @@ library("tidyr")
 library("readr")
 library("broom")
 library("knitr")
-library("devtools")
 ```
 
 ```{r read-in-culture-data}
