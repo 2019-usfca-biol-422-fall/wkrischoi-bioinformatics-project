@@ -103,6 +103,8 @@ culture_data %>%
   knitr::kable()
 ```
 
+![](data/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
+
 # Discussion
 
 # Sources Cited
