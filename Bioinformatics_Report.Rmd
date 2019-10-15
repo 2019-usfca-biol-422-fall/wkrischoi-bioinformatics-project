@@ -25,6 +25,11 @@ The first treatment group remained refrigerated while the second treatment
 group was stored at room temperature. For both treatment groups, they were 
 stored for 80 hours before subsampled.
 
+## Part 1 - Subsampling
+
+
+
+
 ## Analysis
 
 # Results
