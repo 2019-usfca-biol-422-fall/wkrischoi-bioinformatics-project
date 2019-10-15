@@ -17,12 +17,12 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 ## Study design
 
-The model of the experiment was ground beef and they were purchased from 
-3 different brands: Teva kosher foods from Trader Joe’s, Lucky California 
-from Lucky Supermarkets, and Butcher shop from Trader Joe’s (n = 3 per group, 
+The model of the experiment was ground beef and they were purchased from
+3 different brands: Teva kosher foods from Trader Joe’s, Lucky California
+from Lucky Supermarkets, and Butcher shop from Trader Joe’s (n = 3 per group,
 6 total).
-The first treatment group remained refrigerated while the second treatment 
-group was stored at room temperature. For both treatment groups, they were 
+The first treatment group remained refrigerated while the second treatment
+group was stored at room temperature. For both treatment groups, they were
 stored for 80 hours before subsampled.
 
 ## Part 1 - Subsampling
