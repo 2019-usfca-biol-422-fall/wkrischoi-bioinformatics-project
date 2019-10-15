@@ -3,10 +3,10 @@ title: "BIOL 422 Bioinformatics Project - Microorganisms in Meat"
 author: "Kris Choi"
 date: "8/27/2019"
 output:
+  word_document: default
   html_document:
     df_print: paged
   pdf_document: default
-  word_document: default
 csl: bioinformatics.csl
 bibliography: references.bib
 ---
