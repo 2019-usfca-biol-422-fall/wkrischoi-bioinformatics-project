@@ -40,6 +40,12 @@ I transferred 100uL of each diluted sample to 100mm TSA plate and spread
 the solution with the beads for 10 seconds. The petri dishes were stored
 in incubator for growth of microbes.
 
+### III – DNA Extraction and Quantification of DNA concentration
+
+I performed DNA extraction by following the manufacturer’s protocol from
+the Sigma REDExtract-N-Amp kit. After the extraction, I measured DNA
+concentration using Qubit Fluorometer.
+
 
 ## Analysis
 
