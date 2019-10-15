@@ -48,6 +48,20 @@ I performed DNA extraction by following the manufacturer’s protocol from
 the Sigma REDExtract-N-Amp kit. After the extraction, I measured DNA
 concentration using Qubit Fluorometer.
 
+### IV – Touchdown PCR
+
+I prepared the master mix for PCR using following ingredients:
+Amp reagent, 27f primer, 1492r primer, BSA, and water. After aliquoting
+the master mix and adding DNA to each tube, PCR started with denaturing
+at 95⁰C for 5 minutes, another denaturing at 94⁰C for 30 seconds, annealing
+at 65⁰C for 30 seconds, and extending at 72⁰C for 1 minute. The temperature
+for annealing stepped down 1⁰C per cycle and the second denaturing,
+annealing,and extending steps were repeated for 10 cycles. Subsequently,
+additional 25 cycles were started at 94⁰C for 30 seconds, 55⁰C for
+30 seconds, and 72⁰C for 1 minute. The cycle stayed at 72⁰C for 10 minutes
+and went down to 4⁰C for hold.
+
+
 
 ## Analysis
 
