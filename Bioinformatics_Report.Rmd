@@ -97,6 +97,14 @@ families.
 
 ## Culture Qubit DNA concentration and Gel Image
 
+To demonstrate successful DNA extraction, I measured DNA concentration
+values for each sample using Qubit Fluorometer (Figure 1). The data
+validated that all samples contain DNA in it and the values were within
+2-30ng/µL range.  However, I found no bands in lane 6 and 7, sample #5
+and 6 respectively, indicating no DNA separated from the sample (Figure 2).
+Sample #1, 2, and 4 showed bright bands while sample #3 produced
+a faded band. All the visible bands are appeared to be about 1.5kb in
+fragment size according to EZ Load 1 kb Molecular Ruler (Figure 2a).
 
 
 | Sample ID | DNA Conc. (ng/µL) |
@@ -117,15 +125,18 @@ stock of refrigerated Lucky California from Lucky Supermarkets, and
 from Trader Joe’s.
 
 
+
 ![](data/images/Gel_images/2019_09_18_Culture_PCR_gel_image_labeled.png)
 **Figure 2:** Gel image of culture samples. Ladder is shown in lane 1,
 and the samples from 1 to 6 are located in lane 2-7. Negative control is
 located in lane 8.
 
 
+
 ![](data/images/Gel_images/Ladder_EZ_Load_1kb_Molecular_Ruler_1708355.png)
 
 **Figure 2a:** Ladder used in lane 1 (EZ Load 1 kb Molecular Ruler #1708355).
+
 
 ## Comparison of colony abundances and morphotypes
 
