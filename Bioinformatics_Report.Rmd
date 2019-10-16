@@ -270,7 +270,7 @@ Prime.
 
 ![](data/images/Phylogenies/Sanger_PhyML_phylogenies.png)
 
-**Figure 7:** Maximum Likelihood phylogeny
+**Figure 7:** Maximum Likelihood phylogeny constructed by PhyML.
 
 
 ## Identification of Samples using BLAST 
