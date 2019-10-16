@@ -28,7 +28,11 @@ that more diverse microbial communities would be developed if the meat was
 stored at room temperature in comparison to the ones kept in a refrigerator
 as low temperature storage is an essential method to prevent or slow
 microbial growth [@dave2011meat]. I designed my study to compare 3 different
-ground beef brands in either cooled environment or room temperature. 
+ground beef brands in either cooled environment or room temperature.
+The samples stored in a refrigerator provided distinct colonies for
+extraction while all the samples stored in room temperature resulted in
+bacterial lawn. The bacterial lawn prevented DNA extraction process and
+thus led to skewed results only from the refrigerated samples.
 
 # Methods
 
