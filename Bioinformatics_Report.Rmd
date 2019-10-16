@@ -33,7 +33,7 @@ The first treatment group remained refrigerated while the second treatment
 group was stored at room temperature. For both treatment groups, they were
 stored for 80 hours before subsampled.
 
-### I - Subsampling
+### I – Subsampling
 
 I dipped a sterile cotton swab in PBS buffer first and swabbed each sample 
 on the surface for at least 10 seconds. Then, I broke off the tip of the 
@@ -41,7 +41,7 @@ cotton swab into the labeled tube and closed the cap. In order to conduct
 culturing and culture-free experiment for each sample in later steps, 
 I collected total of 18 samples (n = 3 per group, 6 total).
 
-### II - 1:10/1:100 dilution and microbial culture
+### II – 1:10/1:100 dilution and microbial culture
 
 I prepared 3 dilutions for each sample: the original stock, 1:10, and 1:100
 using PBS buffer (total volume of 200uL each). For culturing process,
