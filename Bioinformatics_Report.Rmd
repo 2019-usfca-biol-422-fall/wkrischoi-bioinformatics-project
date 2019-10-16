@@ -44,8 +44,8 @@ I collected total of 18 samples (n = 3 per group, 6 total).
 ## 1:10/1:100 Dilution and Microbial Culture
 
 I prepared 3 dilutions for each sample: the original stock, 1:10, and 1:100
-using PBS buffer (total volume of 200uL each). For culturing process,
-I transferred 100uL of each diluted sample to 100mm TSA plate and spread
+using PBS buffer (total volume of 200µL each). For culturing process,
+I transferred 100µL of each diluted sample to 100mm TSA plate and spread
 the solution with the beads for 10 seconds. The petri dishes were stored
 in incubator for growth of microbes.
 
@@ -99,7 +99,7 @@ families.
 
 
 
-| Sample ID | DNA Conc. (ng/uL) |
+| Sample ID | DNA Conc. (ng/µL) |
 |:---------:|:-----------------:|
 |     1     |       10.50       |
 |     2     |       25.50       |
