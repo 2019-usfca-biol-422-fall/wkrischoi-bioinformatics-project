@@ -109,7 +109,7 @@ families.
 |     6     |       14.30       |
 
 **Figure 1:** DNA concentration values for culture samples. Sample ID 1 was
-extracted from the original stock of refrigeraated Teva kosher foods from
+extracted from the original stock of refrigerated Teva kosher foods from
 Trader Joe’s, 2 was extracted from 1:100 dilution of refrigerated Teva
 kosher foods from Trader Joe’s, 3 and 4 were extracted from the original
 stock of refrigerated Lucky California from Lucky Supermarkets, and 
@@ -119,7 +119,7 @@ from Trader Joe’s.
 
 ![](data/images/Gel_images/2019_09_18_Culture_PCR_gel_image_labeled.png)
 **Figure 2:** Gel image of culture samples. Ladder is shown in lane 1,
-and the sameples from 1 to 6 are located in lane 2-7. Negative control is
+and the samples from 1 to 6 are located in lane 2-7. Negative control is
 located in lane 8.
 
 
@@ -198,7 +198,7 @@ culture_data %>%
 
 ## Sanger Sequencing and Phylogenetic Trees
 
-| ID | Original File Name |     Filename after Correction    | Usable? | Length after trimming | Manually adjusted bases |
+| ID | Original File Name |    File name after Correction    | Usable? | length after trimming | Manually adjusted bases |
 |:--:|:------------------:|:--------------------------------:|:-------:|:---------------------:|:-----------------------:|
 |  1 |  1-KC_27f_A01.ab1  |    1-KC_27f_A01_KC_cleaned.ab1   |   Yes   |          611          |            16           |
 |  2 |  2-KC_27f_B01.ab1  |    2-KC_27f_B01_KC_cleaned.ab1   |   Yes   |          713          |            36           |
@@ -231,7 +231,7 @@ culture_data %>%
 |  3 |      *Kocuria rhizophila*      |    90.46   |     77%     | KY522908.1 |  5e-136 |
 |  4 | *Staphylococcus saprophyticus* |    98.55   |     100%    | MH930439.1 |    0    |
 
-**Figure 8:** Identificaton of each sample using BLAST
+**Figure 8:** Identification of each sample using BLAST
 
 
 # Discussion
