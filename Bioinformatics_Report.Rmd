@@ -22,6 +22,14 @@ library("knitr")
 
 # Introduction
 
+My primary question was to investigate microbial communities developed in
+ground beef under different storage conditions. I proposed a hypothesis
+that more diverse microbial communities would be developed if the meat was
+stored at room temperature in comparison to the ones kept in a refrigerator
+as low temperature storage is an essential method to prevent or slow
+microbial growth [@dave2011meat]. I designed my study to compare 3 different
+ground beef brands in either cooled environment or room temperature. 
+
 # Methods
 
 ## Study design
