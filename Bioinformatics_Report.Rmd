@@ -105,6 +105,10 @@ families.
 |     5     |       12.40       |
 |     6     |       14.30       |
 
+## Gel image of PCR products from Culture
+
+![](data/images/Gel_images/2019_09_18_Culture_PCR_gel_image_labeled.png)
+
 
 
 ```{r read-in-culture-data}
@@ -121,9 +125,10 @@ culture_data %>%
   ggplot(aes(x = sample_group,
              y = number_of_colonies)) +
   geom_boxplot() +
-  ggtitle(paste("Comparison of colony abundances",
-  "between refrigerated and room temperature
-storage conditions, 10x dilution")) +
+  ggtitle(paste
+          ("Comparison of colony abundances between
+refrigerated and room temperature storage conditions,
+10x dilution")) +
   xlab("Sample Group") +
   ylab("Number of colonies")
 ```
