@@ -223,7 +223,7 @@ culture_data %>%
 |  6 |  6-KC_27f_F01.ab1  |    6-KC_27f_F01_KC_failed.ab1    |    No   |          N/A          |           N/A           |
 |  7 |  7-KC Neg Control  |    7-KC Neg Control_KC_failed    |    No   |          N/A          |           N/A           |
 
-**Figure 5:** Sanger sequencing data for each sample.
+**Figure 5:** Sanger sequencing data for each sample from Geneious Prime.
 
 
 ![](data/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
