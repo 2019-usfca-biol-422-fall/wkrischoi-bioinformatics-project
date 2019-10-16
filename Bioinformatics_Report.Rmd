@@ -72,7 +72,7 @@ and went down to 4⁰C for hold.
 
 ## Gel Electrophoresis and PCR cleanups
 
-I loaded 6 PCR products and a negative control on a 2% agarose gel
+I loaded 6 PCR products and a negative control on 2% agarose gel
 containing SYBR safe dye and ran the electrophoresis at 140V for
 30 minutes. After inspecting the fluorescent bands under UV light,
 PCR cleanups were performed using Invitrogen Exo-SAP and sent for
