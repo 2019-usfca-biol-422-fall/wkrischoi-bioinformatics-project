@@ -199,15 +199,31 @@ culture_data %>%
 ![](data/images/Phylogenies/Sanger_PhyML_phylogenies.png)
 
 
-| ID | Original File Name | Filename after Correction | Usable? | length after trimming | Manually adjusted bases |
+| ID | Original File Name |     Filename after Correction    | Usable? | Length after trimming | Manually adjusted bases |
 |:--:|:------------------:|:--------------------------------:|:-------:|:---------------------:|:-----------------------:|
-| 1 | 1-KC_27f_A01.ab1 | 1-KC_27f_A01_KC_cleaned.ab1 | Yes | 611 | 16 |
-| 2 | 2-KC_27f_B01.ab1 | 2-KC_27f_B01_KC_cleaned.ab1 | Yes | 713 | 36 |
-| 3 | 3-KC_27f_C01.ab1 | 3-KC_27f_C01_KC_failed_blast.ab1 | No | N/A | N/A |
-| 4 | 4-KC_27f_D01.ab1 | 4-KC_27f_D01_KC_cleaned.ab1 | Yes | 552 | 8 |
-| 5 | 5-KC_27f_E01.ab1 | 5-KC_27f_E01_KC_failed.ab1 | No | N/A | N/A |
-| 6 | 6-KC_27f_F01.ab1 | 6-KC_27f_F01_KC_failed.ab1 | No | N/A | N/A |
-| 7 | 7-KC Neg Control | 7-KC Neg Control_KC_failed | No | N/A | N/A |
+|  1 |  1-KC_27f_A01.ab1  |    1-KC_27f_A01_KC_cleaned.ab1   |   Yes   |          611          |            16           |
+|  2 |  2-KC_27f_B01.ab1  |    2-KC_27f_B01_KC_cleaned.ab1   |   Yes   |          713          |            36           |
+|  3 |  3-KC_27f_C01.ab1  | 3-KC_27f_C01_KC_failed_blast.ab1 |    No   |          N/A          |           N/A           |
+|  4 |  4-KC_27f_D01.ab1  |    4-KC_27f_D01_KC_cleaned.ab1   |   Yes   |          552          |            8            |
+|  5 |  5-KC_27f_E01.ab1  |    5-KC_27f_E01_KC_failed.ab1    |    No   |          N/A          |           N/A           |
+|  6 |  6-KC_27f_F01.ab1  |    6-KC_27f_F01_KC_failed.ab1    |    No   |          N/A          |           N/A           |
+|  7 |  7-KC Neg Control  |    7-KC Neg Control_KC_failed    |    No   |          N/A          |           N/A           |
+
+
+
+
+## space
+
+
+
+| ID |           Description          | % Identity | Query cover |  Accession | E-value |
+|:--:|:------------------------------:|:----------:|:-----------:|:----------:|:-------:|
+|  1 |    *Acinetobacter baumannii*   |    97.38   |     100%    | CP044356.1 |    0    |
+|  2 |        *Hafnia paralvei*       |    96.36   |     96%     | MK995600.1 |    0    |
+|  3 |      *Kocuria rhizophila*      |    90.46   |     77%     | KY522908.1 |  5e-136 |
+|  4 | *Staphylococcus saprophyticus* |    98.55   |     100%    | MH930439.1 |    0    |
+
+
 
 
 # Discussion
