@@ -221,7 +221,7 @@ refrigerated and room temperature storage conditions,
 
 
 **Figure 4:** Boxplot showing the number of morphotypes from the two different 
-storage conditions. There was no difference in the mean number of morphotypes 
+storage conditions. There was no statistical significance in the morphotypes 
 (Wilcox p=0.81).
 
 
