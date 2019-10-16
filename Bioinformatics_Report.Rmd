@@ -70,7 +70,10 @@ PCR cleanups were performed using Invitrogen Exo-SAP and sent for
 unidirectional Sanger sequencing using 27f primer at MCLAB in
 South San Francisco, CA.
 
-## Analysis
+### VI – Sanger sequencing and Sanger analysis
+
+
+
 
 # Results
 
