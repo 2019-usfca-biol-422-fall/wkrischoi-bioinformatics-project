@@ -190,7 +190,7 @@ refrigerated and room temperature storage conditions,
 
 **Figure 3:** Boxplot of colony abundances at different storage conditions, 
 10x dilution. Despite a higher median number of colonies from room temperature 
-samples, the mean numbers of colonies were not significantly different between 
+samples, the sample groups were not significantly different between 
 the two storage conditions (Wilcox p = 0.20).
 
 ```{r abundances-stats}
@@ -288,7 +288,8 @@ identifications with strong evidence to support the data (Figure 8).
 
 **Figure 8:** Identification of each sample conducted by BLAST.
 
-
 # Discussion
+
+
 
 # Sources Cited
