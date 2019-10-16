@@ -33,7 +33,7 @@ The first treatment group remained refrigerated while the second treatment
 group was stored at room temperature. For both treatment groups, they were
 stored for 80 hours before subsampled.
 
-### I – Subsampling
+## Subsampling
 
 I dipped a sterile cotton swab in PBS buffer first and swabbed each sample 
 on the surface for at least 10 seconds. Then, I broke off the tip of the 
@@ -41,7 +41,7 @@ cotton swab into the labeled tube and closed the cap. In order to conduct
 culturing and culture-free experiment for each sample in later steps, 
 I collected total of 18 samples (n = 3 per group, 6 total).
 
-### II – 1:10/1:100 dilution and microbial culture
+## 1:10/1:100 Dilution and Microbial Culture
 
 I prepared 3 dilutions for each sample: the original stock, 1:10, and 1:100
 using PBS buffer (total volume of 200uL each). For culturing process,
@@ -49,7 +49,7 @@ I transferred 100uL of each diluted sample to 100mm TSA plate and spread
 the solution with the beads for 10 seconds. The petri dishes were stored
 in incubator for growth of microbes.
 
-### III – DNA Extraction and Quantification of DNA concentration
+## DNA Extraction and Quantification of DNA concentration
 
 I chose 6 different bacterial morphotypes across the cultured sample and
 added the cell from colony to a tube using a sterile pipette tip.
@@ -57,7 +57,7 @@ I performed DNA extraction by following the manufacturer’s protocol from
 the Sigma REDExtract-N-Amp kit. After the extraction, I measured DNA
 concentration using Qubit Fluorometer.
 
-### IV – Touchdown PCR
+## Touchdown PCR
 
 I prepared the master mix for PCR using following ingredients:
 Amp reagent, 27f primer, 1492r primer, BSA, and water. After aliquoting
@@ -70,7 +70,7 @@ additional 25 cycles were started at 94⁰C for 30 seconds, 55⁰C for
 30 seconds, and 72⁰C for 1 minute. The cycle stayed at 72⁰C for 10 minutes
 and went down to 4⁰C for hold.
 
-### V – Gel Electrophoresis and PCR cleanups
+## Gel Electrophoresis and PCR cleanups
 
 I loaded 6 PCR products and a negative control on a 2% agarose gel
 containing SYBR safe dye and ran the electrophoresis at 140V for
@@ -79,7 +79,7 @@ PCR cleanups were performed using Invitrogen Exo-SAP and sent for
 unidirectional Sanger sequencing using 27f primer at MCLAB in
 South San Francisco, CA.
 
-### VI – Sanger sequencing and Analysis
+## Sanger sequencing and Analysis
 
 I used the software called Geneious Prime to analyze the integrity of the
 sequencing data delivered from MCLAB. After reviewing the quality of the
@@ -96,6 +96,8 @@ families.
 # Results
 
 ## Culture Qubit DNA concentration and Gel Image
+
+ 
 
 | Sample ID | DNA Conc. (ng/uL) |
 |:---------:|:-----------------:|
