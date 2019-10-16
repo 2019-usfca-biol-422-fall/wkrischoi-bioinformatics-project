@@ -117,7 +117,7 @@ from Trader Joe’s.
 ## Gel image of PCR products from Culture
 
 ![](data/images/Gel_images/2019_09_18_Culture_PCR_gel_image_labeled.png)
-
+**Figure ** 
 
 
 ```{r read-in-culture-data}
@@ -145,13 +145,13 @@ refrigerated and room temperature storage conditions,
 **Figure 1:** Boxplot of colony abundances at different storage conditions, 
 10x dilution. Despite a higher median number of colonies from room temperature 
 samples, the mean numbers of colonies were not significantly different between 
-the two storage conditions (Wilcox p = 0.064).
+the two storage conditions (Wilcox p = 0.20).
 
 ```{r abundances-stats}
 # run a statistical test to compare the two groups of abundances
 culture_data %>%
   filter(student_name == "Kris Choi") %>%
-  filter(dilution_1_10_or_100 == "1") %>%
+  filter(dilution_1_10_or_100 == "10") %>%
   wilcox.test(data = .,
               number_of_colonies ~ sample_group) %>%
   broom::glance(x = .) %>%
@@ -196,7 +196,12 @@ culture_data %>%
 
 ![](data/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
 
+**Figure ** 
+
+
 ![](data/images/Phylogenies/Sanger_PhyML_phylogenies.png)
+
+**Figure ** 
 
 
 | ID | Original File Name |     Filename after Correction    | Usable? | Length after trimming | Manually adjusted bases |
@@ -209,6 +214,7 @@ culture_data %>%
 |  6 |  6-KC_27f_F01.ab1  |    6-KC_27f_F01_KC_failed.ab1    |    No   |          N/A          |           N/A           |
 |  7 |  7-KC Neg Control  |    7-KC Neg Control_KC_failed    |    No   |          N/A          |           N/A           |
 
+**Figure ** 
 
 
 
@@ -223,7 +229,7 @@ culture_data %>%
 |  3 |      *Kocuria rhizophila*      |    90.46   |     77%     | KY522908.1 |  5e-136 |
 |  4 | *Staphylococcus saprophyticus* |    98.55   |     100%    | MH930439.1 |    0    |
 
-
+**Figure ** 
 
 
 # Discussion
