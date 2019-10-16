@@ -262,7 +262,9 @@ Prime.
 
 ## Identification of Samples using BLAST 
 
-
+I provided 3 successful data (Sample #1, 2, and 4) and 1 seemingly failed
+data (Sample #3) into BLAST to identify each sample and observed 4 different
+identifications with strong evidence to support the data (Figure 8). 
 
 | ID |           Description          | % Identity | Query cover |  Accession | E-value |
 |:--:|:------------------------------:|:----------:|:-----------:|:----------:|:-------:|
