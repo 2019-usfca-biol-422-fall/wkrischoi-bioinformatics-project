@@ -83,7 +83,6 @@ construct phylogenetic trees of the aligned sequences. Lastly, I loaded the
 3 cleaned sequences and 1 failed sequence into BLAST to identify its gene
 families.
 
-
 # Results
 
 ## Subsections are ok in the results section too
