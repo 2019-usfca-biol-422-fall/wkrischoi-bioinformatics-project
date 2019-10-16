@@ -99,8 +99,8 @@ culture_data %>%
   ggplot(aes(x = sample_group,
              y = number_of_colonies)) +
   geom_boxplot() +
-  ggtitle(paste("Comparison of colony abundances between",
-  "refrigerated and room temperature
+  ggtitle(paste("Comparison of colony abundances",
+  "between refrigerated and room temperature
 storage conditions, 10x dilution")) +
   xlab("Sample Group") +
   ylab("Number of colonies")
