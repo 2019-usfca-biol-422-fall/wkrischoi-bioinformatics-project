@@ -286,7 +286,7 @@ identifications with strong evidence to support the data (Figure 8).
 |  3 |      *Kocuria rhizophila*      |    90.46   |     77%     | KY522908.1 |  5e-136 |
 |  4 | *Staphylococcus saprophyticus* |    98.55   |     100%    | MH930439.1 |    0    |
 
-**Figure 8:** Identification of each sample conducted by BLAST
+**Figure 8:** Identification of each sample conducted by BLAST.
 
 
 # Discussion
