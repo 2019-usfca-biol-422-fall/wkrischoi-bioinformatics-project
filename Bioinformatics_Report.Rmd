@@ -37,7 +37,7 @@ stored for 80 hours before subsampled.
 
 I dipped a sterile cotton swab in PBS buffer first and swabbed each sample 
 on the surface for at least 10 seconds. Then, I broke off the tip of the 
-cotton swab into the labeled tube and closed the cap. In order to conduct 
+cotton swab into the labeled tube and closed the cap. To conduct 
 culturing and culture-free experiment for each sample in later steps, 
 I collected total of 18 samples (n = 3 per group, 6 total).
 
@@ -238,7 +238,9 @@ culture_data %>%
 |  6 |  6-KC_27f_F01.ab1  |    6-KC_27f_F01_KC_failed.ab1    |    No   |          N/A          |           N/A           |
 |  7 |  7-KC Neg Control  |    7-KC Neg Control_KC_failed    |    No   |          N/A          |           N/A           |
 
-**Figure 5:** Sanger sequencing data for each sample from Geneious Prime.
+**Figure 5:** Sanger sequencing data for each sample analyzed by Geneious 
+Prime.
+
 
 
 ![](data/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
