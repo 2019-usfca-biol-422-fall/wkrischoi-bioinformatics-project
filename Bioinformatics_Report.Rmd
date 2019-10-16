@@ -121,7 +121,7 @@ culture_data <- read_csv(
 # filter out only my 100x dilutions and make a boxplot
 culture_data %>%
   filter(student_name == "Kris Choi") %>%
-  filter(dilution_1_10_or_100 == "1") %>%
+  filter(dilution_1_10_or_100 == "10") %>%
   ggplot(aes(x = sample_group,
              y = number_of_colonies)) +
   geom_boxplot() +
@@ -155,13 +155,13 @@ culture_data %>%
 # filter out only my 100x dilutions and make a boxplot
 culture_data %>%
   filter(student_name == "Kris Choi") %>%
-  filter(dilution_1_10_or_100 == "1") %>%
+  filter(dilution_1_10_or_100 == "10") %>%
   ggplot(aes(x = sample_group,
              y = as.numeric(number_of_morphotypes))) +
   geom_boxplot() +
   ggtitle(paste("Comparison of colony morphotypes between
 refrigerated and room temperature storage conditions,
-1x dilution")) +
+10x dilution")) +
   xlab("Sample Group") +
   ylab("Number of Morphotypes")
 ```
