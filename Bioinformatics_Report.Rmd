@@ -263,6 +263,7 @@ Prime.
 ## Identification of Samples using BLAST 
 
 
+
 | ID |           Description          | % Identity | Query cover |  Accession | E-value |
 |:--:|:------------------------------:|:----------:|:-----------:|:----------:|:-------:|
 |  1 |    *Acinetobacter baumannii*   |    97.38   |     100%    | CP044356.1 |    0    |
@@ -270,7 +271,7 @@ Prime.
 |  3 |      *Kocuria rhizophila*      |    90.46   |     77%     | KY522908.1 |  5e-136 |
 |  4 | *Staphylococcus saprophyticus* |    98.55   |     100%    | MH930439.1 |    0    |
 
-**Figure 8:** Identification of each sample using BLAST
+**Figure 8:** Identification of each sample conducted by BLAST
 
 
 # Discussion
