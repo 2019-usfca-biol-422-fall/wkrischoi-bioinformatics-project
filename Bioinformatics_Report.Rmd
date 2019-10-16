@@ -70,9 +70,18 @@ PCR cleanups were performed using Invitrogen Exo-SAP and sent for
 unidirectional Sanger sequencing using 27f primer at MCLAB in
 South San Francisco, CA.
 
-### VI – Sanger sequencing and Sanger analysis
+### VI – Sanger sequencing and Analysis
 
-
+I used the software called Geneious Prime to analyze the integrity of the
+sequencing data delivered from MCLAB. After reviewing the quality of the
+samples, I determined 3 usable raw sequences with long stretches of
+high-quality reads and trimmed it by removing poor quality reads near the
+primer site and at the end. After cleaning the sequences, I aligned the
+trimmed sequences along with Thermus aquaticus as an outgroup. In addition,
+I used two phylogeny programs, PhyML and MrBayes, within Geneious Prime to
+construct phylogenetic trees of the aligned sequences. Lastly, I loaded the
+3 cleaned sequences and 1 failed sequence into BLAST to identify its gene
+families.
 
 
 # Results
