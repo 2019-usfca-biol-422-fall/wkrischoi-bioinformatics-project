@@ -97,7 +97,7 @@ families.
 
 ## Culture Qubit DNA concentration and Gel Image
 
- 
+
 
 | Sample ID | DNA Conc. (ng/uL) |
 |:---------:|:-----------------:|
@@ -122,6 +122,10 @@ from Trader Joe’s.
 and the samples from 1 to 6 are located in lane 2-7. Negative control is
 located in lane 8.
 
+
+![](data/images/Gel_images/Ladder_EZ_Load_1kb_Molecular_Ruler_#1708355.png)
+
+**Figure 2a:** Ladder used in lane 1 (EZ Load 1 kb Molecular Ruler #1708355).
 
 ## Comparison of colony abundances and morphotypes
 
