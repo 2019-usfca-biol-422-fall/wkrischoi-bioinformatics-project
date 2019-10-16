@@ -265,7 +265,7 @@ Prime.
 
 ![](data/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
 
-**Figure 6:** Bayesian phylogenetic tree
+**Figure 6:** Bayesian phylogenetic tree constructed by MrBayes.
 
 
 ![](data/images/Phylogenies/Sanger_PhyML_phylogenies.png)
