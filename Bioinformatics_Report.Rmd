@@ -310,5 +310,15 @@ The gel image from electrophoresis showed no bands for Sample #5 and 6
 which corresponded to the failed Sanger sequencing data, and the faded
 band for Sample #3 corresponded to the seemingly failed Sanger sequencing data. 
 
+4 different identifications were generated from BLAST for Sample
+#1, 2, 3, and 4: *Acinetobacter baumannii*, *Hafnia paralvei*,
+*Kocuria rhizophila*, and *Staphylococcus saprophyticus* respectively
+(Figure 8). All of the samples except for the complete failures was
+identified with strong confidence to support the results even for
+the Sample #3 which showed a faded band on the gel and provided the
+seemingly failed result from Sanger sequencing data. The results exhibited
+high percent identity and query coverage values with exceptionally small
+to zero E-values. However, the phylogenic results that grouped Sample #1
+and #2 did not match with BLAST results.
 
 # Sources Cited
