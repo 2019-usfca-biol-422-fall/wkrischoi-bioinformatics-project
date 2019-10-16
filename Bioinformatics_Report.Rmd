@@ -1,5 +1,5 @@
 ---
-title: 'Effects of different storage conditions on the development of microorganisms in ground beef is unknown'
+title: 'Effects of different storage conditions on the development of microorganisms in ground beef are unknown'
 author: "Kris Choi"
 date: "October 16, 2019"
 output: word_document
