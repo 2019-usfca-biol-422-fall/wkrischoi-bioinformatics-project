@@ -213,7 +213,7 @@ culture_data %>%
 
 ## Sanger Sequencing and Phylogenetic Trees
 
-| ID | Original File Name |    File name after Correction    | Usable? | Length after trimming | Manually adjusted bases |
+| ID | Original File Name |    File name after Correction    | Usable? | Length after Trimming | Manually Adjusted Bases |
 |:--:|:------------------:|:--------------------------------:|:-------:|:---------------------:|:-----------------------:|
 |  1 |  1-KC_27f_A01.ab1  |    1-KC_27f_A01_KC_cleaned.ab1   |   Yes   |          611          |            16           |
 |  2 |  2-KC_27f_B01.ab1  |    2-KC_27f_B01_KC_cleaned.ab1   |   Yes   |          713          |            36           |
