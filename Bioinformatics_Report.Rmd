@@ -140,6 +140,19 @@ located in lane 8.
 
 ## Comparison of colony abundances and morphotypes
 
+In the boxplot to compare the colony abundances of two treatment groups in
+1:10 dilution, the refrigerated samples showed widely spread values while
+the samples from room temperature treatment group only showed 1,000
+abundances with no other variations (Figure 3). In fact, 1,000 was an
+arbitrary number to represent the uncountable colony abundance observed
+from all room temperature samples. No statistical significance was found
+between the two storage conditions and it failed to reject the null
+hypothesis (p = 0.20). Similarly in Figure 4, a broad variation of the
+colony morphotypes was illustrated in the boxplot for refrigerated samples.
+The p-value of 0.81 shown in the data indicated no significant difference
+between the two groups and the p-value close to 1 (0.81) suggested a strong
+confident that the data is random.
+
 ```{r read-in-culture-data}
 # read in the culture data from csv
 culture_data <- read_csv(
