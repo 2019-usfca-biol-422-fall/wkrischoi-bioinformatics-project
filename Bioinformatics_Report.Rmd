@@ -233,7 +233,7 @@ and 1 seemingly failed data (Figure 5). I used the 3 successful data after
 trimming to create Maximum Likelihood and Bayesian phylogenetic trees
 with *Thermus aquaticus* as an outgroup (Figure 6, 7) and found a strong
 evidence from both phylogenies that support to group Sample #1 and 2
-as a monophyletic group (Bayesian posterior probability = 0.9998, 
+as a monophyletic group (Bayesian posterior probability = 0.9998,
 ML bootstrap = 98).
 
 | ID | Original File Name |    File Name after Correction    | Usable? | Length after Trimming | Manually Adjusted Bases |
