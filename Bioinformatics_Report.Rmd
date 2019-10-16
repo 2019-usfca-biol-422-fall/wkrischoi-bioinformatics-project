@@ -118,7 +118,7 @@ culture_data <- read_csv(
 ```
 
 ```{r filter-and-plot-abundances}
-# filter out only my 100x dilutions and make a boxplot
+# filter out only my 10x dilutions and make a boxplot
 culture_data %>%
   filter(student_name == "Kris Choi") %>%
   filter(dilution_1_10_or_100 == "10") %>%
@@ -134,9 +134,9 @@ refrigerated and room temperature storage conditions,
 ```
 
 **Figure 1:** Boxplot of colony abundances at different storage conditions, 
-1x dilution. Despite a higher median number of colonies from room temperature 
+10x dilution. Despite a higher median number of colonies from room temperature 
 samples, the mean numbers of colonies were not significantly different between 
-the two storage conditions (Wilcox p = 0.06).
+the two storage conditions (Wilcox p = 0.064).
 
 ```{r abundances-stats}
 # run a statistical test to compare the two groups of abundances
@@ -149,10 +149,8 @@ culture_data %>%
   knitr::kable()
 ```
 
-
-
 ```{r filter-and-plot-morphotypes}
-# filter out only my 100x dilutions and make a boxplot
+# filter out only my 10x dilutions and make a boxplot
 culture_data %>%
   filter(student_name == "Kris Choi") %>%
   filter(dilution_1_10_or_100 == "10") %>%
@@ -169,14 +167,14 @@ refrigerated and room temperature storage conditions,
 
 **Figure 2:** Boxplot showing the number of morphotypes from the two different 
 storage conditions. There was no difference in the mean number of morphotypes 
-(Wilcox p=0.19).
+(Wilcox p=0.81).
 
 
 ```{r morphotypes-stats}
 # run a statistical test to compare the two groups of morphotypes
 culture_data %>%
   filter(student_name == "Kris Choi") %>%
-  filter(dilution_1_10_or_100 == "1") %>%
+  filter(dilution_1_10_or_100 == "10") %>%
   wilcox.test(data = .,
               as.numeric(number_of_morphotypes) ~ sample_group) %>%
   broom::glance(x = .) %>%
