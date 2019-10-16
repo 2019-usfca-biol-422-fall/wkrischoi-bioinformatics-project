@@ -11,6 +11,15 @@ bibliography: references.bib
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
+```{r load-libraries}
+library("ggplot2")
+library("dplyr")
+library("tidyr")
+library("readr")
+library("broom")
+library("knitr")
+```
+
 # Introduction
 
 # Methods
@@ -85,16 +94,18 @@ families.
 
 # Results
 
-## Subsections are ok in the results section too
+## Culture Qubit DNA concentration
 
-```{r load-libraries}
-library("ggplot2")
-library("dplyr")
-library("tidyr")
-library("readr")
-library("broom")
-library("knitr")
-```
+| Sample ID | DNA Conc. (ng/uL) |
+|:---------:|:-----------------:|
+|     1     |       10.50       |
+|     2     |       25.50       |
+|     3     |        7.56       |
+|     4     |       15.10       |
+|     5     |       12.40       |
+|     6     |       14.30       |
+
+
 
 ```{r read-in-culture-data}
 # read in the culture data from csv
