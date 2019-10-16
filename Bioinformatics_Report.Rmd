@@ -95,7 +95,7 @@ families.
 
 # Results
 
-## Culture Qubit DNA concentration
+## Culture Qubit DNA concentration and Gel Image
 
 | Sample ID | DNA Conc. (ng/uL) |
 |:---------:|:-----------------:|
@@ -106,7 +106,7 @@ families.
 |     5     |       12.40       |
 |     6     |       14.30       |
 
-**Figure ** DNA concentration values for culture samples. Sample ID 1 was
+**Figure 1:** DNA concentration values for culture samples. Sample ID 1 was
 extracted from the original stock of refrigeraated Teva kosher foods from
 Trader Joe’s, 2 was extracted from 1:100 dilution of refrigerated Teva
 kosher foods from Trader Joe’s, 3 and 4 were extracted from the original
@@ -114,11 +114,14 @@ stock of refrigerated Lucky California from Lucky Supermarkets, and
 5 and 6 were extracted from the original stock of refrigerated Butcher shop
 from Trader Joe’s.
 
-## Gel image of PCR products from Culture
 
 ![](data/images/Gel_images/2019_09_18_Culture_PCR_gel_image_labeled.png)
-**Figure ** 
+**Figure 2:** Gel image of culture samples. Ladder is shown in lane 1,
+and the sameples from 1 to 6 are located in lane 2-7. Negative control is
+located in lane 8.
 
+
+## Comparison of colony abundances and morphotypes
 
 ```{r read-in-culture-data}
 # read in the culture data from csv
@@ -142,7 +145,7 @@ refrigerated and room temperature storage conditions,
   ylab("Number of colonies")
 ```
 
-**Figure 1:** Boxplot of colony abundances at different storage conditions, 
+**Figure 3:** Boxplot of colony abundances at different storage conditions, 
 10x dilution. Despite a higher median number of colonies from room temperature 
 samples, the mean numbers of colonies were not significantly different between 
 the two storage conditions (Wilcox p = 0.20).
@@ -174,7 +177,7 @@ refrigerated and room temperature storage conditions,
 ```
 
 
-**Figure 2:** Boxplot showing the number of morphotypes from the two different 
+**Figure 4:** Boxplot showing the number of morphotypes from the two different 
 storage conditions. There was no difference in the mean number of morphotypes 
 (Wilcox p=0.81).
 
@@ -191,18 +194,7 @@ culture_data %>%
 ```
 
 
-
-
-
-![](data/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
-
-**Figure ** 
-
-
-![](data/images/Phylogenies/Sanger_PhyML_phylogenies.png)
-
-**Figure ** 
-
+## Sanger Sequencing and Phylogenetic Trees
 
 | ID | Original File Name |     Filename after Correction    | Usable? | Length after trimming | Manually adjusted bases |
 |:--:|:------------------:|:--------------------------------:|:-------:|:---------------------:|:-----------------------:|
@@ -214,12 +206,20 @@ culture_data %>%
 |  6 |  6-KC_27f_F01.ab1  |    6-KC_27f_F01_KC_failed.ab1    |    No   |          N/A          |           N/A           |
 |  7 |  7-KC Neg Control  |    7-KC Neg Control_KC_failed    |    No   |          N/A          |           N/A           |
 
-**Figure ** 
+**Figure 5:** Sanger sequencing data for each sample.
 
 
+![](data/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
 
-## space
+**Figure 6:** Bayesian phylogenetic tree
 
+
+![](data/images/Phylogenies/Sanger_PhyML_phylogenies.png)
+
+**Figure 7:** Maximum Likelihood phylogeny
+
+
+## Identification of Samples using BLAST 
 
 
 | ID |           Description          | % Identity | Query cover |  Accession | E-value |
@@ -229,7 +229,7 @@ culture_data %>%
 |  3 |      *Kocuria rhizophila*      |    90.46   |     77%     | KY522908.1 |  5e-136 |
 |  4 | *Staphylococcus saprophyticus* |    98.55   |     100%    | MH930439.1 |    0    |
 
-**Figure ** 
+**Figure 8:** Identificaton of each sample using BLAST
 
 
 # Discussion
