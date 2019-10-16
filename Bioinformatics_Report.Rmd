@@ -82,8 +82,8 @@ South San Francisco, CA.
 ## Sanger sequencing and Analysis
 
 I used the software called Geneious Prime to analyze the integrity of the
-sequencing data delivered from MCLAB. After reviewing the quality of the
-samples, I determined 3 usable raw sequences with long stretches of
+Sanger sequencing data delivered from MCLAB. After reviewing the quality 
+of the samples, I determined 3 usable raw sequences with long stretches of
 high-quality reads. I trimmed the sequences by removing poor quality reads
 near the primer site and at the end and manually adjusting bases with IUPAC
 ambiguity codes. After cleaning the sequences, I aligned the trimmed
@@ -225,6 +225,8 @@ culture_data %>%
 
 
 ## Sanger Sequencing and Phylogenetic Trees
+
+
 
 | ID | Original File Name |    File Name after Correction    | Usable? | Length after Trimming | Manually Adjusted Bases |
 |:--:|:------------------:|:--------------------------------:|:-------:|:---------------------:|:-----------------------:|
