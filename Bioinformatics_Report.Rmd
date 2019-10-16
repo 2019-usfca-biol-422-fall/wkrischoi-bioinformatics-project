@@ -190,6 +190,10 @@ culture_data %>%
   knitr::kable()
 ```
 
+
+
+
+
 ![](data/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
 
 ![](data/images/Phylogenies/Sanger_PhyML_phylogenies.png)
