@@ -306,9 +306,11 @@ unreliable outcomes from room temperature samples. A different approach
 to enhance the results could be by using streaking method and/or shortening
 the time when swabbing the sample on the surface.
 
-The gel image from electrophoresis showed no bands for Sample #5 and 6
-which corresponded to the failed Sanger sequencing data, and the faded
-band for Sample #3 corresponded to the seemingly failed Sanger sequencing data. 
+The gel image from electrophoresis showed no bands for Sample #5 and #6
+which corresponded to the failed Sanger sequencing data, and the faded band
+for Sample #3 corresponded to the seemingly failed Sanger sequencing data.
+Some possible speculations that influenced no bands for Sample #5 and #6
+could be contamination of tubes and/or pipetting errors.
 
 4 different identifications were generated from BLAST for Sample
 #1, 2, 3, and 4: *Acinetobacter baumannii*, *Hafnia paralvei*,
