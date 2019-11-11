@@ -47,7 +47,7 @@ stored for 80 hours before subsampled.
 
 ## Subsampling
 
-I dipped a sterile cotton swab in PBS buffer first and swabbed each sample 
+I dipped a sterile cotton swab in PBS buffer first and swabbed each sample
 on the surface for at least 10 seconds. Then, I broke off the tip of the 
 cotton swab into the labeled tube and closed the cap. To conduct 
 culturing and culture-free experiment for each sample in later steps, 
