@@ -144,7 +144,7 @@ on an Illumina iSeq using a 2 x 150 bp consumable cartridge.
 
 ## A. Cultured samples
 
-### Culture Qubit DNA concentration and Gel Image
+### Qubit DNA concentration and Gel Image
 
 To demonstrate successful DNA extraction, I measured DNA concentration
 values for each sample using Qubit Fluorometer (Figure 1). The data
@@ -324,6 +324,13 @@ identifications with strong evidence to support the data (Figure 8).
 |  4 | *Staphylococcus saprophyticus* |    98.55   |     100%    | MH930439.1 |    0    |
 
 **Figure 8:** Identification of each sample conducted by BLAST.
+
+
+## B. Culture-free samples
+
+### Qubit DNA concentration and Gel Image
+
+
 
 # Discussion
 
