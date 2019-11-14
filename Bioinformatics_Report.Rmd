@@ -272,7 +272,6 @@ culture_data %>%
   knitr::kable()
 ```
 
-
 ### Sanger Sequencing and Phylogenetic Trees
 
 After loading the Sanger sequencing data in Geneious Prime, I obtained
@@ -296,8 +295,6 @@ ML bootstrap = 98).
 
 **Figure 3A:** Sanger sequencing data for each sample analyzed by Geneious
 Prime.
-
-
 
 ![](data/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
 
@@ -352,7 +349,7 @@ storage conditions and expected to observe more diverse communities from the
 samples stored at room temperature than refrigerated samples. However, the
 petri dishes of the room temperature samples were covered by bacterial lawn
 instead of forming colonies and no distinct morphotypes were observed
-(Figure 4).
+(Figure 2A, 2B).
 
 The factor that influenced the bacterial lawn in all room temperature
 samples could be the long swabbing on the surface when subsampled.
@@ -372,7 +369,7 @@ could be contamination of tubes and/or pipetting errors.
 4 different identifications were generated from BLAST for Sample
 #1, 2, 3, and 4: *Acinetobacter baumannii*, *Hafnia paralvei*,
 *Kocuria rhizophila*, and *Staphylococcus saprophyticus* respectively
-(Figure 8). All of the samples except for the complete failures was
+(Figure 4). All of the samples except for the complete failures was
 identified with strong confidence to support the results even for
 the Sample #3 which showed a faded band on the gel and provided the
 seemingly failed result from Sanger sequencing data. The results exhibited
