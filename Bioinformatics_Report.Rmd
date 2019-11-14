@@ -110,6 +110,9 @@ families.
 ## B. Process of culture-free samples
 
 ### DNA Extraction and Quantification of DNA concentration
+I performed DNA extraction by following the manufacturer’s protocol from
+the Sigma REDExtract-N-Amp kit. After the extraction, I measured DNA
+concentration using Qubit Fluorometer.
 
 ### PCR
 
