@@ -330,7 +330,16 @@ identifications with strong evidence to support the data (Figure 8).
 
 ### Qubit DNA concentration and Gel Image
 
+| Sample ID | DNA Conc. (ng/µL) |
+|:---------:|:-----------------:|
+|     1A    |        6.60       |
+|     1B    |        3.20       |
+|     2A    |        4.82       |
+|     2B    |        5.24       |
+|     3A    |        5.70       |
+|     3B    |       16.30       |
 
+**Figure 9:** DNA concentration values for culture-free samples.
 
 # Discussion
 
