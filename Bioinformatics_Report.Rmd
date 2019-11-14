@@ -342,9 +342,9 @@ identifications with strong evidence to support the data (Figure 4).
 
 ![](data/images/Gel_images/2019_09_25_Culturefree_PCR_gel_image_labeled.png)
 
-**Figure 5B:** Gel image of culture samples. Samples from 1A to 3B are located
-in lane 1-6. Negative control is located in lane 7 and the ladder is shown in
-lane 8.
+**Figure 5B:** Gel image of culture-free samples. Samples from 1A to 3B are
+located in lane 1-6. Negative control is located in lane 7 and the ladder is
+shown in lane 8.
 
 # Discussion
 
