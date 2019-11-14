@@ -142,7 +142,9 @@ on an Illumina iSeq using a 2 x 150 bp consumable cartridge.
 
 # Results
 
-## Culture Qubit DNA concentration and Gel Image
+## A. Cultured samples
+
+### Culture Qubit DNA concentration and Gel Image
 
 To demonstrate successful DNA extraction, I measured DNA concentration
 values for each sample using Qubit Fluorometer (Figure 1). The data
@@ -186,7 +188,7 @@ located in lane 8.
 **Figure 2a:** Ladder used in lane 1 (EZ Load 1 kb Molecular Ruler #1708355).
 
 
-## Comparison of colony abundances and morphotypes
+### Comparison of colony abundances and morphotypes
 
 In the boxplot to compare the colony abundances of two treatment groups in
 1:10 dilution, the refrigerated samples showed widely spread values while
@@ -272,7 +274,7 @@ culture_data %>%
 ```
 
 
-## Sanger Sequencing and Phylogenetic Trees
+### Sanger Sequencing and Phylogenetic Trees
 
 After loading the Sanger sequencing data in Geneious Prime, I obtained
 3 solid data, 3 completely failed data including the negative control,
@@ -308,7 +310,7 @@ Prime.
 **Figure 7:** Maximum Likelihood phylogeny constructed by PhyML.
 
 
-## Identification of Samples using BLAST 
+### Identification of Samples using BLAST 
 
 I provided 3 successful data (Sample #1, 2, and 4) and 1 seemingly failed
 data (Sample #3) into BLAST to identify each sample and observed 4 different
