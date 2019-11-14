@@ -256,7 +256,6 @@ refrigerated and room temperature storage conditions,
   ylab("Number of Morphotypes")
 ```
 
-
 **Figure 2B:** Boxplot showing the number of morphotypes from the two different 
 storage conditions. There was no statistical significance in the morphotypes 
 (Wilcox p=0.81).
