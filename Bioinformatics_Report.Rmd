@@ -114,9 +114,19 @@ I performed DNA extraction by following the manufacturer’s protocol from
 the Sigma REDExtract-N-Amp kit. After the extraction, I measured DNA
 concentration using Qubit Fluorometer.
 
-### PCR
+### PCR and Gel Electrophoresis
+I prepared the master mix for PCR using following ingredients:
+Amp reagent, 16SF primer, 16SR primer, BSA, and water. After aliquoting
+the master mix and adding DNA to each tube, PCR started with denaturing
+at 95⁰C for 3 minutes. Subsequently, additional 25 cycles were started at 
+95⁰C for 30 seconds, 55⁰C for 30 seconds, and 72⁰C for 30 seconds. 
+The cycle stayed at 72⁰C for 5 minutes and went down to 4⁰C for hold.
+6 PCR products and a negative control were loaded on 2% agarose gel
+containing SYBR safe dye and ran the electrophoresis at 140V for
+30 minutes.
 
 ### Illumina sequencing and Analysis
+
 
 # Results
 
