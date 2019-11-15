@@ -39,7 +39,7 @@ thus led to skewed results only from the refrigerated samples.
 ## Study design
 
 The model of the experiment was ground beef and they were replicated by
-purchasing 3 different brands: Teva kosher foods from Trader Joe’s, Lucky 
+purchasing 3 different brands: Teva kosher foods from Trader Joe’s, Lucky
 California from Lucky Supermarkets, and Butcher shop from Trader Joe’s.
 The first treatment group remained refrigerated while the second treatment
 group was stored at room temperature. For both treatment groups, they were
@@ -96,7 +96,7 @@ South San Francisco, CA.
 ### Sanger sequencing and Analysis
 
 I used the software called Geneious Prime to analyze the integrity of the
-Sanger sequencing data delivered from MCLAB. After reviewing the quality 
+Sanger sequencing data delivered from MCLAB. After reviewing the quality
 of the samples, I determined 3 usable raw sequences with long stretches of
 high-quality reads. I trimmed the sequences by removing poor quality reads
 near the primer site and at the end and manually adjusting bases with IUPAC
@@ -169,7 +169,7 @@ fragment size according to EZ Load 1 kb Molecular Ruler (Figure 1C).
 extracted from the original stock of refrigerated Teva kosher foods from
 Trader Joe’s, 2 was extracted from 1:100 dilution of refrigerated Teva
 kosher foods from Trader Joe’s, 3 and 4 were extracted from the original
-stock of refrigerated Lucky California from Lucky Supermarkets, and 
+stock of refrigerated Lucky California from Lucky Supermarkets, and
 5 and 6 were extracted from the original stock of refrigerated Butcher shop
 from Trader Joe’s.
 
@@ -226,9 +226,9 @@ refrigerated and room temperature storage conditions,
   ylab("Number of colonies")
 ```
 
-**Figure 2A:** Boxplot of colony abundances at different storage conditions, 
-10x dilution. Despite a higher median number of colonies from room temperature 
-samples, the sample groups were not significantly different between 
+**Figure 2A:** Boxplot of colony abundances at different storage conditions,
+10x dilution. Despite a higher median number of colonies from room temperature
+samples, the sample groups were not significantly different between
 the two storage conditions (Wilcox p = 0.20).
 
 
@@ -259,8 +259,8 @@ refrigerated and room temperature storage conditions,
   ylab("Number of Morphotypes")
 ```
 
-**Figure 2B:** Boxplot showing the number of morphotypes from the two different 
-storage conditions. There was no statistical significance in the morphotypes 
+**Figure 2B:** Boxplot showing the number of morphotypes from the two different
+storage conditions. There was no statistical significance in the morphotypes
 (Wilcox p=0.81).
 
 
