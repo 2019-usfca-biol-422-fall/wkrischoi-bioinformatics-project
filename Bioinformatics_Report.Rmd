@@ -334,7 +334,11 @@ identifications with strong evidence to support the data (Figure 4).
 |     3A    |        5.70       |
 |     3B    |       16.30       |
 
-**Figure 5A:** DNA concentration values for culture-free samples.
+**Figure 5A:** DNA concentration values for culture-free samples. Sample ID
+1A and 1B were extracted from Teva kosher foods (Trader Joe’s), 2A and 2B 
+were Lucky California (Lucky Supermarkets), and 3A and 3B were obtained
+from Butcher shop (Trader Joe’s). The letter A corresponds to the refrigerated
+samples and B indicates the storage condition at room temperature.
 
 ![](data/images/Gel_images/2019_09_25_Culturefree_PCR_gel_image_labeled.png)
 
