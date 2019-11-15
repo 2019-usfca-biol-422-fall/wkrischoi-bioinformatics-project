@@ -188,6 +188,7 @@ located in lane 8.
 **Figure 1C:** Ladder used in lane 1 (EZ Load 1 kb Molecular Ruler #1708355).
 
 
+
 ### Comparison of colony abundances and morphotypes
 
 In the boxplot to compare the colony abundances of two treatment groups in
@@ -229,6 +230,8 @@ refrigerated and room temperature storage conditions,
 10x dilution. Despite a higher median number of colonies from room temperature 
 samples, the sample groups were not significantly different between 
 the two storage conditions (Wilcox p = 0.20).
+
+
 
 ```{r abundances-stats}
 # run a statistical test to compare the two groups of abundances
@@ -272,6 +275,8 @@ culture_data %>%
   knitr::kable()
 ```
 
+
+
 ### Sanger Sequencing and Phylogenetic Trees
 
 After loading the Sanger sequencing data in Geneious Prime, I obtained
@@ -296,14 +301,18 @@ ML bootstrap = 98).
 **Figure 3A:** Sanger sequencing data for each sample analyzed by Geneious
 Prime.
 
+
+
 ![](data/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
 
 **Figure 3B:** Bayesian phylogenetic tree constructed by MrBayes.
 
 
+
 ![](data/images/Phylogenies/Sanger_PhyML_phylogenies.png)
 
 **Figure 3C:** Maximum Likelihood phylogeny constructed by PhyML.
+
 
 
 ### Identification of Samples using BLAST 
@@ -321,9 +330,21 @@ identifications with strong evidence to support the data (Figure 4).
 
 **Figure 4:** Identification of each sample conducted by BLAST.
 
+
+
 ## B. Culture-free samples
 
 ### Qubit DNA concentration and Gel Image
+
+I measured DNA concentration values for culture-free samples using Qubit 
+Fluorometer (Figure 5A). The data
+validated that all samples contain DNA in it and the values were within
+2-30ng/µL range.  However, I found no bands in lane 6 and 7, sample #5
+and 6 respectively, indicating no DNA separated from the sample (Figure 1B).
+Sample #1, 2, and 4 showed bright bands while sample #3 produced
+a faded band. All the visible bands are appeared to be about 1.5kb in
+fragment size according to EZ Load 1 kb Molecular Ruler (Figure 1C).
+
 
 | Sample ID | DNA Conc. (ng/µL) |
 |:---------:|:-----------------:|
@@ -340,11 +361,15 @@ were Lucky California (Lucky Supermarkets), and 3A and 3B were obtained
 from Butcher shop (Trader Joe’s). The letter A corresponds to the refrigerated
 samples and B indicates the storage condition at room temperature.
 
+
+
 ![](data/images/Gel_images/2019_09_25_Culturefree_PCR_gel_image_labeled.png)
 
 **Figure 5B:** Gel image of culture-free samples. Samples from 1A to 3B are
 located in lane 1-6. Negative control is loaded in lane 7 and the ladder is
 shown in lane 8.
+
+
 
 # Discussion
 
