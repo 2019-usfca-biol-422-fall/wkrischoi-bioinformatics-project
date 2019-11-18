@@ -77,6 +77,9 @@ kable(filtered_output,
       col.names = c("Reads In",
                     "Reads Out"))
 
+# get paths of all files that made it through trimming
+filtered_reads_path <- list.files(filter_path, full.names = TRUE)
+
 # this build error models from each of the samples
 errors_forward_reads <- learnErrors(filtered_reads_path,
                                     multithread = TRUE)
