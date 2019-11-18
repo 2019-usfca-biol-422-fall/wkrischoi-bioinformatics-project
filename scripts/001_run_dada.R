@@ -183,3 +183,7 @@ export_taxa_table_and_seqs <- function(sequence_table_nochim,
 export_taxa_table_and_seqs(sequence_table_nochim,
                            "output/sequence_variants_table.txt",
                            "output/sequence_variants_seqs.fa")
+
+# save necessary files from dada pipeline to use with phyloseq
+save(sequence_table_nochim, file = "output/dada-results/seqtable.Rda")
+save(taxa, file = "output/dada-resuls/taxatable.Rda")
