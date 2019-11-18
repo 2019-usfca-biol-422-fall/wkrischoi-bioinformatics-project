@@ -146,6 +146,10 @@ rownames(track) <- sample_names
 # produce nice markdown table of progress through the pipeline
 kable(track)
 
+# remove any sequences shorter than 50 because can't assign their taxonomy
+sequence_table_nochim <-
+  sequence_table_nochim[, nchar(colnames(sequence_table_nochim)) > 50]
+
 # assigns taxonomy to each sequence variant based on a supplied training set
 # made up of known sequences
 taxa <- assignTaxonomy(sequence_table_nochim,
