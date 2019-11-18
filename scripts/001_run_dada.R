@@ -48,7 +48,7 @@ sample_names <- sapply(strsplit(filenames_forward_reads, "\\."), `[`, 1)
 # Specify the full path to each of the filenames_forward_reads
 filenames_forward_reads <- file.path(path, filenames_forward_reads)
 
-# Plots the quality profiles of first 6 samples
+# Plots the quality profiles of first 14 samples
 plotQualityProfile(filenames_forward_reads[1:6])
 
 # Place filtered files in filtered/ subdirectory
