@@ -136,9 +136,7 @@ track <- cbind(sapply(dada_forward_reads, get_n),
                rowSums(sequence_table_nochim))
 
 # add nice meaningful column names
-colnames(track) <- c("Input",
-                     "Filtered",
-                     "Denoised",
+colnames(track) <- c("Denoised",
                      "Sequence Table",
                      "Non-chimeric")
 
