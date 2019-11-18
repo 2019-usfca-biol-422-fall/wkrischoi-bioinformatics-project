@@ -37,7 +37,7 @@ library("phyloseq")
 # Accessed October 19, 2017
 
 # set the base path for our input data files
-path <- "/data/my-illumina-sequences/unzipped/"
+path <- "/data/my-illumina-sequences/unzipped"
 
 # Sort ensures samples are in order
 filenames_forward_reads <- sort(list.files(path, pattern = ".fastq"))
