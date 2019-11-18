@@ -56,7 +56,7 @@ plotQualityProfile(filenames_forward_reads[1:14])
 filter_path <- file.path("/home", "Choi_Kris", "filtered")
 filtered_reads_path <- file.path(filter_path,
                                  paste0(sample_names,
-                                        "_filt.fastq.gz"))
+                                        "_filt.fastq"))
 
 # See ?filterAndTrim for details on the parameters
 # See here for adjustments for 454 data:
