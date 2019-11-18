@@ -105,7 +105,8 @@ names(dereplicated_forward_reads) <- sample_names
 # run dada2 -- more info here:
 # https://benjjneb.github.io/dada2
 dada_forward_reads <- dada(dereplicated_forward_reads,
-                           err = errors_forward_reads)
+                           err = errors_forward_reads,
+                           multithread = TRUE)
 
 # check dada results
 dada_forward_reads
