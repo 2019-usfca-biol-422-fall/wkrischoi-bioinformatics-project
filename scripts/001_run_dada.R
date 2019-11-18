@@ -96,6 +96,9 @@ dereplicated_forward_reads <- derepFastq(filtered_reads_path,
 # get names of all files that make it through trimming
 filenames_filtered_reads <- list.files(filter_path)
 
+# extract sample names, assuming filenames have format: SAMPLENAME.fastq
+sample_names <- sapply(strsplit(filenames_filtered_reads, "\\."), `[`, 1)
+
 # Name the derep-class objects by the sample names
 names(dereplicated_forward_reads) <- sample_names
 
