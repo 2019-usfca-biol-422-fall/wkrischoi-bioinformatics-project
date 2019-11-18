@@ -131,8 +131,7 @@ non_chimeric_reads <- round(sum(sequence_table_nochim) / sum(sequence_table),
 
 # Build a table showing how many sequences remain at each step of the pipeline
 get_n <- function(x) sum(getUniques(x)) # make a quick function
-track <- cbind(filtered_output, # already has 2 columns
-               sapply(dada_forward_reads, get_n),
+track <- cbind(sapply(dada_forward_reads, get_n),
                rowSums(sequence_table),
                rowSums(sequence_table_nochim))
 
