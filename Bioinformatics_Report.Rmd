@@ -143,6 +143,12 @@ on an Illumina iSeq using a 2 x 150 bp consumable cartridge.
 
 # Results
 
+![](data/images/Sample_images/2019_08_31_sample_images.png)
+
+
+![](data/images/Sample_images/2019_09_04_sample_images.png)
+
+
 ## A. Cultured samples
 
 ### Qubit DNA concentration and Gel Image
