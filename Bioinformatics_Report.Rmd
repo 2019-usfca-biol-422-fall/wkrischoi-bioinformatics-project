@@ -441,7 +441,12 @@ I looked into the number of different taxa in each sample and compared
 between the two treatment groups: samples stayed refrigerated (A) and
 those stored at room temperature (B). I observed larger number of different
 taxa in sample #2 and 3 for group B as expected, but the first samples showed
-lesser number of taxa in group B.
+lesser number of taxa in group B (Figure 8A).
+
+In addition, I ran BLAST on bash to find the major taxa of each sample
+based on the number of sequences. Interestingly, I found bacterias as the
+major taxa for sample 1B to 3B while 1A identified to be *Bos mutus*, the
+domestic yak (Figure 8B).
 
 
 | Sample ID | # of different taxa |
