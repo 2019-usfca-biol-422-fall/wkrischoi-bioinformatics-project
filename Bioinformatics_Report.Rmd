@@ -514,6 +514,10 @@ and #2 did not match with BLAST results.
 
 ## Analysis of culturefree samples
 
-
+There are commonly known mirobial groups that contribute to spoil meat even
+in refrigerated condition and they were identified across from all samples as
+expected. Those microbes include: *Serratia*, *Enterobacter*, *Pantoea*,
+*Proteus*, *Hafnia*, and lactic acid bacteria such as *Lactobacillus* and
+*Carnobacterium* [@ercolini2006changes].
 
 # Sources Cited
