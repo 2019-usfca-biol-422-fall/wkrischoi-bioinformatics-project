@@ -436,7 +436,7 @@ great quality of the sequence (Figure 7B).
 
 ![](data/images/Seq_quality/Fastq_seq_quality.png)
 
-*Figure 7A:** Quality check of the sequences for each sample using FastQC
+**Figure 7A:** Quality check of the sequences for each sample using FastQC
 reports. Y-axis shows the quality score and thge green region represents great
 quality, reasonable quality in yellow region, and poor quality in red region.
 
