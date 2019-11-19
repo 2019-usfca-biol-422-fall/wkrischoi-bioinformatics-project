@@ -13,7 +13,7 @@ echo "Starting for loop..."
 # this is a for loop
 for file in *file*.txt
 do
-	echo $file
+	echo "$file"
 done
 
 # here's a for loop with numbers
@@ -27,6 +27,6 @@ done
 
 for seqfile in *.fasta
 do
-	echo In $seqfile there are $(grep -c ">" $seqfile) sequences
-	echo In this directory there are $(ls *.fasta | wc -l) fasta files
+	echo In "$seqfile" there are $(grep -c ">" "$seqfile") sequences
+	echo In this directory there are "$(ls *.fasta | wc -l)" fasta files
 done
