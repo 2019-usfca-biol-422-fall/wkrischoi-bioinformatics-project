@@ -12,6 +12,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
 ```{r load-libraries}
+# run necessary packages to use in analysis
 library("ggplot2")
 library("dplyr")
 library("tidyr")
