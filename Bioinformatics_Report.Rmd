@@ -353,7 +353,23 @@ I measured DNA concentration values for culture-free samples using Qubit
 Fluorometer (Figure 6A). The data validated that all samples contain DNA
 in it.  However, I found a small band only in lane 6 and did not observe
 any bands in other lnaes. The gel image showed that there was no DNA
-separated except for the sample #3B in lane 6 (Figure 6B).
+separated except for the sample #3B in lane 6 (Figure 6C).
+
+| Sample ID | DNA Conc. (ng/µL) |
+|:---------:|:-----------------:|
+|     1A    |        2.14       |
+|     1B    |        3.39       |
+|     2A    |        2.11       |
+|     2B    |        2.17       |
+|     3A    |        1.10       |
+|     3B    |        4.62       |
+
+**Figure 6A:** DNA concentration values for culture-free samples. Sample ID
+1A and 1B were extracted from Teva kosher foods (Trader Joe’s), 2A and 2B
+were Lucky California (Lucky Supermarkets), and 3A and 3B were obtained
+from Butcher shop (Trader Joe’s). The letter A corresponds to the refrigerated
+samples and B indicates the storage condition at room temperature.
+
 
 | Sample ID | DNA Conc. (ng/µL) |
 |:---------:|:-----------------:|
@@ -364,17 +380,14 @@ separated except for the sample #3B in lane 6 (Figure 6B).
 |     3A    |        5.70       |
 |     3B    |       16.30       |
 
-**Figure 6A:** DNA concentration values for culture-free samples. Sample ID
-1A and 1B were extracted from Teva kosher foods (Trader Joe’s), 2A and 2B 
-were Lucky California (Lucky Supermarkets), and 3A and 3B were obtained
-from Butcher shop (Trader Joe’s). The letter A corresponds to the refrigerated
-samples and B indicates the storage condition at room temperature.
-
+**Figure 6B:** DNA concentration values for the PCR product of
+culture-free samples. Notice sample #3B exhibited the highest concentration
+value as it was the only bright band observed on the gel image.
 
 
 ![](data/images/Gel_images/2019_09_25_Culturefree_PCR_gel_image_labeled.png)
 
-**Figure 6B:** Gel image of culture-free samples. Samples from 1A to 3B are
+**Figure 6C:** Gel image of culture-free samples. Samples from 1A to 3B are
 located in lane 1-6. Negative control is loaded in lane 7 and the ladder is
 shown in lane 8.
 
