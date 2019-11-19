@@ -417,6 +417,17 @@ shown in lane 8.
 
 ![](data/images/Seq_quality/Fastq_seq_quality.png)
 
+### Command-line BLAST analysis
+
+| Sample ID | # of different taxa |
+|:---------:|:-------------------:|
+|     1A    |          25         |
+|     1B    |          22         |
+|     2A    |          21         |
+|     2B    |          30         |
+|     3A    |          15         |
+|     3B    |          24         |
+
 
 # Discussion
 
