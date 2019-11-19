@@ -7,7 +7,7 @@
 # November 15, 2019
 # wchoi6@dons.usfca.edu
 
-# Convert all fastq files to fasta using for loop
+# run bioawk to convert all fastq files to fasta using for loop
 for files in /data/my-illumina-sequences/trimmed/KC*.trim.fastq
 do
 	echo Converting files
