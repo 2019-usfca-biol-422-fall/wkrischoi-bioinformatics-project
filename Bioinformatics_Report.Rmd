@@ -445,8 +445,8 @@ lesser number of taxa in group B (Figure 8A).
 
 In addition, I ran BLAST on bash to find the major taxa of each sample
 based on the number of sequences. Interestingly, I found bacterias as the
-major taxa for sample 1B to 3B while 1A identified to be *Bos mutus*, the
-domestic yak (Figure 8B).
+major taxa for all samples except for 1A which identified to be
+*Bos mutus*, the domestic yak (Figure 8B).
 
 
 | Sample ID | # of different taxa |
