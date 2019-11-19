@@ -413,6 +413,10 @@ shown in lane 8.
 |   3B  |      10155      |      9665      |
 
 
+### Sequence quality
+
+![](data/images/Seq_quality/Fastq_seq_quality.png)
+
 
 # Discussion
 
