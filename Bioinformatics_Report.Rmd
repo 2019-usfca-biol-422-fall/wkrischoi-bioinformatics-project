@@ -157,20 +157,23 @@ B represents the treatment group stored at room temperature.
 
 ## A. Cultured samples
 
-### Plate observations
-
-![](data/images/Plate_images/2019_09_09_plate_images.png)
-
 ### Qubit DNA concentration and Gel Image
 
 To demonstrate successful DNA extraction, I measured DNA concentration
-values for each sample using Qubit Fluorometer (Figure 2A). The data
+values for each sample using Qubit Fluorometer (Figure 2B). The data
 validated that all samples contain DNA in it and the values were within
 2-30ng/µL range.  However, I found no bands in lane 6 and 7, sample #5
-and 6 respectively, indicating no DNA separated from the sample (Figure 2B).
+and 6 respectively, indicating no DNA separated from the sample (Figure 2C).
 Sample #1, 2, and 4 showed bright bands while sample #3 produced
 a faded band. All the visible bands are appeared to be about 1.5kb in
-fragment size according to EZ Load 1 kb Molecular Ruler (Figure 2C).
+fragment size according to EZ Load 1 kb Molecular Ruler (Figure 2D).
+
+
+![](data/images/Plate_images/2019_09_09_plate_images.png)
+**FIgure 2A:** TSA plates for each cultured sample after incubation.
+The top plates were cultured from the sample collected from 
+Teva kosher foods, Lucky California for the middle plates, and 
+Butcher shop samples on the bottom.
 
 
 | Sample ID | DNA Conc. (ng/µL) |
@@ -182,7 +185,7 @@ fragment size according to EZ Load 1 kb Molecular Ruler (Figure 2C).
 |     5     |       12.40       |
 |     6     |       14.30       |
 
-**Figure 2A:** DNA concentration values for culture samples. Sample ID 1 was
+**Figure 2B:** DNA concentration values for culture samples. Sample ID 1 was
 extracted from the original stock of refrigerated Teva kosher foods from
 Trader Joe’s, 2 was extracted from 1:100 dilution of refrigerated Teva
 kosher foods from Trader Joe’s, 3 and 4 were extracted from the original
@@ -194,7 +197,7 @@ from Trader Joe’s.
 
 ![](data/images/Gel_images/2019_09_18_Culture_PCR_gel_image_labeled.png)
 
-**Figure 2B:** Gel image of culture samples. Ladder is shown in lane 1,
+**Figure 2C:** Gel image of culture samples. Ladder is shown in lane 1,
 and the samples from 1 to 6 are located in lane 2-7. Negative control is
 located in lane 8.
 
@@ -202,7 +205,7 @@ located in lane 8.
 
 ![](data/images/Gel_images/Ladder_EZ_Load_1kb_Molecular_Ruler_1708355.png)
 
-**Figure 2C:** Ladder used in lane 1 (EZ Load 1 kb Molecular Ruler #1708355).
+**Figure 2D:** Ladder used in lane 1 (EZ Load 1 kb Molecular Ruler #1708355).
 
 
 
