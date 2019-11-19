@@ -512,7 +512,7 @@ high percent identity and query coverage values with exceptionally small
 to zero E-values. However, the phylogenic results that grouped Sample #1
 and #2 did not match with BLAST results.
 
-## Analysis of culturefree samples
+## Analysis of culture-free samples
 
 There are commonly known mirobial groups that contribute to spoil meat even
 in refrigerated condition and they were identified across from all samples as
