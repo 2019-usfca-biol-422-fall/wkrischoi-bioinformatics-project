@@ -20,7 +20,8 @@
 # November 15, 2019
 # wchoi6@dons.usfca.edu
 
-# Run BLAST to find the top match for all fasta files
+# Run BLAST on trimmed sequences to
+# find the best match for all fasta files
 for files in /data/my-illumina-sequences/trimmed-fasta/KC*.trim.fasta
 do
 	echo Now BLASTing "$files"
