@@ -530,7 +530,9 @@ However, no matches for *Kocuria rhizophila* from sample #3 of cultured sample
 Initially, I hypothesized to see more developed microorganism communities
 from the samples stored at room temperature than the ones kept refrigerated
 because the temperature conditions play a critical role in meat spoilage
-[@dohlen2017effect].
+[@dohlen2017effect]. Two brands out of three exhibited to have more number
+of different taxa when it was stored at room temperature while the first
+sample, Teva kosher foods from Trader Joe’s, showed less 
 
 
 # Sources Cited
