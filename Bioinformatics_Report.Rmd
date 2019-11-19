@@ -520,8 +520,8 @@ in refrigerated condition and they were identified across from all samples as
 expected. Those microbes include: *Serratia*, *Enterobacter*, *Pantoea*,
 *Proteus*, *Hafnia*, and lactic acid bacteria such as *Lactobacillus* and
 *Carnobacterium* [@ercolini2006changes]. Among the 4 identifications
-observed from cultured samples, *Acinetobacter baumannii*,
-*Hafnia paralvei*, and *Staphylococcus saprophyticus* were also identified
+observed from cultured samples, *Acinetobacter*,
+*Hafnia*, and *Staphylococcus* groups were also identified
 from culture-free samples and confirmed the matches between culture-based and
 culture-free samples using Sanger sequences and Illumina sequences.
 However, no matches for *Kocuria rhizophila* from sample #3 of cultured sample
@@ -532,7 +532,14 @@ from the samples stored at room temperature than the ones kept refrigerated
 because the temperature conditions play a critical role in meat spoilage
 [@dohlen2017effect]. Two brands out of three exhibited to have more number
 of different taxa when it was stored at room temperature while the first
-sample, Teva kosher foods from Trader Joe’s, showed less 
+sample, Teva kosher foods from Trader Joe’s, showed less taxa from the room
+temperature storage condition (Figure 8A). Possible justification for
+this unexpected results could be drived from the shorter length of the
+sequences as sample 1B have only 3,638 sequences after trimming
+while other samples have around 10,000 sequences (Figure 7B).
+In fact, B treatment group samples in all 3 brands have shorter
+sequences than A treatment group, but the length of the sample 1B is
+especially shorter.
 
 
 # Sources Cited
