@@ -403,9 +403,15 @@ shown in lane 8.
 
 ### Trimming sequences with Trimmomatic and sequence quality
 
-As mentioned earlier, the raw sequence data for the cultured samples
-was trimmed manually by the software called Geneious Prime. 
+As mentioned earlier, I manually trimmed the raw sequence data for the
+cultured samples using the software called Geneious Prime. Contrarily, I ran
+Trimmomatic in bash to automatically trim the culture-free samples and only
+a few hundred sequences were removed for all the samples as a result of the
+great quality of the sequence.
 
+![](data/images/Seq_quality/Fastq_seq_quality.png)
+**Figure 7A:** Quality check of the sequences for each sample using FastQC
+report. Y-axis shows the quality score and thge green region represents 
 
 | Group | Before trimming | After Trimming |
 |:-----:|:---------------:|:--------------:|
@@ -416,11 +422,10 @@ was trimmed manually by the software called Geneious Prime.
 |   3A  |      12207      |      11598     |
 |   3B  |      10155      |      9665      |
 
-**Figure 7:** Number of sequences before and after removing bad sequences
+**Figure 7B:** Number of sequences before and after removing bad sequences
 using Trimmomatic.
 
 
-![](data/images/Seq_quality/Fastq_seq_quality.png)
 
 ### Command-line BLAST analysis
 
