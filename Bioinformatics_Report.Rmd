@@ -429,6 +429,17 @@ shown in lane 8.
 |     3B    |          24         |
 
 
+| Sample ID |                  Major Taxa                  |
+|:---------:|:--------------------------------------------:|
+|     1A    |                  *Bos mutus*                 |
+|     1B    |          *Carnobacterium divergens*          |
+|     2A    |            *Lactobacillus algidus*           |
+|     2B    |          *Carnobacterium divergens*          |
+|     3A    | *Leuconostoc gelidum* subsp. *gasicomitatum* |
+|     3B    |             *Lelliottia amnigena*            |
+
+
+
 # Discussion
 
 I questioned a level of microbial communities in ground beef under different
