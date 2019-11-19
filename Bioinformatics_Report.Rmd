@@ -153,9 +153,7 @@ on an Illumina iSeq using a 2 x 150 bp consumable cartridge.
 
 ### Plate observations
 
-![](data/images/Plate_images/2019_09_09_plate_image_refrigerated.png)
-
-![](data/images/Plate_images/2019_09_09_plate_image_RT.png)
+![](data/images/Plate_images/2019_09_09_plate_images.png)
 
 ### Qubit DNA concentration and Gel Image
 
