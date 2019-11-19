@@ -16,6 +16,12 @@ do
 	echo Finished
 done
 
+# find number of sequences before trimming
+zgrep -c "@" /data/my-illumina-sequences/unzipped/KC*
+
+# find number of sequenes after trimming
+zgrep -c "@" /data/my-illumina-sequences/trimmed/KC*
+
 # find the matches for Acinetobacter identified from culture-based sample
 cut -d, -f1 /data/my-illumina-sequences/summarized_blast_results/KC* | sort | uniq -c | sort -n | grep "Acinetobacter"
 
