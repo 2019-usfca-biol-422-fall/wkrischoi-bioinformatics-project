@@ -437,6 +437,13 @@ using Trimmomatic.
 
 ### Command-line BLAST analysis
 
+I looked into the number of different taxa in each sample and compared
+between the two treatment groups: samples stayed refrigerated (A) and
+those stored at room temperature (B). I observed larger number of different
+taxa in sample #2 and 3 for group B as expected, but the first samples showed
+lesser number of taxa in group B.
+
+
 | Sample ID | # of different taxa |
 |:---------:|:-------------------:|
 |     1A    |          25         |
