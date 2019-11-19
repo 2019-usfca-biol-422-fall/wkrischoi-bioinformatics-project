@@ -479,6 +479,7 @@ room temperature storage treatment group.
 # Discussion
 
 ## Analysis of cultured-samples
+
 I questioned a level of microbial communities in ground beef under different
 storage conditions and expected to observe more diverse communities from the
 samples stored at room temperature than refrigerated samples. However, the
@@ -486,14 +487,14 @@ petri dishes of the room temperature samples were covered by bacterial lawn
 instead of forming colonies and no distinct morphotypes were observed
 (Figure 2A).
 
-The factor that influenced the bacterial lawn in all room temperature
-samples could be the long swabbing on the surface when subsampled.
-The highly concentrated stock sample could possibly cause the thick
-bacterial lawn even though it was diluted down to 1:100. The boxplots
-in Figure 3 and 4 were displaying data from skewed results due to the
-unreliable outcomes from room temperature samples. A different approach
-to enhance the results could be by using streaking method and/or shortening
-the time when swabbing the sample on the surface.
+The factor that might have influenced the bacterial lawn in all
+room temperature samples can be the long duration of swabbing on the
+surface when subsampled. The highly concentrated stock sample could be the
+possible cause of the thick bacterial lawn even though it was diluted down
+to 1:100. The boxplots in Figure 3A and 3B were displaying data from
+skewed results due to the unreliable outcomes from room temperature samples.
+A different approach to enhance the results could be by using streaking
+method and/or shortening the time when swabbing the sample on the surface.
 
 The gel image from electrophoresis showed no bands for Sample #5 and #6
 which corresponded to the failed Sanger sequencing data, and the faded band
@@ -523,9 +524,13 @@ observed from cultured samples, *Acinetobacter baumannii*,
 *Hafnia paralvei*, and *Staphylococcus saprophyticus* were also identified
 from culture-free samples and confirmed the matches between culture-based and
 culture-free samples using Sanger sequences and Illumina sequences.
-However, no match for *Kocuria rhizophila* from sample #3 of cultured sample
-(Figure 5) was found.
+However, no matches for *Kocuria rhizophila* from sample #3 of cultured sample
+(Figure 5) was found in culture-free sample.
 
+Initially, I hypothesized to see more developed microorganism communities
+from the samples stored at room temperature than the ones kept refrigerated
+because the temperature conditions play a critical role in meat spoilage
+[@dohlen2017effect].
 
 
 # Sources Cited
