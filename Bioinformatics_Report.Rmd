@@ -151,7 +151,7 @@ the second sample (#2) was from Lucky California at Lucky Supermarkets, and
 the last sample was from Butcher shop at Trader Joe’s.
 
 ![](data/images/Sample_images/2019_09_04_sample_images.png)
-
+**Figure 1B:** 
 
 ## A. Cultured samples
 
