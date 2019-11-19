@@ -403,15 +403,23 @@ shown in lane 8.
 
 ### Trimming sequences with Trimmomatic and sequence quality
 
+Before analyzing the sequence data, I inspected the quality of the sequences
+by reviewing FastQC reports. The graph is divided into green, yellow, and
+red regions to represent the quality of the sequences and the blue line (mean
+quality) in every samples remained in green as the indication of great
+quality of all samples (Figure 7A).
+
 As mentioned earlier, I manually trimmed the raw sequence data for the
 cultured samples using the software called Geneious Prime. Contrarily, I ran
 Trimmomatic in bash to automatically trim the culture-free samples and only
 a few hundred sequences were removed for all the samples as a result of the
-great quality of the sequence.
+great quality of the sequence (Figure 7B).
 
 ![](data/images/Seq_quality/Fastq_seq_quality.png)
 **Figure 7A:** Quality check of the sequences for each sample using FastQC
-report. Y-axis shows the quality score and thge green region represents 
+reports. Y-axis shows the quality score and thge green region represents great
+quality, reasonable quality in yellow region, and poor quality in red region.
+
 
 | Group | Before trimming | After Trimming |
 |:-----:|:---------------:|:--------------:|
