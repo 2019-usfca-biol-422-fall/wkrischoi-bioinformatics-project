@@ -351,7 +351,7 @@ identifications with strong evidence to support the data (Figure 5).
 
 I measured DNA concentration values for culture-free samples using Qubit
 Fluorometer (Figure 6A). The data validated that all samples contain DNA
-in it.  However, I found a small band only in lane 6 and did not observe
+in it.  However, I found a bright band only in lane 6 and did not observe
 any bands in other lnaes. The gel image showed that there was no DNA
 separated except for the sample #3B in lane 6 (Figure 6C).
 
