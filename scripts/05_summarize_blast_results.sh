@@ -7,6 +7,8 @@
 # November 15, 2019
 # wchoi6@dons.usfca.edu
 
+# summarize the blast results to show matching taxa in each sample
+# and give a count of the number of organisms that match
 for files in /data/my-illumina-sequences/blast_output/KC*.blast_results.csv
 do
 	echo Summarizing
