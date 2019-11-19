@@ -7,4 +7,9 @@
 # November 15, 2019
 # wchoi6@dons.usfca.edu
 
-TrimmomaticSE -threads 4 -phred33 /data/my-illumina-sequences/unzipped/KC-3B_S78_L001_R1_001.fastq /data/my-illumina-sequences/trimmed/$(basename -s .fastq KC-3B_S78_L001_R1_001.fastq).trim.fastq LEADING:5 TRAILING:5 SLIDINGWINDOW:8:25 MINLEN:140
+# run trimmomatic on the raw data to get rid of bad sequences and
+# save all files into trimmed folder using for loop
+for files in /data/my-illumina-sequences/unzipped/KC*.fastq
+do
+	TrimmomaticSE -threads 4 -phred33 "$files" /data/my-illumina-sequences/trimmed/"$(basename -s .fastq "$files")".trim.fastq LEADING:5 TRAILING:5 SLIDINGWINDOW:8:25 MINLEN:140
+done

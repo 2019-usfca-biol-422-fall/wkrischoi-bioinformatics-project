@@ -20,10 +20,10 @@
 # November 15, 2019
 # wchoi6@dons.usfca.edu
 
-# Run BLAST to find the top match
+# Run BLAST to find the top match for all fasta files
 for files in /data/my-illumina-sequences/trimmed-fasta/KC*.trim.fasta
 do
-	echo Now BLASTing $files
-	blastn -db /blast-db/nt -num_threads 4 -outfmt '10 sscinames std' -out /data/my-illumina-sequences/blast_output/$(basename -s .trim.fasta $files).blast_results.csv -max_target_seqs 1 -negative_gilist /blast-db/2018-09-19_environmental_sequence.gi -query $files
+	echo Now BLASTing "$files"
+	blastn -db /blast-db/nt -num_threads 4 -outfmt '10 sscinames std' -out /data/my-illumina-sequences/blast_output/$(basename -s .trim.fasta "$files").blast_results.csv -max_target_seqs 1 -negative_gilist /blast-db/2018-09-19_environmental_sequence.gi -query "$files"
 	echo Finished
 done
