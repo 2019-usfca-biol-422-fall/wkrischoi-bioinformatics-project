@@ -478,12 +478,13 @@ room temperature storage treatment group.
 
 # Discussion
 
+## Analysis of cultured-samples
 I questioned a level of microbial communities in ground beef under different
 storage conditions and expected to observe more diverse communities from the
 samples stored at room temperature than refrigerated samples. However, the
 petri dishes of the room temperature samples were covered by bacterial lawn
 instead of forming colonies and no distinct morphotypes were observed
-(Figure 3A, 3B).
+(Figure 2A).
 
 The factor that influenced the bacterial lawn in all room temperature
 samples could be the long swabbing on the surface when subsampled.
@@ -510,5 +511,9 @@ seemingly failed result from Sanger sequencing data. The results exhibited
 high percent identity and query coverage values with exceptionally small
 to zero E-values. However, the phylogenic results that grouped Sample #1
 and #2 did not match with BLAST results.
+
+## Analysis of culturefree samples
+
+
 
 # Sources Cited
