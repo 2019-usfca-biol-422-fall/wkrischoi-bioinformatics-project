@@ -401,7 +401,7 @@ located in lane 1-6. Negative control is loaded in lane 7 and the ladder is
 shown in lane 8.
 
 
-### Effect trimming with Trimmomatic
+### Trimming sequences with Trimmomatic and sequence quality
 
 As mentioned earlier, the raw sequence data for the cultured samples
 was trimmed manually by the software called Geneious Prime. 
@@ -416,8 +416,9 @@ was trimmed manually by the software called Geneious Prime.
 |   3A  |      12207      |      11598     |
 |   3B  |      10155      |      9665      |
 
+**Figure 7:** Number of sequences before and after removing bad sequences
+using Trimmomatic.
 
-### Sequence quality
 
 ![](data/images/Seq_quality/Fastq_seq_quality.png)
 
