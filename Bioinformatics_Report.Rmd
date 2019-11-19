@@ -146,6 +146,15 @@ on an Illumina iSeq using a 2 x 150 bp consumable cartridge.
 
 ### Observations of the samples before and after the 80-hour storage
 
+I performed a visual inspection of the samples before and after the experiment.
+All samples appeared to be fresh with bright pink pigment and no noticeable
+odor (Figure 1A). After 80 hours under different storage environments,
+I observed some distinct characteristics developed from different treatment
+groups. For treatment group A, sample 1 and 2 still exhibited its original
+pigmentation while sample 3 completely turned to brown (Figure 1B).
+Meanwhile, treatment group B exhibited more evident indication of spoilage
+by turning into dark purple and brown pigments with pungent odor.
+
 ![](data/images/Sample_images/2019_08_31_sample_images.png)
 **Figure 1A:** Images of each sample at the beginning of the experiment.
 The first image (#1) was collected from Teva kosher foods at Trader Joe’s,
@@ -537,8 +546,8 @@ temperature storage condition (Figure 8A). Possible justification for
 this unexpected results could be drived from the shorter length of the
 sequences as sample 1B have only 3,638 sequences after trimming
 while other samples have around 10,000 sequences (Figure 7B).
-In fact, B treatment group samples in all 3 brands have shorter
-sequences than A treatment group, but the length of the sample 1B is
+In fact, treatment group B samples in all 3 brands have shorter
+sequences than treatment group A, but the length of the sample 1B is
 especially shorter.
 
 
