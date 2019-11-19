@@ -425,7 +425,7 @@ storage conditions and expected to observe more diverse communities from the
 samples stored at room temperature than refrigerated samples. However, the
 petri dishes of the room temperature samples were covered by bacterial lawn
 instead of forming colonies and no distinct morphotypes were observed
-(Figure 2A, 2B).
+(Figure 3A, 3B).
 
 The factor that influenced the bacterial lawn in all room temperature
 samples could be the long swabbing on the surface when subsampled.
@@ -445,7 +445,7 @@ could be contamination of tubes and/or pipetting errors.
 4 different identifications were generated from BLAST for Sample
 #1, 2, 3, and 4: *Acinetobacter baumannii*, *Hafnia paralvei*,
 *Kocuria rhizophila*, and *Staphylococcus saprophyticus* respectively
-(Figure 4). All of the samples except for the complete failures was
+(Figure 5). All of the samples except for the complete failures was
 identified with strong confidence to support the results even for
 the Sample #3 which showed a faded band on the gel and provided the
 seemingly failed result from Sanger sequencing data. The results exhibited
