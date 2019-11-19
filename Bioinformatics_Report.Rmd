@@ -349,15 +349,11 @@ identifications with strong evidence to support the data (Figure 5).
 
 ### Qubit DNA concentration and Gel Image
 
-I measured DNA concentration values for culture-free samples using Qubit 
-Fluorometer (Figure 5A). The data
-validated that all samples contain DNA in it and the values were within
-2-30ng/µL range.  However, I found no bands in lane 6 and 7, sample #5
-and 6 respectively, indicating no DNA separated from the sample (Figure 1B).
-Sample #1, 2, and 4 showed bright bands while sample #3 produced
-a faded band. All the visible bands are appeared to be about 1.5kb in
-fragment size according to EZ Load 1 kb Molecular Ruler (Figure 1C).
-
+I measured DNA concentration values for culture-free samples using Qubit
+Fluorometer (Figure 6A). The data validated that all samples contain DNA
+in it.  However, I found a small band only in lane 6 and did not observe
+any bands in other lnaes. The gel image showed that there was no DNA
+separated except for the sample #3B in lane 6 (Figure 6B).
 
 | Sample ID | DNA Conc. (ng/µL) |
 |:---------:|:-----------------:|
@@ -368,7 +364,7 @@ fragment size according to EZ Load 1 kb Molecular Ruler (Figure 1C).
 |     3A    |        5.70       |
 |     3B    |       16.30       |
 
-**Figure 5A:** DNA concentration values for culture-free samples. Sample ID
+**Figure 6A:** DNA concentration values for culture-free samples. Sample ID
 1A and 1B were extracted from Teva kosher foods (Trader Joe’s), 2A and 2B 
 were Lucky California (Lucky Supermarkets), and 3A and 3B were obtained
 from Butcher shop (Trader Joe’s). The letter A corresponds to the refrigerated
@@ -378,7 +374,7 @@ samples and B indicates the storage condition at room temperature.
 
 ![](data/images/Gel_images/2019_09_25_Culturefree_PCR_gel_image_labeled.png)
 
-**Figure 5B:** Gel image of culture-free samples. Samples from 1A to 3B are
+**Figure 6B:** Gel image of culture-free samples. Samples from 1A to 3B are
 located in lane 1-6. Negative control is loaded in lane 7 and the ladder is
 shown in lane 8.
 
