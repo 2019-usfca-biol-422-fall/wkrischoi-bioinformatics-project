@@ -29,7 +29,7 @@ of meat consumption is growing due to income and population growth
 [@godfray2018meat]. In response to the increasing demand in meat,
 research in enhancing antimicrobial meat packaging has been actively performed
 to deliver longer shelf life [@mcmillin2017advancements] because meat is
-very prone to get spoiled [@ercolini2006changes].
+very prone to get perished [@ercolini2006changes].
 
 My primary question was to investigate microbial communities developed in
 ground beef under different storage conditions. I proposed a hypothesis
@@ -40,8 +40,11 @@ microbial growth [@dave2011meat]. I designed my study to compare 3 different
 ground beef brands in either cooled environment or room temperature.
 The samples stored in a refrigerator provided distinct colonies for
 extraction while all the samples stored in room temperature resulted in
-bacterial lawn. The bacterial lawn prevented DNA extraction process and
-thus led to skewed results only from the refrigerated samples.
+bacterial lawn and prevented DNA extraction process and thus led to skewed
+results only from the refrigerated samples when performed Sanger sequencing
+with culture-based samples. With the culture-based samples, I collected the
+data by Sanger sequencing and identified each sample by putting the sequences
+in BLAST. I also prepared culture-free samples to run for Illumina sequencing.
 
 # Methods
 
@@ -493,7 +496,7 @@ room temperature storage treatment group.
 |     3A    | *Leuconostoc gelidum* subsp. *gasicomitatum* |
 |     3B    |             *Lelliottia amnigena*            |
 
-**Figure 8B:** Major taxa for each sample.
+**Figure 8B:** Major taxa identified for culture-free samples.
 
 
 # Discussion
