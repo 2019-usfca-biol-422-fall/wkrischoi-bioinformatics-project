@@ -148,24 +148,25 @@ on an Illumina iSeq using a 2 x 150 bp consumable cartridge.
 
 ![](data/images/Sample_images/2019_09_04_sample_images.png)
 
+
+## A. Cultured samples
+
+### Plate observations
+
 ![](data/images/Plate_images/2019_09_09_plate_image_refrigerated.png)
 
 ![](data/images/Plate_images/2019_09_09_plate_image_RT.png)
 
-
-
-## A. Cultured samples
-
 ### Qubit DNA concentration and Gel Image
 
 To demonstrate successful DNA extraction, I measured DNA concentration
-values for each sample using Qubit Fluorometer (Figure 1A). The data
+values for each sample using Qubit Fluorometer (Figure 2A). The data
 validated that all samples contain DNA in it and the values were within
 2-30ng/µL range.  However, I found no bands in lane 6 and 7, sample #5
-and 6 respectively, indicating no DNA separated from the sample (Figure 1B).
+and 6 respectively, indicating no DNA separated from the sample (Figure 2B).
 Sample #1, 2, and 4 showed bright bands while sample #3 produced
 a faded band. All the visible bands are appeared to be about 1.5kb in
-fragment size according to EZ Load 1 kb Molecular Ruler (Figure 1C).
+fragment size according to EZ Load 1 kb Molecular Ruler (Figure 2C).
 
 
 | Sample ID | DNA Conc. (ng/µL) |
@@ -177,7 +178,7 @@ fragment size according to EZ Load 1 kb Molecular Ruler (Figure 1C).
 |     5     |       12.40       |
 |     6     |       14.30       |
 
-**Figure 1A:** DNA concentration values for culture samples. Sample ID 1 was
+**Figure 2A:** DNA concentration values for culture samples. Sample ID 1 was
 extracted from the original stock of refrigerated Teva kosher foods from
 Trader Joe’s, 2 was extracted from 1:100 dilution of refrigerated Teva
 kosher foods from Trader Joe’s, 3 and 4 were extracted from the original
@@ -189,7 +190,7 @@ from Trader Joe’s.
 
 ![](data/images/Gel_images/2019_09_18_Culture_PCR_gel_image_labeled.png)
 
-**Figure 1B:** Gel image of culture samples. Ladder is shown in lane 1,
+**Figure 2B:** Gel image of culture samples. Ladder is shown in lane 1,
 and the samples from 1 to 6 are located in lane 2-7. Negative control is
 located in lane 8.
 
@@ -197,7 +198,7 @@ located in lane 8.
 
 ![](data/images/Gel_images/Ladder_EZ_Load_1kb_Molecular_Ruler_1708355.png)
 
-**Figure 1C:** Ladder used in lane 1 (EZ Load 1 kb Molecular Ruler #1708355).
+**Figure 2C:** Ladder used in lane 1 (EZ Load 1 kb Molecular Ruler #1708355).
 
 
 
@@ -206,11 +207,11 @@ located in lane 8.
 In the boxplot to compare the colony abundances of two treatment groups in
 1:10 dilution, the refrigerated samples showed widely spread values while
 the samples from room temperature treatment group only showed 1,000
-abundances with no other variations (Figure 2A). In fact, 1,000 was an
+abundances with no other variations (Figure 3A). In fact, 1,000 was an
 arbitrary number to represent the uncountable colony abundance observed
 from all room temperature samples. No statistical significance was found
 between the two storage conditions and it failed to reject the null
-hypothesis (p = 0.20). Similarly in Figure 2B, a broad variation of the
+hypothesis (p = 0.20). Similarly in Figure 3B, a broad variation of the
 colony morphotypes was illustrated in the boxplot for refrigerated samples.
 The p-value of 0.81 shown in the data indicated no significant difference
 between the two groups and the p-value close to 1 (0.81) suggested a strong
@@ -238,7 +239,7 @@ refrigerated and room temperature storage conditions,
   ylab("Number of colonies")
 ```
 
-**Figure 2A:** Boxplot of colony abundances at different storage conditions,
+**Figure 3A:** Boxplot of colony abundances at different storage conditions,
 10x dilution. Despite a higher median number of colonies from room temperature
 samples, the sample groups were not significantly different between
 the two storage conditions (Wilcox p = 0.20).
@@ -271,7 +272,7 @@ refrigerated and room temperature storage conditions,
   ylab("Number of Morphotypes")
 ```
 
-**Figure 2B:** Boxplot showing the number of morphotypes from the two different
+**Figure 3B:** Boxplot showing the number of morphotypes from the two different
 storage conditions. There was no statistical significance in the morphotypes
 (Wilcox p=0.81).
 
@@ -293,9 +294,9 @@ culture_data %>%
 
 After loading the Sanger sequencing data in Geneious Prime, I obtained
 3 solid data, 3 completely failed data including the negative control,
-and 1 seemingly failed data (Figure 3A). I used the 3 successful data after
+and 1 seemingly failed data (Figure 4A). I used the 3 successful data after
 trimming to create Maximum Likelihood and Bayesian phylogenetic trees
-with *Thermus aquaticus* as an outgroup (Figure 3A, 3B) and found a strong
+with *Thermus aquaticus* as an outgroup (Figure 4A, 4B) and found a strong
 evidence from both phylogenies that support to group Sample #1 and 2
 as a monophyletic group (Bayesian posterior probability = 0.9998,
 ML bootstrap = 98).
@@ -310,20 +311,20 @@ ML bootstrap = 98).
 |  6 |  6-KC_27f_F01.ab1  |    6-KC_27f_F01_KC_failed.ab1    |    No   |          N/A          |           N/A           |
 |  7 |  7-KC Neg Control  |    7-KC Neg Control_KC_failed    |    No   |          N/A          |           N/A           |
 
-**Figure 3A:** Sanger sequencing data for each sample analyzed by Geneious
+**Figure 4A:** Sanger sequencing data for each sample analyzed by Geneious
 Prime.
 
 
 
 ![](data/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
 
-**Figure 3B:** Bayesian phylogenetic tree constructed by MrBayes.
+**Figure 4B:** Bayesian phylogenetic tree constructed by MrBayes.
 
 
 
 ![](data/images/Phylogenies/Sanger_PhyML_phylogenies.png)
 
-**Figure 3C:** Maximum Likelihood phylogeny constructed by PhyML.
+**Figure 4C:** Maximum Likelihood phylogeny constructed by PhyML.
 
 
 
