@@ -332,7 +332,7 @@ Prime.
 
 I provided 3 successful data (Sample #1, 2, and 4) and 1 seemingly failed
 data (Sample #3) into BLAST to identify each sample and observed 4 different
-identifications with strong evidence to support the data (Figure 4).
+identifications with strong evidence to support the data (Figure 5).
 
 | ID |           Description          | % Identity | Query cover |  Accession | E-value |
 |:--:|:------------------------------:|:----------:|:-----------:|:----------:|:-------:|
@@ -341,7 +341,7 @@ identifications with strong evidence to support the data (Figure 4).
 |  3 |      *Kocuria rhizophila*      |    90.46   |     77%     | KY522908.1 |  5e-136 |
 |  4 | *Staphylococcus saprophyticus* |    98.55   |     100%    | MH930439.1 |    0    |
 
-**Figure 4:** Identification of each sample conducted by BLAST.
+**Figure 5:** Identification of each sample conducted by BLAST.
 
 
 
