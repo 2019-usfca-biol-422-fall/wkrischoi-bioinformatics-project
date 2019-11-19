@@ -8,6 +8,7 @@ bibliography: references.bib
 ---
 
 ```{r setup, include = FALSE}
+# create knit with correctly formated figures
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
