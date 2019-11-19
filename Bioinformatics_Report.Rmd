@@ -148,6 +148,11 @@ on an Illumina iSeq using a 2 x 150 bp consumable cartridge.
 
 ![](data/images/Sample_images/2019_09_04_sample_images.png)
 
+![](data/images/Plate_images/2019_09_09_plate_image_refrigerated.png)
+
+![](data/images/Plate_images/2019_09_09_plate_image_RT.png)
+
+
 
 ## A. Cultured samples
 
