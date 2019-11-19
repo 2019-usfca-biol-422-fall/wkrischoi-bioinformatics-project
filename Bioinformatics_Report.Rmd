@@ -401,7 +401,11 @@ located in lane 1-6. Negative control is loaded in lane 7 and the ladder is
 shown in lane 8.
 
 
-### Effect trimming with Trimomatic
+### Effect trimming with Trimmomatic
+
+As mentioned earlier, the raw sequence data for the cultured samples
+was trimmed manually by the software called Geneious Prime. 
+
 
 | Group | Before trimming | After Trimming |
 |:-----:|:---------------:|:--------------:|
