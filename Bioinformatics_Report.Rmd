@@ -156,12 +156,14 @@ Meanwhile, treatment group B exhibited more evident indication of spoilage
 by turning into dark purple and brown pigments with pungent odor.
 
 ![](data/images/Sample_images/2019_08_31_sample_images.png)
+
 **Figure 1A:** Images of each sample at the beginning of the experiment.
 The first image (#1) was collected from Teva kosher foods at Trader Joe’s,
 the second sample (#2) was from Lucky California at Lucky Supermarkets, and
 the last sample was from Butcher shop at Trader Joe’s.
 
 ![](data/images/Sample_images/2019_09_04_sample_images.png)
+
 **Figure 1B:** Images of each sample 80 hours after the beginning of the
 experiment. A represents the treatment group remained refrigerated and
 B represents the treatment group stored at room temperature.
@@ -181,6 +183,7 @@ fragment size according to EZ Load 1 kb Molecular Ruler (Figure 2D).
 
 
 ![](data/images/Plate_images/2019_09_09_plate_images.png)
+
 **FIgure 2A:** TSA plates for each cultured sample after incubation.
 The top plates were cultured from the sample collected from 
 Teva kosher foods, Lucky California for the middle plates, and 
@@ -425,7 +428,8 @@ a few hundred sequences were removed for all the samples as a result of the
 great quality of the sequence (Figure 7B).
 
 ![](data/images/Seq_quality/Fastq_seq_quality.png)
-**Figure 7A:** Quality check of the sequences for each sample using FastQC
+
+*Figure 7A:** Quality check of the sequences for each sample using FastQC
 reports. Y-axis shows the quality score and thge green region represents great
 quality, reasonable quality in yellow region, and poor quality in red region.
 
