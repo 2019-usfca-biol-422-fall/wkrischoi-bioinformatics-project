@@ -401,7 +401,25 @@ located in lane 1-6. Negative control is loaded in lane 7 and the ladder is
 shown in lane 8.
 
 
-### Effect trimming with Trimomatic
+### Trimming sequences with Trimmomatic and sequence quality
+
+Before analyzing the sequence data, I inspected the quality of the sequences
+by reviewing FastQC reports. The graph is divided into green, yellow, and
+red regions to represent the quality of the sequences and the blue line (mean
+quality) in every samples remained in green as the indication of great
+quality of all samples (Figure 7A).
+
+As mentioned earlier, I manually trimmed the raw sequence data for the
+cultured samples using the software called Geneious Prime. Contrarily, I ran
+Trimmomatic in bash to automatically trim the culture-free samples and only
+a few hundred sequences were removed for all the samples as a result of the
+great quality of the sequence (Figure 7B).
+
+![](data/images/Seq_quality/Fastq_seq_quality.png)
+**Figure 7A:** Quality check of the sequences for each sample using FastQC
+reports. Y-axis shows the quality score and thge green region represents great
+quality, reasonable quality in yellow region, and poor quality in red region.
+
 
 | Group | Before trimming | After Trimming |
 |:-----:|:---------------:|:--------------:|
@@ -412,25 +430,71 @@ shown in lane 8.
 |   3A  |      12207      |      11598     |
 |   3B  |      10155      |      9665      |
 
+**Figure 7B:** Number of sequences before and after removing bad sequences
+using Trimmomatic.
+
+
+
+### Command-line BLAST analysis
+
+I looked into the number of different taxa in each sample and compared
+between the two treatment groups: samples stayed refrigerated (A) and
+those stored at room temperature (B). I observed larger number of different
+taxa in sample #2 and 3 for group B as expected, but the first samples showed
+lesser number of taxa in group B (Figure 8A).
+
+In addition, I ran BLAST on bash to find the major taxa of each sample
+based on the number of sequences. Interestingly, I found bacterias as the
+major taxa for all samples except for 1A which identified to be
+*Bos mutus*, the domestic yak (Figure 8B).
+
+
+| Sample ID | # of different taxa |
+|:---------:|:-------------------:|
+|     1A    |          25         |
+|     1B    |          22         |
+|     2A    |          21         |
+|     2B    |          30         |
+|     3A    |          15         |
+|     3B    |          24         |
+
+**Figure 8A:** Number of different taxa from each sample. The letter A
+corresponds to the refrigerated storage treatment group and B indicates the
+room temperature storage treatment group.
+
+
+
+| Sample ID |                  Major Taxa                  |
+|:---------:|:--------------------------------------------:|
+|     1A    |                  *Bos mutus*                 |
+|     1B    |          *Carnobacterium divergens*          |
+|     2A    |            *Lactobacillus algidus*           |
+|     2B    |          *Carnobacterium divergens*          |
+|     3A    | *Leuconostoc gelidum* subsp. *gasicomitatum* |
+|     3B    |             *Lelliottia amnigena*            |
+
+**Figure 8B:** Major taxa for each sample.
 
 
 # Discussion
+
+## Analysis of cultured-samples
 
 I questioned a level of microbial communities in ground beef under different
 storage conditions and expected to observe more diverse communities from the
 samples stored at room temperature than refrigerated samples. However, the
 petri dishes of the room temperature samples were covered by bacterial lawn
 instead of forming colonies and no distinct morphotypes were observed
-(Figure 2A, 2B).
+(Figure 2A).
 
-The factor that influenced the bacterial lawn in all room temperature
-samples could be the long swabbing on the surface when subsampled.
-The highly concentrated stock sample could possibly cause the thick
-bacterial lawn even though it was diluted down to 1:100. The boxplots
-in Figure 3 and 4 were displaying data from skewed results due to the
-unreliable outcomes from room temperature samples. A different approach
-to enhance the results could be by using streaking method and/or shortening
-the time when swabbing the sample on the surface.
+The factor that might have influenced the bacterial lawn in all
+room temperature samples can be the long duration of swabbing on the
+surface when subsampled. The highly concentrated stock sample could be the
+possible cause of the thick bacterial lawn even though it was diluted down
+to 1:100. The boxplots in Figure 3A and 3B were displaying data from
+skewed results due to the unreliable outcomes from room temperature samples.
+A different approach to enhance the results could be by using streaking
+method and/or shortening the time when swabbing the sample on the surface.
 
 The gel image from electrophoresis showed no bands for Sample #5 and #6
 which corresponded to the failed Sanger sequencing data, and the faded band
@@ -441,12 +505,34 @@ could be contamination of tubes and/or pipetting errors.
 4 different identifications were generated from BLAST for Sample
 #1, 2, 3, and 4: *Acinetobacter baumannii*, *Hafnia paralvei*,
 *Kocuria rhizophila*, and *Staphylococcus saprophyticus* respectively
-(Figure 4). All of the samples except for the complete failures was
+(Figure 5). All of the samples except for the complete failures was
 identified with strong confidence to support the results even for
 the Sample #3 which showed a faded band on the gel and provided the
 seemingly failed result from Sanger sequencing data. The results exhibited
 high percent identity and query coverage values with exceptionally small
 to zero E-values. However, the phylogenic results that grouped Sample #1
 and #2 did not match with BLAST results.
+
+## Analysis of culture-free samples
+
+There are commonly known mirobial groups that contribute to spoil meat even
+in refrigerated condition and they were identified across from all samples as
+expected. Those microbes include: *Serratia*, *Enterobacter*, *Pantoea*,
+*Proteus*, *Hafnia*, and lactic acid bacteria such as *Lactobacillus* and
+*Carnobacterium* [@ercolini2006changes]. Among the 4 identifications
+observed from cultured samples, *Acinetobacter baumannii*,
+*Hafnia paralvei*, and *Staphylococcus saprophyticus* were also identified
+from culture-free samples and confirmed the matches between culture-based and
+culture-free samples using Sanger sequences and Illumina sequences.
+However, no matches for *Kocuria rhizophila* from sample #3 of cultured sample
+(Figure 5) was found in culture-free sample.
+
+Initially, I hypothesized to see more developed microorganism communities
+from the samples stored at room temperature than the ones kept refrigerated
+because the temperature conditions play a critical role in meat spoilage
+[@dohlen2017effect]. Two brands out of three exhibited to have more number
+of different taxa when it was stored at room temperature while the first
+sample, Teva kosher foods from Trader Joe’s, showed less 
+
 
 # Sources Cited

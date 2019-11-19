@@ -27,4 +27,7 @@ cut -d, -f1 /data/my-illumina-sequences/summarized_blast_results/KC* | sort | un
 
 # find the matches for Staphylococcus identified from culture-based sample
 cut -d, -f1 /data/my-illumina-sequences/summarized_blast_results/KC* | sort | uniq -c | sort -n | grep "Staphylococcus"
+<<<<<<< HEAD
 
+=======
+>>>>>>> abdd963899ce502f7c237cfe8603740c60aea888
