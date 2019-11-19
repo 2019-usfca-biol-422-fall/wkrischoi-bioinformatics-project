@@ -446,6 +446,11 @@ using Trimmomatic.
 |     3A    |          15         |
 |     3B    |          24         |
 
+**Figure 8A:** Number of different taxa from each sample. The letter A
+corresponds to the refrigerated storage treatment group and B indicates the
+room temperature storage treatment group.
+
+
 
 | Sample ID |                  Major Taxa                  |
 |:---------:|:--------------------------------------------:|
@@ -456,6 +461,7 @@ using Trimmomatic.
 |     3A    | *Leuconostoc gelidum* subsp. *gasicomitatum* |
 |     3B    |             *Lelliottia amnigena*            |
 
+**Figure 8B:** Major taxa for each sample.
 
 
 # Discussion
