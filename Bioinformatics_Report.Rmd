@@ -144,6 +144,8 @@ on an Illumina iSeq using a 2 x 150 bp consumable cartridge.
 
 # Results
 
+### Observations of the samples before and after the 80-hour storage
+
 ![](data/images/Sample_images/2019_08_31_sample_images.png)
 **Figure 1A:** Images of each sample at the beginning of the experiment.
 The first image (#1) was collected from Teva kosher foods at Trader Joe’s,
