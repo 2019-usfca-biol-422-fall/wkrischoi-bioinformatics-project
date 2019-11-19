@@ -45,6 +45,9 @@ results only from the refrigerated samples when performed Sanger sequencing
 with culture-based samples. With the culture-based samples, I collected the
 data by Sanger sequencing and identified each sample by putting the sequences
 in BLAST. I also prepared culture-free samples to run for Illumina sequencing.
+Out of 3 replicas, 2 samples from room temperature storage condition
+exhibited more abundant microbes than the refrigerated treatment group.
+
 
 # Methods
 
