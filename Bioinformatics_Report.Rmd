@@ -519,9 +519,13 @@ in refrigerated condition and they were identified across from all samples as
 expected. Those microbes include: *Serratia*, *Enterobacter*, *Pantoea*,
 *Proteus*, *Hafnia*, and lactic acid bacteria such as *Lactobacillus* and
 *Carnobacterium* [@ercolini2006changes]. Among the 4 identifications
-observed from cultured samples, *Acinetobacter baumannii*, *Hafnia paralvei*,
-and *Staphylococcus saprophyticus* were also identified from culture-free
-samples but no *Kocuria rhizophila*.
+observed from cultured samples, *Acinetobacter baumannii*,
+*Hafnia paralvei*, and *Staphylococcus saprophyticus* were also identified
+from culture-free samples and confirmed the matches between culture-based and
+culture-free samples using Sanger sequences and Illumina sequences.
+However, no match for *Kocuria rhizophila* from sample #3 of cultured sample
+(Figure 5) was found.
+
 
 
 # Sources Cited
