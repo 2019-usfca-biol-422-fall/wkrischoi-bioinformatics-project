@@ -11,6 +11,6 @@
 for files in /data/my-illumina-sequences/trimmed/KC*.trim.fastq
 do
 	echo Converting files
-	bioawk -c fastx '{print ">"$name"\n"$seq}' "$files" > /data/my-illumina-sequences/trimmed-fasta/$(basename -s .trim.fastq "$files").trim.fasta
+	bioawk -c fastx '{print ">"$name"\n"$seq}' "$files" > /data/my-illumina-sequences/trimmed-fasta/"$(basename -s .trim.fastq $files)".trim.fasta
 	echo Finished
 done
