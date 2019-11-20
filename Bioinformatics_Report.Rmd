@@ -388,7 +388,7 @@ identifications with strong evidence to support the data (Figure 5).
 I measured DNA concentration values for culture-free samples using Qubit
 Fluorometer (Figure 6A). The data validated that all samples contain DNA
 in it.  However, I found a bright band only in lane 6 and did not observe
-any bands in other lnaes. The gel image showed that there was no DNA
+any bands in other lanes. The gel image showed that there was no DNA
 separated except for the sample #3B in lane 6 (Figure 6C).
 
 | Sample ID | DNA Conc. (ng/µL) |
@@ -445,7 +445,7 @@ great quality of the sequence (Figure 7B).
 ![](data/images/Seq_quality/Fastq_seq_quality.png)
 
 **Figure 7A:** Quality check of the sequences for each sample using FastQC
-reports. Y-axis shows the quality score and thge green region represents great
+reports. Y-axis shows the quality score and the green region represents great
 quality, reasonable quality in yellow region, and poor quality in red region.
 
 
@@ -472,7 +472,7 @@ taxa in sample #2 and 3 for group B as expected, but the first samples showed
 lesser number of taxa in group B (Figure 8A).
 
 In addition, I ran BLAST on bash to find the major taxa of each sample
-based on the number of sequences. Interestingly, I found bacterias as the
+based on the number of sequences. Interestingly, I found bacteria as the
 major taxa for all samples except for 1A which identified to be
 *Bos mutus*, the domestic yak (Figure 8B).
 
@@ -543,7 +543,7 @@ and #2 did not match with BLAST results.
 
 ## Analysis of culture-free samples
 
-There are commonly known mirobial groups that contribute to spoil meat even
+There are commonly known microbial groups that contribute to spoil meat even
 in refrigerated condition and they were identified across from all samples as
 expected. Those microbes include: *Serratia*, *Enterobacter*, *Pantoea*,
 *Proteus*, *Hafnia*, and lactic acid bacteria such as *Lactobacillus* and
@@ -562,7 +562,7 @@ because the temperature conditions play a critical role in meat spoilage
 of different taxa when it was stored at room temperature while the first
 sample, Teva kosher foods from Trader Joe’s, showed less taxa from the room
 temperature storage condition (Figure 8A). Possible justification for
-this unexpected results could be drived from the shorter length of the
+this unexpected results could have driven from the shorter length of the
 sequences as sample 1B have only 3,638 sequences after trimming
 while other samples have around 10,000 sequences (Figure 7B).
 In fact, treatment group B samples in all 3 brands have shorter
