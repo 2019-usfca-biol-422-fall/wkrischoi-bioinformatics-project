@@ -49,4 +49,3 @@ phyloseq_obj <- phyloseq(otu_table(sequence_table_nochim,
 
 # save phyloseq and melted_phyloseq objects to use in the Rmd file
 save(phyloseq_obj, file = "output/phyloseq_obj.Rda")
-
