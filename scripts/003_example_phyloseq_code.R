@@ -33,15 +33,15 @@ load("output/phyloseq_obj.Rda")
 # alpha diversity metrics -- see many more
 # examples here, under 'Tutorials': https://joey711.github.io/phyloseq
 plot_richness(phyloseq_obj,
-              x = "plotID",
+              x = "type",
               measures = c("Shannon", "Simpson")) +
-  xlab("Sample origin") +
-  geom_jitter(width = 0.2) +
+  xlab("Type of sample") +
+  geom_boxplot() +
   theme_bw()
 
 # bar plot of taxa my month sampled
 plot_bar(phyloseq_obj,
-         x = "collect_month",
+         x = "type",
          fill = "Phylum")
 
 ##########################################
@@ -58,7 +58,6 @@ melted_phyloseq <- melted_phyloseq %>%
 
 # create a summary table of sequence counts for each Phylum
 melted_phyloseq %>%
-  filter(collect_month == 10) %>%
-  group_by(Phylum) %>%
+  group_by(student_initials, Phylum) %>%
   summarize(sum_abundance = sum(Abundance,
                                   na.rm = TRUE))
