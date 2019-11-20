@@ -170,14 +170,14 @@ pigmentation while sample 3 completely turned to brown (Figure 1B).
 Meanwhile, treatment group B exhibited more evident indication of spoilage
 by turning into dark purple and brown pigments with pungent odor.
 
-![](data/images/Sample_images/2019_08_31_sample_images.png)
+![](output/images/Sample_images/2019_08_31_sample_images.png)
 
 **Figure 1A:** Images of each sample at the beginning of the experiment.
 The first image (#1) was collected from Teva kosher foods at Trader Joe’s,
 the second sample (#2) was from Lucky California at Lucky Supermarkets, and
 the last sample was from Butcher shop at Trader Joe’s.
 
-![](data/images/Sample_images/2019_09_04_sample_images.png)
+![](output/images/Sample_images/2019_09_04_sample_images.png)
 
 **Figure 1B:** Images of each sample 80 hours after the beginning of the
 experiment. A represents the treatment group remained refrigerated and
@@ -197,7 +197,7 @@ a faded band. All the visible bands are appeared to be about 1.5kb in
 fragment size according to EZ Load 1 kb Molecular Ruler (Figure 2D).
 
 
-![](data/images/Plate_images/2019_09_09_plate_images.png)
+![](output/images/Plate_images/2019_09_09_plate_images.png)
 
 **FIgure 2A:** TSA plates for each cultured sample after incubation.
 The top plates were cultured from the sample collected from 
@@ -224,7 +224,7 @@ from Trader Joe’s.
 
 
 
-![](data/images/Gel_images/2019_09_18_Culture_PCR_gel_image_labeled.png)
+![](output/images/Gel_images/2019_09_18_Culture_PCR_gel_image_labeled.png)
 
 **Figure 2C:** Gel image of culture samples. Ladder is shown in lane 1,
 and the samples from 1 to 6 are located in lane 2-7. Negative control is
@@ -232,7 +232,7 @@ located in lane 8.
 
 
 
-![](data/images/Gel_images/Ladder_EZ_Load_1kb_Molecular_Ruler_1708355.png)
+![](output/images/Gel_images/Ladder_EZ_Load_1kb_Molecular_Ruler_1708355.png)
 
 **Figure 2D:** Ladder used in lane 1 (EZ Load 1 kb Molecular Ruler #1708355).
 
@@ -352,13 +352,13 @@ Prime.
 
 
 
-![](data/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
+![](output/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
 
 **Figure 4B:** Bayesian phylogenetic tree constructed by MrBayes.
 
 
 
-![](data/images/Phylogenies/Sanger_PhyML_phylogenies.png)
+![](output/images/Phylogenies/Sanger_PhyML_phylogenies.png)
 
 **Figure 4C:** Maximum Likelihood phylogeny constructed by PhyML.
 
@@ -421,7 +421,7 @@ culture-free samples. Notice sample #3B exhibited the highest concentration
 value as it was the only bright band observed on the gel image.
 
 
-![](data/images/Gel_images/2019_09_25_Culturefree_PCR_gel_image_labeled.png)
+![](output/images/Gel_images/2019_09_25_Culturefree_PCR_gel_image_labeled.png)
 
 **Figure 6C:** Gel image of culture-free samples. Samples from 1A to 3B are
 located in lane 1-6. Negative control is loaded in lane 7 and the ladder is
@@ -442,7 +442,7 @@ Trimmomatic in bash to automatically trim the culture-free samples and only
 a few hundred sequences were removed for all the samples as a result of the
 great quality of the sequence (Figure 7B).
 
-![](data/images/Seq_quality/Fastq_seq_quality.png)
+![](output/images/Seq_quality/Fastq_seq_quality.png)
 
 **Figure 7A:** Quality check of the sequences for each sample using FastQC
 reports. Y-axis shows the quality score and the green region represents great
