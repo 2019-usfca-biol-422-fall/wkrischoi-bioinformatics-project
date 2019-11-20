@@ -13,13 +13,15 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```
 
 ```{r load-libraries}
-# run necessary packages to use in analysis
+# load necessary packages to use in analysis
 library("ggplot2")
 library("dplyr")
 library("tidyr")
 library("readr")
 library("broom")
 library("knitr")
+library("lubridate")
+library("forcats")
 ```
 
 # Introduction
