@@ -212,7 +212,7 @@ fragment size according to EZ Load 1 kb Molecular Ruler (Figure 2D).
 
 ![](output/images/Plate_images/2019_09_09_plate_images.png)
 
-**FIgure 2A:** TSA plates for each cultured sample after incubation.
+**Figure 2A:** TSA plates for each cultured sample after incubation.
 The top plates were cultured from the sample collected from 
 Teva kosher foods, Lucky California for the middle plates, and 
 Butcher shop samples on the bottom.
