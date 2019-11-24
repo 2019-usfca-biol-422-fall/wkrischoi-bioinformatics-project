@@ -26,12 +26,15 @@ library("forcats")
 
 # Introduction
 
-Meat is largely consumed source of protein worldwide and the total amount
-of meat consumption is growing due to income and population growth
-[@godfray2018meat]. In response to the increasing demand in meat,
+Meat is recognized as an essential dietary source of protein and
+nutrients including iron, zinc, and vitamin B12, and the total amount of
+meat consumption is continuously growing due to income and population growth
+[@godfray2018meat]. In response to the increasing demand in meat, different
 research in enhancing antimicrobial meat packaging has been actively performed
-to deliver longer shelf life [@mcmillin2017advancements] because meat is
-very prone to get perished [@ercolini2006changes].
+to deliver longer shelf life [@mcmillin2017advancements]. Along with the
+advancement of the packaging technologies, the temperature of storage
+has also been emphasized as a key factor in avoiding meat spoilage
+because meat is prone to get perished [@ercolini2006changes].
 
 My primary question was to investigate microbial communities developed in
 ground beef under different storage conditions. I proposed a hypothesis
