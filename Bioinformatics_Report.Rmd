@@ -119,7 +119,7 @@ high-quality reads. I trimmed the sequences by removing poor quality reads
 near the primer site and at the end and manually adjusting bases with IUPAC
 ambiguity codes. After cleaning the sequences, I aligned the trimmed
 sequences along with *Thermus aquaticus* as an outgroup using MAFFT, the
-program for multiple sequence alignment[@katoh2002mafft]. In addition,
+program to generate multiple sequence alignment[@katoh2002mafft]. In addition,
 I used two phylogeny programs, PhyML and MrBayes, within Geneious Prime to
 construct phylogenetic trees of the aligned sequences. Lastly, I loaded the
 3 cleaned sequences and 1 failed sequence into BLAST to identify its gene
