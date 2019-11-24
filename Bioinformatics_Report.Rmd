@@ -260,7 +260,7 @@ culture_data <- read_csv(
 ```
 
 ```{r filter-and-plot-abundances}
-# filter out only the 10x dilutions and make a boxplot
+# filter out only the 10x dilutions and make a boxplot for colony abundances
 culture_data %>%
   filter(student_name == "Kris Choi") %>%
   filter(dilution_1_10_or_100 == "10") %>%
@@ -294,7 +294,7 @@ culture_data %>%
 ```
 
 ```{r filter-and-plot-morphotypes}
-# filter out only the 10x dilutions and make a boxplot
+# filter out only the 10x dilutions and make a boxplot for colony morphotypes
 culture_data %>%
   filter(student_name == "Kris Choi") %>%
   filter(dilution_1_10_or_100 == "10") %>%
