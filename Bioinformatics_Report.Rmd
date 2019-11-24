@@ -28,13 +28,15 @@ library("forcats")
 
 Meat is recognized as an essential dietary source of protein and
 nutrients including iron, zinc, and vitamin B12, and the total amount of
-meat consumption is continuously growing due to income and population growth
-[@godfray2018meat]. In response to the increasing demand in meat, different
-research in enhancing antimicrobial meat packaging has been actively performed
-to deliver longer shelf life [@mcmillin2017advancements]. Along with the
-advancement of the packaging technologies, the temperature of storage
-has also been emphasized as a key factor in avoiding meat spoilage
-because meat is prone to deterioration [@ercolini2006changes].
+meat consumption is continuously growing due to the income and population
+growth [@godfray2018meat]. In response to the increasing demand in meat, a
+hygienic environment for slaughtering has been developed
+to ensure safe and suitable human consumption and different research in
+enhancing antimicrobial meat packaging has been actively performed to
+deliver longer shelf life [@mcmillin2017advancements]. Along with the
+advancement in meat processing technologies, the temperature of storage has
+also been emphasized as a key factor in avoiding meat spoilage because
+meat is prone to deterioration [@ercolini2006changes].
 
 My primary question was to investigate microbial communities developed in
 ground beef under different storage conditions. I proposed a hypothesis
