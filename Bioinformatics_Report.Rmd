@@ -183,7 +183,7 @@ by turning into dark purple and brown pigments with pungent odor.
 **Figure 1A:** Images of each sample at the beginning of the experiment.
 The first image (#1) was collected from Teva kosher foods at Trader Joe’s,
 the second sample (#2) was from Lucky California at Lucky Supermarkets, and
-the last sample was from Butcher shop at Trader Joe’s.
+the last sample (#3) was from Butcher shop at Trader Joe’s.
 
 ![](output/images/Sample_images/2019_09_04_sample_images.png)
 
