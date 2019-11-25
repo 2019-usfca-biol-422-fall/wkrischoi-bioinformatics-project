@@ -199,8 +199,8 @@ B represents the treatment group stored at room temperature.
 ### Qubit DNA concentration and Gel Image
 The samples stored in a refrigerator provided distinct colonies for
 extraction while all the samples stored in room temperature resulted in
-bacterial lawn and prevented DNA extraction process and thus led to skewed
-results only from the refrigerated samples when performed Sanger sequencing
+bacterial lawn and prevented from DNA extraction process (Figure 2A).
+Thus, it led to skewed results only from the refrigerated samples
 with culture-based samples.
 
 To demonstrate successful DNA extraction, I measured DNA concentration
