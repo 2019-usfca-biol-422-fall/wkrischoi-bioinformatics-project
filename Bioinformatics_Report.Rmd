@@ -36,7 +36,7 @@ enhancing antimicrobial meat packaging has been actively performed to
 deliver longer shelf life [@mcmillin2017advancements]. Along with the
 advancement in meat processing technologies, the temperature of storage has
 also been emphasized as a key factor in avoiding meat spoilage because
-meat is prone to deterioration [@ercolini2006changes].
+meat is prone to deterioration [@doulgeraki2012spoilage].
 
 My primary question was to investigate microbial communities developed in
 raw ground beef under different storage conditions. I proposed a hypothesis
@@ -45,14 +45,15 @@ stored at room temperature in comparison to the ones kept in a refrigerator
 as low temperature storage is an essential method to prevent or slow
 microbial growth [@dave2011meat]. To test my hypothesis, I designed my study
 to compare 3 different ground beef brands stored at either low temperature
-or room temperature. 
-
-With the culture-based samples, I collected the
-data by Sanger sequencing and identified each sample by putting the sequences
-in BLAST. I also prepared culture-free samples to run for Illumina sequencing.
+or room temperature and prepared culture-based and culture-free samples.
+DNA sequencing was performed using Sanger sequencing for culture-based samples
+and Illumina sequencing was selected for culture-free samples.
+I used different statistical methods and generated phylogenetic trees for
+further analysis and identified each sample using BLAST. 
+4 out of 6 samples
+were succesfully identified from culture-based samples
 Out of 3 replicas, 2 samples from room temperature storage condition
 exhibited more abundant microbes than the refrigerated treatment group.
-
 
 # Methods
 
@@ -527,15 +528,15 @@ room temperature storage treatment group.
 I questioned a level of microbial communities in ground beef under different
 storage conditions and expected to observe more diverse communities from the
 samples stored at room temperature than refrigerated samples. However, the
-petri dishes of the room temperature samples were covered by bacterial lawn
+petri dishes from the room temperature samples were covered by bacterial lawn
 instead of forming colonies and no distinct morphotypes were observed
 (Figure 2A).
 
 The factor that might have influenced the bacterial lawn in all
 room temperature samples can be the long duration of swabbing on the
-surface when subsampled. The highly concentrated stock sample could be the
-possible cause of the thick bacterial lawn even though it was diluted down
-to 1:100. The boxplots in Figure 3A and 3B were displaying data from
+surface when subsampled. As a consequence, highly concentrated stock
+samples resulted in growing thick bacterial lawn even though it was diluted
+down to 1:100. The boxplots in Figure 3A and 3B were displaying data from
 skewed results due to the unreliable outcomes from room temperature samples.
 A different approach to enhance the results could be by using streaking
 method and/or shortening the time when swabbing the sample on the surface.
