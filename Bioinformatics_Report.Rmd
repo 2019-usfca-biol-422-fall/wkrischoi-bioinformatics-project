@@ -31,7 +31,7 @@ nutrients including iron, zinc, and vitamin B12, and the total amount of
 meat consumption is continuously growing due to the income and population
 growth [@godfray2018meat]. In response to the increasing demand in meat, a
 sanitary environment for slaughtering and handling operations has been
-developed to prevent any contaminations from surroundings such as
+developed to prevent any contamination from surroundings such as
 water, air, and soil, and tools used in the processing [@stellato2016overlap].
 Furthermore, different research in enhancing antimicrobial meat packaging
 has been actively performed to deliver longer shelf
@@ -42,7 +42,7 @@ considered to be the growth of undesired microorganisms [@borch1996bacterial].
 Raw meat represents a highly perishable ecological niche. Its composition of
 nutrients promotes cell proliferation, allowing for more microbial growth and
 the development of microbial communities ultimately leads to the meat
-spoilage[@pothakos2015lactic]. In an effort to avoid bacterial contaminations
+spoilage[@pothakos2015lactic]. In an effort to avoid bacterial contamination
 in raw meat, the temperature of storage has been emphasized as a key factor
 along with the advancement in sterile meat processing
 techniques [@doulgeraki2012spoilage].
