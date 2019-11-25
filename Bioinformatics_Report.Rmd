@@ -47,14 +47,17 @@ in raw meat, the temperature of storage has been emphasized as a key factor
 along with the advancement in sterile meat processing
 techniques [@doulgeraki2012spoilage].
 
-My primary question was to investigate microbial communities developed in
-raw ground beef under different storage conditions. I proposed a hypothesis
-that more diverse microbial communities would be developed if the meat was
-stored at room temperature in comparison to the ones kept in a refrigerator
-as low temperature storage is an essential method to prevent or slow
-microbial growth [@dave2011meat]. To test my hypothesis, I designed my study
-to compare 3 different ground beef brands stored at either low temperature
-or room temperature and prepared culture-based and culture-free samples.
+In consideration of the identification of the microbes that is responsible
+for meat spoilage can enhance storage conditions more effectively
+[@ercolini2006changes], my primary question was to investigate microbial
+communities developed in raw ground beef under different storage conditions.
+I proposed a hypothesis that more diverse microbial communities would be
+developed if the meat was stored at room temperature in comparison to the ones
+kept in a refrigerator as low temperature storage is an essential method to
+prevent or slow microbial growth [@dave2011meat].
+To test my hypothesis, I designed my study to compare 3 different ground beef
+brands stored at either low temperature or room temperature and prepared
+culture-based and culture-free samples.
 DNA sequencing was performed using Sanger sequencing for culture-based samples
 and Illumina sequencing was selected for culture-free samples.
 I used different statistical methods and generated phylogenetic trees for
