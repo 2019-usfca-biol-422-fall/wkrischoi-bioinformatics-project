@@ -50,7 +50,7 @@ DNA sequencing was performed using Sanger sequencing for culture-based samples
 and Illumina sequencing was selected for culture-free samples.
 I used different statistical methods and generated phylogenetic trees for
 further analysis and identified each sample using BLAST. As a result,
-4 out of 6 samples were succesfully identified from culture-based samples
+4 out of 6 samples were successfully identified from culture-based samples
 and 2 samples out of 3 from room temperature storage condition
 exhibited more abundant microbes than the refrigerated treatment group.
 
@@ -177,7 +177,7 @@ All samples appeared to be fresh with bright pink pigment and no noticeable
 odor (Figure 1A). After 80 hours under different storage environments,
 I observed some distinct characteristics developed from different treatment
 groups. For treatment group A, sample 1 and 2 still exhibited its original
-pigmentation while sample 3 completely turned to brown (Figure 1B).
+pigmentation while sample 3 turned to brown (Figure 1B).
 Meanwhile, treatment group B exhibited more evident indication of spoilage
 by turning into dark purple and brown pigments with pungent odor.
 
@@ -345,7 +345,7 @@ culture_data %>%
 ### Sanger Sequencing and Phylogenetic Trees
 
 After loading the Sanger sequencing data in Geneious Prime, I obtained
-3 solid data, 3 completely failed data including the negative control,
+3 solid data, 3 complete failed data including the negative control,
 and 1 seemingly failed data (Figure 4A). I used the 3 successful data after
 trimming to create Maximum Likelihood and Bayesian phylogenetic trees
 with *Thermus aquaticus* as an outgroup (Figure 4A, 4B) and found a strong
@@ -539,7 +539,7 @@ down to 1:100. The boxplots in Figure 3A and 3B were displaying data from
 skewed results due to the unreliable outcomes from room temperature samples.
 A different approach to enhance the results could be by using streaking
 method and/or shortening the time when swabbing the sample on the surface
-to grow distint colonies from both treatment groups.
+to grow distinct colonies from both treatment groups.
 
 The gel image from electrophoresis showed no bands for Sample #5 and #6
 which corresponded to the failed Sanger sequencing data, and the faded band
