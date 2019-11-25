@@ -37,11 +37,15 @@ Furthermore, different research in enhancing antimicrobial meat packaging
 has been actively performed to deliver longer shelf
 life [@mcmillin2017advancements].
 
-The biggest factor that contributes in fresh raw meat spoilage is considered
-to be the growth of undesired microorganisms [@borch1996bacterial].
-Along with the advancement in meat processing technologies, the temperature
-of storage has also been emphasized as a key factor in avoiding meat
-spoilage because meat is prone to deterioration [@doulgeraki2012spoilage].
+The biggest factor that contributes to decay in fresh raw meat is
+considered to be the growth of undesired microorganisms [@borch1996bacterial].
+Raw meat represents a highly perishable ecological niche. Its composition of
+nutrients promotes cell proliferation, allowing for more microbial growth and
+the development of microbial communities ultimately leads to the meat
+spoilage[@pothakos2015lactic]. In an effort to avoid bacterial contaminations
+in raw meat, the temperature of storage has been emphasized as a key factor
+along with the advancement in sterile meat processing
+techniques [@doulgeraki2012spoilage].
 
 My primary question was to investigate microbial communities developed in
 raw ground beef under different storage conditions. I proposed a hypothesis
