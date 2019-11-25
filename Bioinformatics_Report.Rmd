@@ -534,12 +534,13 @@ instead of forming colonies and no distinct morphotypes were observed
 
 The factor that might have influenced the bacterial lawn in all
 room temperature samples can be the long duration of swabbing on the
-surface when subsampled. As a consequence, highly concentrated stock
+surface when subsampled. As a consequence, the highly concentrated stock
 samples resulted in growing thick bacterial lawn even though it was diluted
 down to 1:100. The boxplots in Figure 3A and 3B were displaying data from
 skewed results due to the unreliable outcomes from room temperature samples.
 A different approach to enhance the results could be by using streaking
-method and/or shortening the time when swabbing the sample on the surface.
+method and/or shortening the time when swabbing the sample on the surface
+to grow distint colonies from both treatment groups.
 
 The gel image from electrophoresis showed no bands for Sample #5 and #6
 which corresponded to the failed Sanger sequencing data, and the faded band
