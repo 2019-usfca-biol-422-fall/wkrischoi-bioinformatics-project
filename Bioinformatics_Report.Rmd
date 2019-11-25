@@ -49,10 +49,9 @@ or room temperature and prepared culture-based and culture-free samples.
 DNA sequencing was performed using Sanger sequencing for culture-based samples
 and Illumina sequencing was selected for culture-free samples.
 I used different statistical methods and generated phylogenetic trees for
-further analysis and identified each sample using BLAST. 
-4 out of 6 samples
-were succesfully identified from culture-based samples
-Out of 3 replicas, 2 samples from room temperature storage condition
+further analysis and identified each sample using BLAST. As a result,
+4 out of 6 samples were succesfully identified from culture-based samples
+and 2 samples out of 3 from room temperature storage condition
 exhibited more abundant microbes than the refrigerated treatment group.
 
 # Methods
