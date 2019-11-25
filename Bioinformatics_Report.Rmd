@@ -30,16 +30,18 @@ Meat is recognized as an essential dietary source of protein and
 nutrients including iron, zinc, and vitamin B12, and the total amount of
 meat consumption is continuously growing due to the income and population
 growth [@godfray2018meat]. In response to the increasing demand in meat, a
-hygienic environment for slaughtering has been developed to prevent
-any contaminations from surroundings such as water, air, and soil,
-and tools involved in the processing.
+sanitary environment for slaughtering and handling operations has been
+developed to prevent any contaminations from surroundings such as
+water, air, and soil, and tools used in the processing [@stellato2016overlap].
+Furthermore, different research in enhancing antimicrobial meat packaging
+has been actively performed to deliver longer shelf
+life [@mcmillin2017advancements].
 
-and different research in
-enhancing antimicrobial meat packaging has been actively performed to
-deliver longer shelf life [@mcmillin2017advancements]. Along with the
-advancement in meat processing technologies, the temperature of storage has
-also been emphasized as a key factor in avoiding meat spoilage because
-meat is prone to deterioration [@doulgeraki2012spoilage].
+The biggest factor that contributes in fresh raw meat spoilage is considered
+to be the development of undesired microorganisms.
+Along with the advancement in meat processing technologies, the temperature
+of storage has also been emphasized as a key factor in avoiding meat
+spoilage because meat is prone to deterioration [@doulgeraki2012spoilage].
 
 My primary question was to investigate microbial communities developed in
 raw ground beef under different storage conditions. I proposed a hypothesis
