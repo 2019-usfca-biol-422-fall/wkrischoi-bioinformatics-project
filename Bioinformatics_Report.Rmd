@@ -38,7 +38,7 @@ has been actively performed to deliver longer shelf
 life [@mcmillin2017advancements].
 
 The biggest factor that contributes in fresh raw meat spoilage is considered
-to be the development of undesired microorganisms.
+to be the growth of undesired microorganisms [@borch1996bacterial].
 Along with the advancement in meat processing technologies, the temperature
 of storage has also been emphasized as a key factor in avoiding meat
 spoilage because meat is prone to deterioration [@doulgeraki2012spoilage].
