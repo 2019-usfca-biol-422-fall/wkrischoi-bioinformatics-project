@@ -31,7 +31,7 @@ essential nutrients such as iron, zinc, and vitamin B12 [@mcafee2010red],
 and is also known as one of the most perishable foods with short shelf life.
 The global consumption of meat is continuously rising in conjunction with
 the growth of average individual incomes and population [@godfray2018meat].
-In response to the increasing demand in meat, and sanitary environment for
+In response to the increasing demand in meat, sanitary environment for
 slaughtering and handling operations has been developed to prevent any
 potential contamination from surroundings such as water, air, and soil, and
 tools used in the processing [@stellato2016overlap].
@@ -58,10 +58,11 @@ developed if the meat was stored at room temperature in comparison to the ones
 kept in a refrigerator as low temperature storage is an essential method to
 prevent or slow microbial growth [@dave2011meat].
 To test my hypothesis, I designed my study to compare 3 different ground beef
-brands stored at either low temperature or room temperature and prepared
+brands stored at either low temperatureer or room temperature and prepared
 culture-based and culture-free samples.
-DNA sequencing was performed using Sanger sequencing for culture-based samples
-and Illumina sequencing was used for culture-free samples.
+After DNA extraction and PCR, DNA sequencing was performed using Sanger
+sequencing for culture-based samples and Illumina sequencing for culture-free
+samples.
 I used different statistical methods and generated phylogenetic trees for
 further analysis and identified each sample using BLAST. As a result,
 4 out of 6 samples were successfully identified from culture-based samples
