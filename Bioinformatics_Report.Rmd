@@ -80,9 +80,12 @@ supported the hypothesis raised in the paper.
 
 ## Study design
 
-The model of the experiment was ground beef and they were replicated by
+The model of the experiment was raw ground beef and they were replicated by
 purchasing 3 different brands: Teva kosher foods from Trader Joe’s, Lucky
 California from Lucky Supermarkets, and Butcher shop from Trader Joe’s.
+Before the experiment, I extracted two pieces from each brand in size of
+a quarter, placed them in plastic bags individually, and located them in
+different storage conditions based on the treatment group.
 The first treatment group remained refrigerated while the second treatment
 group was stored at room temperature. For both treatment groups, they were
 stored for 80 hours before subsampled.
