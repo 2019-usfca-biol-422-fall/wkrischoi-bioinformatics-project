@@ -128,13 +128,13 @@ Qubit fluorometer.
 
 ### Touchdown PCR
 
-I prepared the master mix for PCR based on a single reaction
-using following ingredients:
-10µL Amp reagent, 0.8µL 27f primer, 0.8µL 1492r primer, 1µL BSA, and 6.4µL
-water. After aliquoting the master mix and adding DNA to each tube,
-PCR started with denaturing at 95⁰C for 5 minutes, another denaturing at
-94⁰C for 30 seconds, annealing at 65⁰C for 30 seconds, and extending at 72⁰C
-for 1 minute. The temperature for annealing stepped down 1⁰C per cycle and
+I prepared the master mix for PCR based on the volume required for each
+ingredients to run a single reaction: 10µL Amp reagent, 0.8µL 27f primer,
+0.8µL 1492r primer, 1µL BSA, and 6.4µL water. After aliquoting the master mix
+and adding DNA to each tube, PCR started with denaturing at 95⁰C for
+5 minutes, another denaturing at 94⁰C for 30 seconds, annealing at 65⁰C for
+30 seconds, and extending at 72⁰C for 1 minute.
+The temperature for annealing stepped down 1⁰C per cycle and
 the second denaturing, annealing,and extending steps were repeated for 10
 cycles. Subsequently, additional 25 cycles were started at 94⁰C for 30
 seconds, 55⁰C for 30 seconds, and 72⁰C for 1 minute. The cycle stayed at
