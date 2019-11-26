@@ -49,8 +49,8 @@ in raw meat, the temperature of storage has been emphasized as a key factor
 along with the advancement in sterile meat processing
 techniques [@doulgeraki2012spoilage].
 
-In consideration of the identification of the microbes that is responsible
-for meat spoilage can enhance storage conditions more effectively
+Considering the identification of the microbes that is responsible
+for meat spoilage can enhance designing effective storage conditions
 [@ercolini2006changes], my primary question was to investigate microbial
 communities developed in raw ground beef under different storage conditions.
 I proposed a hypothesis that more diverse microbial communities would be
