@@ -121,10 +121,10 @@ I chose 6 different bacterial morphotypes across the cultured sample and
 added the cell from colony to a tube using a sterile pipette tip.
 I performed DNA extraction by following the manufacturer’s protocol from
 the Sigma REDExtract-N-Amp kit. After the extraction, I measured DNA
-concentration using Qubit fluorometer. For the measuring, I added 198µL of
-the Qubit solution with 2µL of DNA extraction. I vortexed each tube for 5
-seconds and incubated it for 5 minutes in dark before putting it in
-Qubit fluorometer.
+concentration using Qubit fluorometer. To quantify DNA concentration of the
+samples, I prepared Qubit samples by adding 198µL of the Qubit solution and
+2µL of DNA extraction. I vortexed each tube for 5 seconds and incubated
+it for 5 minutes in dark before putting it in Qubit fluorometer.
 
 ### Touchdown PCR
 
@@ -176,11 +176,14 @@ gene families.
 ### DNA Extraction and Quantification of DNA concentration
 I performed DNA extraction by following the manufacturer’s protocol from
 the Sigma REDExtract-N-Amp kit. After the extraction, I measured DNA
-concentration using Qubit Fluorometer.
+concentration using Qubit fluorometer. To quantify DNA concentration of the
+samples, I prepared Qubit samples by adding 198µL of the Qubit solution and
+2µL of DNA extraction. I vortexed each tube for 5 seconds and incubated
+it for 5 minutes in dark before putting it in Qubit fluorometer.
 
 ### PCR and Gel Electrophoresis
-I prepared the master mix for PCR based on a single reaction
-using following ingredients:
+I prepared the master mix for PCR based on the volume required for each
+ingredients to run a single reaction:
 10µL Amp reagent, 0.8µL 16SF primer, 0.8µL 16SR primer, 1µL BSA, and
 6.4µL water. After aliquoting the master mix and adding DNA to each tube,
 PCR started with denaturing at 95⁰C for 3 minutes. Subsequently, additional
