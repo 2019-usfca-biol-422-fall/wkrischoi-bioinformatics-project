@@ -72,8 +72,8 @@ culture-free samples were *Bos mutus*, *Carnobacterium divergens* ,
 *Lactobacillus algidus*, *Carnobacterium divergens*,
 *Leuconostoc gelidum* subsp. *gasicomitatum*, and *Lelliottia amnigena*.
 2 samples out of 3 from room temperature storage condition exhibited more
-abundant microbes than the refrigerated treatment group which confirmed the
-initial hypothesis raised in the paper.
+abundant microbes than the refrigerated treatment group and the results
+supported the hypothesis raised in the paper.
 
 # Methods
 
