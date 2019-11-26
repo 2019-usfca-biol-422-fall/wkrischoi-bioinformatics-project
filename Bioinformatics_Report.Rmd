@@ -26,13 +26,15 @@ library("forcats")
 
 # Introduction
 
-Meat is recognized as an essential dietary source of protein and
-nutrients including iron, zinc, and vitamin B12, and the total amount of
-meat consumption is continuously growing due to the income and population
-growth [@godfray2018meat]. In response to the increasing demand in meat, a
-sanitary environment for slaughtering and handling operations has been
-developed to prevent any contamination from surroundings such as
-water, air, and soil, and tools used in the processing [@stellato2016overlap].
+Meat is recognized as an important dietary source of protein including
+essential nutrients such as iron, zinc, and vitamin B12 [@mcafee2010red],
+and is also known as one of the most perishable foods with short shelf life.
+The global consumption of meat is continuously rising in conjunction with
+the growth of average individual incomes and population [@godfray2018meat].
+In response to the increasing demand in meat, and sanitary environment for
+slaughtering and handling operations has been developed to prevent any
+potential contamination from surroundings such as water, air, and soil, and
+tools used in the processing [@stellato2016overlap].
 Furthermore, different research in enhancing antimicrobial meat packaging
 has been actively performed to deliver longer shelf
 life [@mcmillin2017advancements].
