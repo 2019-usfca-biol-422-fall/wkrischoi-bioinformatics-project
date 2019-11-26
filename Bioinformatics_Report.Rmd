@@ -373,8 +373,8 @@ the last sample (#3) was from Butcher shop at Trader Joe’s.
 
 ![](output/images/Sample_images/2019_09_04_sample_images.png)
 
-**Figure 1B:** Images of each sample 80 hours after the beginning of the
-experiment. A represents the treatment group remained refrigerated and
+**Figure 1B:** Images of each sample after 80 hours of the storage.
+A represents the treatment group remained refrigerated and
 B represents the treatment group stored at room temperature.
 
 
