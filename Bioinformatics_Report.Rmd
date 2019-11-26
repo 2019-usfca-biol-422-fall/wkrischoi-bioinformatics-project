@@ -107,11 +107,11 @@ using PBS buffer in total volume of 200µL each. While the tips from the cotton
 swabs are placed in each tube, I added 200µL of PBS buffer in the tube for
 original stock and vortexed it for 15 seconds. Then I diluted it down to
 1:10 by transferring 20µL from the original stock to a new sterile tube and
-adding 180µL of PBS buffer. I vortexted it for 5 seconds.
+adding 180µL of PBS buffer. I vortexed it for 5 seconds.
 Lastly, I transferred 20µL from 1:10 stock to another sterile tube and added
 180µL of PBS buffer for 1:100 dilution. I vortexed the tube for 5 seconds.
 After the dilution process, I transferred 100µL of each diluted sample to
-100mm trypticase soy agar (TSA) plates and spread the solution with
+100mm Trypticase soy agar (TSA) plates and spread the solution with
 8 to 10 beads for 10 seconds. The petri dishes were stored in incubator
 for the growth of microbes.
 
@@ -144,9 +144,9 @@ seconds, 55⁰C for 30 seconds, and 72⁰C for 1 minute. The cycle stayed at
 
 ### Gel Electrophoresis and PCR cleanups
 
-I loaded 6 PCR products and a negative control for 4µL each on 2% agarose gel
-containing SYBR safe dye and ran the electrophoresis at 140V for
-30 minutes. After inspecting the fluorescent bands under UV light,
+I loaded total of 7 samples, 6 PCR products and a negative control, for 4µL
+each on 2% agarose gel containing SYBR safe dye and ran the electrophoresis
+at 140V for 30 minutes. After inspecting the fluorescent bands under UV light,
 PCR cleanups were performed using Invitrogen Exo-SAP and sent for
 unidirectional Sanger sequencing using 27f primer at MCLAB in
 South San Francisco, CA.
