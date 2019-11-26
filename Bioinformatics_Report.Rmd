@@ -121,7 +121,10 @@ I chose 6 different bacterial morphotypes across the cultured sample and
 added the cell from colony to a tube using a sterile pipette tip.
 I performed DNA extraction by following the manufacturer’s protocol from
 the Sigma REDExtract-N-Amp kit. After the extraction, I measured DNA
-concentration using Qubit Fluorometer.
+concentration using Qubit fluorometer. For the measuring, I added 198µL of
+the Qubit solution with 2µL of DNA extraction. I vortexed each tube for 5
+seconds and incubated it for 5 minutes in dark before putting it in
+Qubit fluorometer.
 
 ### Touchdown PCR
 
