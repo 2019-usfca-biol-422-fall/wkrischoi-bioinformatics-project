@@ -739,10 +739,9 @@ ggplot(aes(x = Genus,
 ```
 
 
-```{r Abundant-Genera-in-Refrigerated-boxplot}
-# to see the most abundant genera in refrigerated treatment group
+```{r Abundant-Genera-in-treatment-groups-barplot}
+# to see the most abundant genera in treatment groups
 melted_phyloseq %>%
-  #filter(type == "Refrigerated") %>%
   filter(!grepl(pattern = "control", type)) %>%
   filter(Abundance > 100) %>%
   group_by(type, Sample, Genus) %>%
