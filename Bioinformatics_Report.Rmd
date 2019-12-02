@@ -635,7 +635,7 @@ melted_phyloseq %>%
 two treatment groups
 
 
-```{r phyla-barplot}
+```{r phyla-abundance-barplot}
 # to create a barplot of the phyla abundance to compare two treatment groups
 # with controls
 melted_phyloseq %>%
@@ -650,6 +650,23 @@ ggtitle("Phyla Abundance in Each Treatment Group in Comparison with Controls") +
 **Figure 9B:** Barplot of phyla abundance to compare two treatment groups
 and controls.
 
+```{r genera-abundance-barplot}
+# to create a barplot of the genera abundance for each treatment group
+# I filtered only the genera with more than 100 reads beacuse
+# there was too many genera found in each treatment group
+melted_phyloseq %>%
+  filter(Abundance > 100) %>%
+  filter(student_initials == "KC") %>%
+  ggplot(aes(x = Genus,
+             y = Abundance,
+             fill = type)) +
+  geom_col(position = position_dodge()) +
+  ggtitle("Genera Abundance") +
+  theme_light()
+```
 
+**Figure 9C**: Barplot of genera abundance for the two treatment groups.
+Only the genera with more than 100 reads are included due to excessive number
+of genera discovered in the samples.
 
 # Sources Cited
