@@ -22,6 +22,11 @@ library("broom")
 library("knitr")
 library("lubridate")
 library("forcats")
+library("citr")
+library("dada2")
+library("seqinr")
+library("mctoolsr")
+library("phyloseq")
 ```
 
 ```{r}
