@@ -712,17 +712,7 @@ ggplot(aes(x = Genus,
   geom_boxplot()
 ```
 
-```{r morphotypes-stats}
-# run a statistical test to compare the two groups of morphotypes
-melted_phyloseq %>%
-  filter(type == "Refrigerated") %>%
-  group_by("Genus") %>%
-  filter(Abundance > 250) %>%
-  wilcox.test(data = .,
-              as.numeric(Abundance) ~ Genus) %>%
-  broom::glance(x = .) %>%
-  knitr::kable()
-```
+
 
 
 # Sources Cited
