@@ -430,8 +430,8 @@ located in lane 8.
 
 ![](output/images/Gel_images/Ladder_EZ_Load_1kb_Molecular_Ruler_1708355.png)
 
-
 **Figure 2D:** Ladder used in lane 1 (EZ Load 1 kb Molecular Ruler #1708355).
+
 
 ```{r read-in-culture-data}
 # read in the culture data from csv
@@ -471,6 +471,7 @@ culture_data %>%
   broom::glance(x = .) %>%
   knitr::kable()
 ```
+
 
 ```{r filter-and-plot-morphotypes}
 # filter out only the 10x dilutions and make a boxplot for colony morphotypes
@@ -575,7 +576,6 @@ located in lane 1-6. Negative control is loaded in lane 7 and the ladder is
 shown in lane 8.
 
 
-
 ![](output/images/Seq_quality/Fastq_seq_quality.png)
 
 **Figure 7A:** Quality check of the sequences for each sample using FastQC
@@ -594,7 +594,6 @@ quality, reasonable quality in yellow region, and poor quality in red region.
 
 **Figure 7B:** Number of sequences before and after removing bad sequences
 using Trimmomatic.
-
 
 
 | Sample ID | # of different taxa |
@@ -621,6 +620,19 @@ room temperature storage treatment group.
 |     3B    |             *Lelliottia amnigena*            |
 
 **Figure 8B:** Major taxa identified for culture-free samples.
+
+
+```{r sum-abundance-table}
+# to create a table to display sum abundance of phyla
+# from two treatment groups
+melted_phyloseq %>%
+  filter(student_initials == "KC") %>%
+  group_by(type, Phylum) %>%
+  summarize(sum_abundance = sum(Abundance))
+```
+
+**Figure 9A:** Summary table that shows sum abundance of phyla found from
+two treatment groups
 
 
 # Sources Cited
