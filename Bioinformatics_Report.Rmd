@@ -1,7 +1,7 @@
 ---
 title: 'Effects of different storage conditions on the development of microorganisms in ground beef'
 author: "Kris Choi"
-date: "November 25, 2019"
+date: "December 4, 2019"
 output: word_document
 csl: bioinformatics.csl
 bibliography: references.bib
@@ -710,6 +710,18 @@ melted_phyloseq %>%
 ggplot(aes(x = Genus,
            y = Abundance)) +
   geom_boxplot()
+```
+
+```{r morphotypes-stats}
+# run a statistical test to compare the two groups of morphotypes
+melted_phyloseq %>%
+  filter(type == "Refrigerated") %>%
+  group_by("Genus") %>%
+  filter(Abundance > 250) %>%
+  wilcox.test(data = .,
+              as.numeric(Abundance) ~ Genus) %>%
+  broom::glance(x = .) %>%
+  knitr::kable()
 ```
 
 
