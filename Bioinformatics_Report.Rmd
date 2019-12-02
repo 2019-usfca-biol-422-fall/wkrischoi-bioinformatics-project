@@ -681,7 +681,8 @@ melted_phyloseq %>%
              fill = type)) +
   geom_col(position = position_dodge()) +
 ggtitle("Phyla Abundance in Each Treatment Group in Comparison with Controls") +
-  theme_light()
+  theme_light() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
 **Figure 9B:** Barplot of phyla abundance to compare two treatment groups
@@ -699,7 +700,8 @@ melted_phyloseq %>%
              fill = type)) +
   geom_col(position = position_dodge()) +
   ggtitle("Comparison of genera abundance in both treatment groups") +
-  theme_light()
+  theme_light() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
 **Figure 9C:** Barplot of genera abundance for the two treatment groups.
@@ -719,7 +721,8 @@ plot_richness(phyloseq_obj,
               measures = c("Shannon", "Simpson")) +
   xlab("Type of sample") +
   geom_col() +
-  theme_light()
+  theme_light() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
 **Figure 9D:** Bar chart of alpha-diversity metrics using Shannon and Simpson
