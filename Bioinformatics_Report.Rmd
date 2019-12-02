@@ -681,8 +681,8 @@ plot_richness(phyloseq_obj,
               x = "type",
               measures = c("Shannon", "Simpson")) +
   xlab("Type of sample") +
-  geom_boxplot() +
-  theme_bw()
+  geom_col() +
+  theme_light()
 ```
 
 **Figure 9D:** Boxplot of alpha-diversity metrics using Shannon and Simpson
