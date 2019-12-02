@@ -705,13 +705,26 @@ ggplot(aes(x = Genus,
 ```{r Abundant-Genera-in-Refrigerated-boxplot}
 # to see the most abundant genera in refrigerated treatment group
 melted_phyloseq %>%
-  filter(type == "Refrigerated") %>%
-  group_by("Genus") %>%
-  filter(Abundance > 250) %>%
+  #filter(type == "Refrigerated") %>%
+  filter(!grepl(pattern = "control", type)) %>%
+  filter(Abundance > 100) %>%
+  group_by(type, Sample, Genus) %>%
+  summarize(mean_abund = mean(Abundance,
+                              na.rm = TRUE),
+            sd_abund = sd(Abundance,
+                          na.rm = TRUE)) %>%
 ggplot(aes(x = Genus,
-           y = Abundance)) +
-  geom_boxplot() +
-  ggtitle("Most abundant genera in refrigerated treatment group")
+           y = mean_abund,
+           fill = Sample)) +
+  ggtitle("Most abundant genera in treatment groups") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_grid(type~., scales = "free_x") +
+  geom_errorbar(aes(ymin = mean_abund -5,
+                    ymax = mean_abund + sd_abund),
+                position = position_dodge()) +
+    geom_col(position = position_dodge())
 ```
+
+
 
 # Sources Cited
