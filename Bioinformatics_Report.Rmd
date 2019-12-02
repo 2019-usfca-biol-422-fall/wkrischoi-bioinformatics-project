@@ -661,7 +661,7 @@ melted_phyloseq %>%
              y = Abundance,
              fill = type)) +
   geom_col(position = position_dodge()) +
-  ggtitle("Genera Abundance") +
+  ggtitle("Comparison of genera abundance in both treatment groups") +
   theme_light()
 ```
 
@@ -714,5 +714,17 @@ ggplot(aes(x = Genus,
   ggtitle("Most abundant genera in refrigerated treatment group")
 ```
 
+
+```{r genera-stats}
+# run a statistical test for genera abundance in refrigerated treatment group
+melted_phyloseq %>%
+  filter(type == "Refrigerated") %>%
+  group_by("Genus") %>%
+  filter(Abundance > 250) %>%
+  wilcox.test(data = .,
+              as.numeric(Abundance) ~ Genus) %>%
+  broom::glance(x = .) %>%
+  knitr::kable()
+```
 
 # Sources Cited
