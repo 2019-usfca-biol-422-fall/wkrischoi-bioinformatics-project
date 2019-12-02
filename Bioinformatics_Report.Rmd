@@ -670,7 +670,7 @@ Only the genera with more than 100 reads are included due to excessive number
 of genera discovered in the samples.
 
 
-```{r}
+```{r alpha-diversity-boxplot}
 # to plot alpha-diversity metrics
 # comparing two diversity indices: Shannon and Simpson
 # warning message: "The data you have provided does not have any singletons.
