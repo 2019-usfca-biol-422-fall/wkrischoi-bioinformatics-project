@@ -689,5 +689,28 @@ plot_richness(phyloseq_obj,
 diversity indices.
 
 
+```{r Abundant-Genera-in-RT-boxplot}
+# to see the most abundant genera in room temperature treatment group
+melted_phyloseq %>%
+  filter(type == "Room temperature") %>%
+  group_by("Genus") %>%
+  filter(Abundance > 200) %>%
+ggplot(aes(x = Genus,
+           y = Abundance)) +
+  geom_boxplot()
+```
+
+
+```{r Abundant-Genera-in-Refrigerated-boxplot}
+# to see the most abundant genera in refrigerated treatment group
+melted_phyloseq %>%
+  filter(type == "Refrigerated") %>%
+  group_by("Genus") %>%
+  filter(Abundance > 200) %>%
+ggplot(aes(x = Genus,
+           y = Abundance)) +
+  geom_boxplot()
+```
+
 
 # Sources Cited
