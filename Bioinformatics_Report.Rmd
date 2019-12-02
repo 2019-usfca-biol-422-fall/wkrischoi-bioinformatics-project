@@ -635,4 +635,21 @@ melted_phyloseq %>%
 two treatment groups
 
 
+```{r phyla-barplot}
+# to create a barplot of the phyla abundance to compare two treatment groups
+# with controls
+melted_phyloseq %>%
+  ggplot(aes(x = Phylum,
+             y = Abundance,
+             fill = type)) +
+  geom_col(position = position_dodge()) +
+ggtitle("Phyla Abundance in Each Treatment Group in Comparison with Controls") +
+  theme_light()
+```
+
+**Figure 9B:** Barplot of phyla abundance to compare two treatment groups
+and controls.
+
+
+
 # Sources Cited
