@@ -28,10 +28,10 @@ load("output/dada-results/taxatable.Rda")
 # and the `stringsAsFactors = FALSE` tells it not to assume that things are
 # categorical variables
 metadata_in <- read.csv(paste0("data/metadata/",
-                                 "illumina_sample_metadata_for_phyloseq.csv"),
-                          header = TRUE,
-                          stringsAsFactors = FALSE,
-                          row.names = 4) # sets sample IDs to row names
+                               "illumina_sample_metadata_for_phyloseq.csv"),
+                        header = TRUE,
+                        stringsAsFactors = FALSE,
+                        row.names = 4) # sets sample IDs to row names
 
 # fix rownames to match metadata file
 rownames(sequence_table_nochim) <- gsub(pattern = "_.*filt",
