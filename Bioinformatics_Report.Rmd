@@ -694,7 +694,7 @@ diversity indices.
 melted_phyloseq %>%
   filter(type == "Room temperature") %>%
   group_by("Genus") %>%
-  filter(Abundance > 200) %>%
+  filter(Abundance > 250) %>%
 ggplot(aes(x = Genus,
            y = Abundance)) +
   geom_boxplot()
@@ -706,7 +706,7 @@ ggplot(aes(x = Genus,
 melted_phyloseq %>%
   filter(type == "Refrigerated") %>%
   group_by("Genus") %>%
-  filter(Abundance > 200) %>%
+  filter(Abundance > 250) %>%
 ggplot(aes(x = Genus,
            y = Abundance)) +
   geom_boxplot()
