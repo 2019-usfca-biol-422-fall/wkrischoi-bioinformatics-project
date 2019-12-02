@@ -697,7 +697,8 @@ melted_phyloseq %>%
   filter(Abundance > 250) %>%
 ggplot(aes(x = Genus,
            y = Abundance)) +
-  geom_boxplot()
+  geom_boxplot() +
+  ggtitle("Most abundant genera in room temperature treatment group")
 ```
 
 
@@ -709,9 +710,9 @@ melted_phyloseq %>%
   filter(Abundance > 250) %>%
 ggplot(aes(x = Genus,
            y = Abundance)) +
-  geom_boxplot()
+  geom_boxplot() +
+  ggtitle("Most abundant genera in refrigerated treatment group")
 ```
-
 
 
 # Sources Cited
