@@ -676,7 +676,7 @@ of genera discovered in the samples.
 # warning message: "The data you have provided does not have any singletons.
 # This is highly suspicious. Results of richness estimates (for example)
 # are probably unreliable, or wrong."
-# Shannon/Simpson were used b/c they're not reliant on singletons.
+# Shannon/Simpson were used because they are not reliant on singletons.
 plot_richness(phyloseq_obj,
               x = "type",
               measures = c("Shannon", "Simpson")) +
