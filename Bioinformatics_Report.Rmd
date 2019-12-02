@@ -756,7 +756,7 @@ ggplot(aes(x = Genus,
   ggtitle("Most abundant genera in treatment groups") +
   theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
   facet_grid(type~., scales = "free_x") +
-  geom_errorbar(aes(ymin = mean_abund -5,
+  geom_errorbar(aes(ymin = mean_abund - 5,
                     ymax = mean_abund + sd_abund),
                 position = position_dodge()) +
     geom_col(position = position_dodge())
