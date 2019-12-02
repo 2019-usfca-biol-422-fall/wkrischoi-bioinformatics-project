@@ -670,7 +670,7 @@ Only the genera with more than 100 reads are included due to excessive number
 of genera discovered in the samples.
 
 
-```{r alpha-diversity-boxplot}
+```{r alpha-diversity-barchart}
 # to plot alpha-diversity metrics
 # comparing two diversity indices: Shannon and Simpson
 # warning message: "The data you have provided does not have any singletons.
@@ -685,7 +685,7 @@ plot_richness(phyloseq_obj,
   theme_light()
 ```
 
-**Figure 9D:** Boxplot of alpha-diversity metrics using Shannon and Simpson
+**Figure 9D:** Bar chart of alpha-diversity metrics using Shannon and Simpson
 diversity indices.
 
 
