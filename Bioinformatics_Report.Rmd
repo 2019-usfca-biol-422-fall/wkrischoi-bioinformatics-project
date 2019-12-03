@@ -170,14 +170,15 @@ ingredients to run a single reaction: 10µL Amp reagent, 0.8µL 27f primer,
 0.8µL 1492r primer, 1µL BSA, and 6.4µL water. Either DNA or water for the
 negative control was added for 1µL, making the total volume to 20µL for
 a single reaction. After aliquoting the master mix
-and adding DNA to each tube, PCR started with denaturing at 95⁰C for
-5 minutes, another denaturing at 94⁰C for 30 seconds, annealing at 65⁰C for
-30 seconds, and extending at 72⁰C for 1 minute.
-The temperature for annealing stepped down 1⁰C per cycle and
+and adding DNA to each tube, PCR started with denaturing at 95 degrees C for
+5 minutes, another denaturing at 94 degrees C for 30 seconds, annealing
+at 65 degrees C for 30 seconds, and extending at 72 degrees C for 1 minute.
+The temperature for annealing stepped down 1 degrees C per cycle and
 the second denaturing, annealing,and extending steps were repeated for 10
-cycles. Subsequently, additional 25 cycles were started at 94⁰C for 30
-seconds, 55⁰C for 30 seconds, and 72⁰C for 1 minute. The cycle stayed at
-72⁰C for 10 minutes and went down to 4⁰C for hold.
+cycles. Subsequently, additional 25 cycles were started at 94 degrees C
+for 30 seconds, 55 degrees C for 30 seconds, and 72 degrees C for 1 minute.
+The cycle stayed at 72 degrees C for 10 minutes and went down to
+4 degrees C for hold.
 
 ### Gel Electrophoresis and PCR cleanups
 
@@ -227,27 +228,30 @@ ingredients to run a single reaction:
 6.4µL water. Either DNA or water for the negative control was added for 1µL,
 making the total volume to 20µL for a single reaction.
 After aliquoting the master mix and adding DNA to each tube,
-PCR started with denaturing at 95⁰C for 3 minutes. Subsequently, additional
-25 cycles were started at 95⁰C for 30 seconds, 55⁰C for 30 seconds, and
-72⁰C for 30 seconds. The cycle stayed at 72⁰C for 5 minutes and went down
-to 4⁰C for hold. 6 PCR products and a negative control were loaded on 2%
-agarose gel containing SYBR safe dye and ran the electrophoresis at 140V for
-30 minutes.
+PCR started with denaturing at 95 degrees C for 3 minutes.
+Subsequently, additional 25 cycles were started at 95 degrees C for
+30 seconds, 55 degrees C for 30 seconds, and 72 degrees C for 30 seconds.
+The cycle stayed at 72 degrees C for 5 minutes and went down to 4 degrees C
+for hold. 6 PCR products and a negative control were loaded on 2% agarose gel
+containing SYBR safe dye and ran the electrophoresis at 140V for 30 minutes.
 
 ### Illumina sequencing and Analysis
-Following electrophoresis, PCR products were purified using AmpureXP magnetic
-beads and quantitated using a PicoGreen fluorescent assay on a Tecan Infinite
-M Plex plate reader. Purified PCR products were used as the template for a
-second round of PCR, which served to attach the Illumina barcodes and
-adapters. PCR cycles started with denaturing at 95⁰C for 3 minutes followed
-by additional 25 cycles starting at 95⁰C for 30 seconds, 55⁰C for 30 seconds,
-and 72⁰C for 30 seconds. The cycle stayed at 72⁰C for 5 minutes and went down
-to 4⁰C for hold. Following this amplification, PCR products were purified and
-normalized with a SequelPrep normalization plate, pooled, and then quantified
-once again with a Qubit 4 fluorometer (Invitrogen) and a TapeStation 4200
-(Agilent) to verify library size and concentration. This library was then
-combined with an Illumina PhiX spike-in library (5% spike in) and sequenced
-on an Illumina iSeq using a 2 x 150 bp consumable cartridge.
+Followingelectrophoresis, PCR products were purified using AmpureXP magnetic
+beads (Beckman-Coulter)and quantitated using a PicoGreen fluorescent assay
+(Invitrogen) on a Tecan Infinite M Plex platereader. Purified PCR products
+were used as the template for a second round of PCR, whichserved to attach
+unique pairs of forward and reverse Illumina barcodes (Nextera XT Index 2
+kit).All other components of the PCR mixtures were as for the first-round
+PCR. These reactions werecycled at 95 degrees C for 3 minutes, then 8 cycles
+of: 95 degrees C for 30 s, 55 degrees C for30s, and 72 degrees C for 30s,
+followed by a 5 minute elongation cycle at 72 degrees C.Following this
+amplification, PCR products were purified and normalized with a
+SequelPrepnormalization plate (Invitrogen), pooled, and then quantified
+once again with a Qubit 4 fluorometer(Invitrogen) and a TapeStation 4200
+(Agilent) to verify library size and concentration. This librarywas then
+diluted to the loading concentration (50 pM) and combined with an Illumina
+PhiX spike-in library (5% spike in) and sequenced on an Illumina iSeq
+using a 2 x 150 bp consumablecartridge.
 
 # Results
 
