@@ -588,7 +588,7 @@ Prime.
 |  3 |      *Kocuria rhizophila*      |    90.46   |     77%     | KY522908.1 |  5e-136 |
 |  4 | *Staphylococcus saprophyticus* |    98.55   |     100%    | MH930439.1 |    0    |
 
-**Figure 5:** Identification of each sample conducted by BLAST.
+**Figure 5:** Identification of each sample performed by BLAST.
 
 
 | Sample ID | DNA Conc. (ng/µL) |
@@ -675,29 +675,28 @@ room temperature storage treatment group.
 
 
 ```{r sum-abundance-table}
-# to create a table to display sum abundance of phyla
-# from two treatment groups
+# to create a table to display sum abundance of phyla in treatment groups
 melted_phyloseq %>%
   filter(student_initials == "KC") %>%
-  group_by(Sample, type, Phylum) %>%
+  group_by(type, Phylum) %>%
   summarize(sum_abundance = sum(Abundance))
 ```
 
 **Figure 9A:** Summary table that shows sum abundance of phyla found from
-two treatment groups
+each sample
 
 
 ```{r phyla-abundance-barplot}
-# to create a barplot of the phyla abundance to compare two treatment groups
+# to create a barplot of the phyla abundance in each sample
 melted_phyloseq %>%
   filter(student_initials == "KC") %>%
   group_by(Sample, type, Phylum) %>%
   summarize(sum_abund = sum(Abundance)) %>%
   ggplot(aes(x = Phylum,
              y = sum_abund,
-             fill = type)) +
+             fill = Sample)) +
   geom_col(position = position_dodge()) +
-ggtitle("Phyla Abundance in Each Treatment Group") +
+ggtitle("Phyla Abundance in Each Sample") +
   theme_light() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
