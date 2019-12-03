@@ -312,9 +312,20 @@ ML bootstrap = 98).
 
 ### Identification of Samples using BLAST 
 
-I provided 3 successful data (Sample #1, 2, and 4) and 1 seemingly failed
-data (Sample #3) into BLAST to identify each sample and observed 4 different
+I provided the sequences for 3 successfully sequenced samples
+(Sample #1, 2, and 4) and 1 seemingly failed sample (Sample #3) into
+NCBI BLAST website to identify each sample. Sample 1 was extracted from the
+original stock of refrigerated Teva kosher foods from Trader Joe’s,
+2 was extracted from 1:100 dilution of refrigerated Teva kosher foods from
+Trader Joe’s, 3 and 4 were extracted from the original stock of refrigerated
+Lucky California from Lucky Supermarkets, and 5 and 6 were extracted from the
+original stock of refrigerated Butcher shop from Trader Joe’s. As the
+sample #5 and #6 failed for sequencing, I observed 4 different
 identifications with strong evidence to support the data (Figure 5).
+The identification of the sample #1 through #4 was
+*Acinetobacter baumannii*, *Hafnia paralvei*, *Kocuria rhizophila*, and
+*Staphylococcus saprophyticus* respectively.
+
 
 ## B. Culture-free samples
 
