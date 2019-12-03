@@ -437,14 +437,13 @@ especially shorter.
 **Figure 1A:** Images of each sample at the beginning of the experiment.
 The first image (#1) was collected from Teva kosher foods at Trader Joe’s,
 the second sample (#2) was from Lucky California at Lucky Supermarkets, and
-the last sample (#3) was from Butcher shop at Trader Joe’s.
+the last sample (#3) was from Butcher shop at Trader Joe’s. A and B represent
+storage conditions, refrigerated and room temperature respectively.
 
 
 ![](output/images/Sample_images/2019_09_04_sample_images.png)
 
 **Figure 1B:** Images of each sample after 80 hours of the storage.
-A represents the treatment group remained refrigerated and
-B represents the treatment group stored at room temperature.
 
 
 ![](output/images/Plate_images/2019_09_09_plate_images.png)
