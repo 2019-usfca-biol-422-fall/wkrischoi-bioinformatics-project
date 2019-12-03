@@ -236,9 +236,9 @@ for hold. 6 PCR products and a negative control were loaded on 2% agarose gel
 containing SYBR safe dye and ran the electrophoresis at 140V for 30 minutes.
 
 ### Illumina sequencing and Analysis
-Followingelectrophoresis, PCR products were purified using AmpureXP magnetic
+Following electrophoresis, PCR products were purified using AmpureXP magnetic
 beads (Beckman-Coulter) and quantitated using a PicoGreen fluorescent assay
-(Invitrogen) on a Tecan Infinite M Plex platereader. Purified PCR products
+(Invitrogen) on a Tecan Infinite M Plex plate reader. Purified PCR products
 were used as the template for a second round of PCR, which served to attach
 unique pairs of forward and reverse Illumina barcodes (Nextera XT Index 2
 kit). All other components of the PCR mixtures were as for the first-round
