@@ -690,14 +690,18 @@ each sample
 melted_phyloseq %>%
   filter(student_initials == "KC") %>%
   group_by(Sample, type, Phylum) %>%
-  summarize(sum_abund = sum(Abundance)) %>%
+  summarize(mean_abund = mean(Abundance,
+                              na.rm = TRUE),
+            sd_abund = sd(Abundance,
+                          na.rm = TRUE)) %>%
   ggplot(aes(x = Phylum,
-             y = sum_abund,
+             y = mean_abund,
              fill = Sample)) +
   geom_col(position = position_dodge()) +
 ggtitle("Phyla Abundance in Each Sample") +
   theme_light() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_grid(type~., scales = "free_x")
 ```
 
 **Figure 9B:** Barplot of phyla abundance to compare two treatment groups
