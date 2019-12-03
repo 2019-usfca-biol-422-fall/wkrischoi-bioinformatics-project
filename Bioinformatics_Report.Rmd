@@ -237,21 +237,21 @@ containing SYBR safe dye and ran the electrophoresis at 140V for 30 minutes.
 
 ### Illumina sequencing and Analysis
 Followingelectrophoresis, PCR products were purified using AmpureXP magnetic
-beads (Beckman-Coulter)and quantitated using a PicoGreen fluorescent assay
+beads (Beckman-Coulter) and quantitated using a PicoGreen fluorescent assay
 (Invitrogen) on a Tecan Infinite M Plex platereader. Purified PCR products
-were used as the template for a second round of PCR, whichserved to attach
+were used as the template for a second round of PCR, which served to attach
 unique pairs of forward and reverse Illumina barcodes (Nextera XT Index 2
-kit).All other components of the PCR mixtures were as for the first-round
-PCR. These reactions werecycled at 95 degrees C for 3 minutes, then 8 cycles
-of: 95 degrees C for 30 s, 55 degrees C for30s, and 72 degrees C for 30s,
-followed by a 5 minute elongation cycle at 72 degrees C.Following this
+kit). All other components of the PCR mixtures were as for the first-round
+PCR. These reactions were cycled at 95 degrees C for 3 minutes, then 8 cycles
+of: 95 degrees C for 30 s, 55 degrees C for 30s, and 72 degrees C for 30s,
+followed by a 5 minute elongation cycle at 72 degrees C. Following this
 amplification, PCR products were purified and normalized with a
-SequelPrepnormalization plate (Invitrogen), pooled, and then quantified
-once again with a Qubit 4 fluorometer(Invitrogen) and a TapeStation 4200
-(Agilent) to verify library size and concentration. This librarywas then
+SequelPrep normalization plate (Invitrogen), pooled, and then quantified
+once again with a Qubit 4 fluorometer (Invitrogen) and a TapeStation 4200
+(Agilent) to verify library size and concentration. This library was then
 diluted to the loading concentration (50 pM) and combined with an Illumina
 PhiX spike-in library (5% spike in) and sequenced on an Illumina iSeq
-using a 2 x 150 bp consumablecartridge.
+using a 2 x 150 bp consumable cartridge.
 
 # Results
 
