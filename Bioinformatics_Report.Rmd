@@ -1,5 +1,5 @@
 ---
-title: 'Development of microbial communities in raw ground beef under different storage conditions'
+title: 'Development of microbial communities in ground beef under different storage conditions'
 author: "Kris Choi"
 date: "December 4, 2019"
 output: word_document
