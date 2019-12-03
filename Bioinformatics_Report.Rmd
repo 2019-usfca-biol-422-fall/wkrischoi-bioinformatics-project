@@ -664,7 +664,7 @@ room temperature storage treatment group.
 # from two treatment groups
 melted_phyloseq %>%
   filter(student_initials == "KC") %>%
-  group_by(type, Phylum) %>%
+  group_by(Sample, type, Phylum) %>%
   summarize(sum_abundance = sum(Abundance))
 ```
 
@@ -674,13 +674,15 @@ two treatment groups
 
 ```{r phyla-abundance-barplot}
 # to create a barplot of the phyla abundance to compare two treatment groups
-# with controls
 melted_phyloseq %>%
+  filter(student_initials == "KC") %>%
+  group_by(Sample, type, Phylum) %>%
+  summarize(sum_abund = sum(Abundance)) %>%
   ggplot(aes(x = Phylum,
-             y = Abundance,
+             y = sum_abund,
              fill = type)) +
   geom_col(position = position_dodge()) +
-ggtitle("Phyla Abundance in Each Treatment Group in Comparison with Controls") +
+ggtitle("Phyla Abundance in Each Treatment Group") +
   theme_light() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
