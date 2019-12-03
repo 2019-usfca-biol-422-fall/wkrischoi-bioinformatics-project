@@ -1,5 +1,5 @@
 ---
-title: 'Effects of different storage conditions on the development of microorganisms in ground beef'
+title: 'Investigation of microbial growth in raw ground beef under different storage conditions'
 author: "Kris Choi"
 date: "December 4, 2019"
 output: word_document
