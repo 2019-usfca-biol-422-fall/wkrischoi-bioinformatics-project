@@ -707,20 +707,29 @@ ggtitle("Phyla Abundance in Each Sample") +
 **Figure 9B:** Barplot of phyla abundance to compare two treatment groups
 and controls.
 
+
 ```{r genera-abundance-barplot}
 # to create a barplot of the genera abundance for each treatment group
 # I filtered only the genera with more than 100 reads beacuse
 # there was too many genera found in each treatment group
 melted_phyloseq %>%
+  filter(!grepl(pattern = "control", type)) %>%
   filter(Abundance > 100) %>%
-  filter(student_initials == "KC") %>%
-  ggplot(aes(x = Genus,
-             y = Abundance,
-             fill = type)) +
-  geom_col(position = position_dodge()) +
-  ggtitle("Comparison of genera abundance in both treatment groups") +
-  theme_light() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+  group_by(type, Sample, Genus) %>%
+  summarize(mean_abund = mean(Abundance,
+                              na.rm = TRUE),
+            sd_abund = sd(Abundance,
+                          na.rm = TRUE)) %>%
+ggplot(aes(x = Genus,
+           y = mean_abund,
+           fill = Sample)) +
+  ggtitle("Most abundant genera in treatment groups") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_grid(type~., scales = "free_x") +
+  geom_errorbar(aes(ymin = mean_abund - 5,
+                    ymax = mean_abund + sd_abund),
+                position = position_dodge()) +
+    geom_col(position = position_dodge())
 ```
 
 **Figure 9C:** Barplot of genera abundance for the two treatment groups.
@@ -743,29 +752,6 @@ plot_richness(phyloseq_obj,
 **Figure 9D:** Bar chart of alpha-diversity metrics using Shannon and Simpson
 diversity indices.
 
-
-
-```{r Abundant-Genera-in-treatment-groups-barplot}
-# to see the most abundant genera in treatment groups
-melted_phyloseq %>%
-  filter(!grepl(pattern = "control", type)) %>%
-  filter(Abundance > 100) %>%
-  group_by(type, Sample, Genus) %>%
-  summarize(mean_abund = mean(Abundance,
-                              na.rm = TRUE),
-            sd_abund = sd(Abundance,
-                          na.rm = TRUE)) %>%
-ggplot(aes(x = Genus,
-           y = mean_abund,
-           fill = Sample)) +
-  ggtitle("Most abundant genera in treatment groups") +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  facet_grid(type~., scales = "free_x") +
-  geom_errorbar(aes(ymin = mean_abund - 5,
-                    ymax = mean_abund + sd_abund),
-                position = position_dodge()) +
-    geom_col(position = position_dodge())
-```
 
 
 
