@@ -312,13 +312,18 @@ object and melted phyloseq to use in the Rmd file.
 ### Observations of the samples before and after the 80-hour storage
 
 I performed a visual inspection of the samples before and after the experiment.
-All samples appeared to be fresh with bright pink pigment and no noticeable
+All samples appeared to be fresh with bright red pigment with no noticeable
 odor (Figure 1A). After 80 hours under different storage environments,
 I observed some distinct characteristics developed from different treatment
 groups. For treatment group A, sample 1 and 2 still exhibited its original
-pigmentation while sample 3 turned to brown (Figure 1B).
-Meanwhile, treatment group B exhibited more evident indication of spoilage
-by turning into dark purple and brown pigments with pungent odor.
+pigmentation but in darker color while sample 3 turned to brown (Figure 1B).
+I noticed subtle unpleasant odor from the samples after 80-hour storage.
+The discoloration of meat is governed by the protein called myoglobin,
+the major protein that is responsible in turning the meat color to brown
+by releasing oxygen [@seideman1984factors]. Releasing oxygen is a trigger
+in chaning the meat color as the high oxygen level ensures to maintain the
+red pigment. Meanwhile, treatment group B exhibited more evident indication
+of spoilage by turning into dark purple and brown pigments with pungent odor.
 
 ## A. Cultured samples
 
