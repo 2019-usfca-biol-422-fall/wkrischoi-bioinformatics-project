@@ -444,7 +444,8 @@ sequences after trimming the low quality sequences. The reads changed from
 1B, 13669 to 13647 for sample ID 2A, 10640 to 10617 for sample ID 2B,
 12207 to 12193 for sample ID 3A, and 10155 to 10144 for sample ID 3B.
 The percentage of the non-chimeric reads came out to be 79.19%.
-
+I created a table that shows the total amplicon sequence variants (Figure 9E)
+and identified 100 bimeras out of 452 input sequences.
 
 # Discussion
 
@@ -902,6 +903,23 @@ plot_richness(phyloseq_obj,
 diversity indices.
 
 
+|                                   | Denoised| Sequence Table| Non-chimeric|
+|:----------------------------------|--------:|--------------:|------------:|
+|control-neg1_S79_L001_R1_001_filt  |    10780|          10780|         8487|
+|control-neg2_S80_L001_R1_001_filt  |     3210|           3210|         2151|
+|control-neg3_S81_L001_R1_001_filt  |    13537|          13537|        10201|
+|control-neg4_S82_L001_R1_001_filt  |     7703|           7703|         6273|
+|control-zymo1_S83_L001_R1_001_filt |     5126|           5126|         4440|
+|control-zymo2_S84_L001_R1_001_filt |     4064|           4064|         3929|
+|control-zymo3_S85_L001_R1_001_filt |     8384|           8384|         6858|
+|control-zymo4_S86_L001_R1_001_filt |     9208|           9208|         7539|
+|KC-1A_S73_L001_R1_001_filt         |     7763|           7763|         6576|
+|KC-1B_S74_L001_R1_001_filt         |     3773|           3773|         3272|
+|KC-2A_S75_L001_R1_001_filt         |    13533|          13533|        11424|
+|KC-2B_S76_L001_R1_001_filt         |    10537|          10537|         9735|
+|KC-3A_S77_L001_R1_001_filt         |    12153|          12153|         4732|
+|KC-3B_S78_L001_R1_001_filt         |    10136|          10136|         9336|
 
+**Figure 9E:** The total amplicon sequence variants
 
 # Sources Cited
