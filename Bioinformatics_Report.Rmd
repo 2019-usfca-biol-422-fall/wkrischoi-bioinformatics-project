@@ -321,7 +321,7 @@ I noticed subtle unpleasant odor from the samples after 80-hour storage.
 The discoloration of meat is governed by the protein called myoglobin,
 the major protein that is responsible in turning the meat color to brown
 by releasing oxygen [@seideman1984factors]. Releasing oxygen is a trigger
-in chaning the meat color as the high oxygen level ensures to maintain the
+in changing the meat color as the high oxygen level ensures to maintain the
 red pigment. Meanwhile, treatment group B exhibited more evident indication
 of spoilage by turning into dark purple and brown pigments with pungent odor.
 
@@ -434,7 +434,7 @@ were found on in the treatment group A, the refrigerated samples but not
 in the room temperature group. The major taxa discovered in sample 1B through
 3B were following: *Carnobacterium divergens*, *Lactobacillus algidus*,
 *Carnobacterium divergens*, *Leuconostoc gelidum* subsp. *gasicomitatum*,
-and *Lelliottia amnigena* repectively.
+and *Lelliottia amnigena* respectively.
 
 ### Effect of DADA pipeline on sequences
 
