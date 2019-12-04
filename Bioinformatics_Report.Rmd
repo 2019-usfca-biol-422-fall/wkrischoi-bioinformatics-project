@@ -545,9 +545,37 @@ In fact, treatment group B samples in all 3 brands have shorter
 sequences than treatment group A, but the length of the sample 1B is
 especially shorter.
 
-## DADA Analysis
+## DADA2 Analysis
 
+In comparison between the BLAST results and DADA2-based results, it provided
+almost a perfect match in the two datasets. To compare, I created a barplot
+to display the most abundant phyla discovered in each sample (Figure 9B).
+There were two phyla, Firmicutes and Proteobacteria, discovered in
+sample ID 1A with a slightly higher level of abundance of Proteobacteria.
+Even though the dominant taxa found in 1A from the BLAST results was
+*B. mutus*, I also found the next abundant taxa to be *P. thivervalensis* and
+the phylum of this taxa was also Proteobacteria. For sample ID 1B and 2B,
+the phyla was identified to be Firmicutes from the DADA2-based results
+which also matched to the BLAST results. However, I observed a significantly
+high level of abundance of Bacteroidetes in sample ID 2B.
+Next, there was a slight difference in sample 2A in the DADA2 results as it
+included two phyla, Firmicutes and Proteobacteria at a higher abundance level.
+For sample ID 3A and 3B, the results showed only one phylum for each and their
+phyla, Firmicutes and Proteobacteria respectively, matched to the BAST results
+as well. Although Actinobacteria was found from the culture-based sample in
+Sample ID #3, it was not reflected in both the BLAST results and DADA2-based
+results. As the accuracy of its identification was already suspicious from
+earlier data, DADA2 results supported more evident that the identification of
+this sample might not be *K. rhizophila*.
 
+I generated another barplot to investigate the most abundant genera in each
+sample using ggplot (Figure 9C). The first interesting pattern I noticed from
+the barplot was that there was not many overlaps of the genera between the
+two different treatment groups. This observation provided an idea that
+different microbial genera are developed depends on the different storage
+conditions. When generating this barplot, I filtered out to include only
+the genera with more than 100 reads due to the excessive number of genera
+discovered in the samples.
 
 # Figures and Tables
 
