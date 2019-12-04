@@ -276,11 +276,11 @@ diluted to the loading concentration (50 pM) and combined with an Illumina
 PhiX spike-in library (5% spike in) and sequenced on an Illumina iSeq
 using a 2 x 150 bp consumable cartridge.
 
-### dada2 Analysis pipeline
-I used dada2 pipeline in addition to BLAST for sample analysis to form error
+### DADA2 Analysis pipeline
+I used DADA2 pipeline in addition to BLAST for sample analysis to form error
 models introduced from Illumina-sequenced amplicon and use it to identify the
 accurate sample composition [@callahan2016dada2]. First of all, I downloaded
-following packages required to operate dada2: dada2, sequinr, mctoolsr, and phyloseq. Then, I set the base path for the input data files, sorted to
+following packages required to operate DADA: dada2, sequinr, mctoolsr, and phyloseq. Then, I set the base path for the input data files, sorted to
 ensure the samples are in order, extracted sample names, and specified
 the full path to each of the filenames forward reads. I checked the quality profiles of first 14 samples and placed filtered files in filtered
 subdirectory. After trimming low quality sequences, I generated a markdown
@@ -289,7 +289,7 @@ the trimmed files, built error models from each of the samples, and checked
 to see if error models matched my data. Then, I removed any duplicated
 sequences to enhance accuracy, named all trimmed files, and extract sample
 names. After the extraction, I also named the derep-class objects by
-the sample names. I ran dada2 to check dada results for forward reads and
+the sample names. I ran dada2 to check DADA results for forward reads and
 generated the site by species matrix. Next, I produced a histogram of
 final sequence variant lengths to look at distribution of trimmed and denoised sequences. In the next step, I checked for and removed chimeras and created
 a table that shows how many sequences remain at each step of the pipeline.
@@ -298,7 +298,7 @@ table of progress through the pipeline. Then, I removed any sequences
 shorter than 50 as it cannot assign their taxonomy and I assigned taxonomy
 to each sequence variant based on a supplied training set made up of known sequences. I exported the cleaned, trimmed, filtered, denoised sequence
 variants in fasta file to build a phylogeny. Finally, I saved necessary files
-from dada pipeline to analyze and visualize phylogenetic sequencing data
+from DADA pipeline to analyze and visualize phylogenetic sequencing data
 using phyloseq [@mcmurdie2013phyloseq]. To do this, II constructed phyloseq
 object and melted phyloseq to use in the Rmd file.
 
@@ -412,6 +412,8 @@ In addition, I ran BLAST on bash to find the major taxa of each sample
 based on the number of sequences. Interestingly, I found bacteria as the
 major taxa for all samples except for 1A which identified to be
 *Bos mutus*, the domestic yak (Figure 8B).
+
+### Effect of DADA pipeline on sequences
 
 # Discussion
 
