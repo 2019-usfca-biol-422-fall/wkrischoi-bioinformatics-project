@@ -589,8 +589,9 @@ diversity indices (Figure 9D) to visualize the species diversity and variance
 within the samples. The Shannon index exhibited the refrigerated samples at
 a slight higher level in alpha-diversity measure than room temperature samples
 whereas Simpson index showed the other way around. This result was somewhat
-predictable as there was no sufficient difference to show a distinct
-microbial diversity in room temperature samples from the previous results.
+predictable as the difference between the two treatment groups was not
+significant enough to convey a distinct microbial diversity in room
+temperature samples as shown in the results previously presented.
 
 # Figures and Tables
 
