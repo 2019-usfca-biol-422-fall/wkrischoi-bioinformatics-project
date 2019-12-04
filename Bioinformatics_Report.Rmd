@@ -126,6 +126,12 @@ By investigating different number of taxa discovered in the culture-free
 samples, 2 samples out of 3 from room temperature storage condition
 exhibited more abundant microbial communities than the refrigerated treatment
 group.
+Extensive studies have detected the common genera that can be found and
+dominant in spoiled meat: *Serratia*, *Enterobacter*, *Pantoea*,
+*Klebsiella*, *Proteus*, *Hafnia*, and *Pseudomonas*
+[@borch1996bacterial; @nychas1998chemical; @ercolini2006changes].
+In addition, *Lactobacillus algidus* also contributes in decaying meat as the
+predominant bacteria from vacuum-packaged beef [@kato2000lactobacillus].
 
 the results supported the hypothesis raised in the paper.
 
