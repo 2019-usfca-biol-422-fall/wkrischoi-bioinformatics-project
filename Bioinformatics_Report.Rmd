@@ -277,7 +277,7 @@ diluted to the loading concentration (50 pM) and combined with an Illumina
 PhiX spike-in library (5% spike in) and sequenced on an Illumina iSeq
 using a 2 x 150 bp consumable cartridge.
 
-### DADA2 Analysis pipeline
+### DADA Analysis Pipeline
 I used DADA2 pipeline in addition to BLAST for sample analysis to form error
 models introduced from Illumina-sequenced amplicon and use it to identify the
 accurate sample composition [@callahan2016dada2]. First of all, I downloaded
@@ -309,7 +309,7 @@ object and melted phyloseq to use in the Rmd file.
 
 # Results
 
-### Observations of the samples before and after the 80-hour storage
+## Observations of the samples before and after the 80-hour storage
 
 I performed a visual inspection of the samples before and after the experiment.
 All samples appeared to be fresh with bright red pigment with no noticeable
@@ -328,11 +328,12 @@ of spoilage by turning into dark purple and brown pigments with pungent odor.
 ## A. Cultured samples
 
 ### Qubit DNA concentration and Gel Image
-The samples stored in a refrigerator provided distinct colonies for
+
+Most of the samples stored in a refrigerator provided distinct colonies for
 extraction while all the samples stored in room temperature resulted in
 bacterial lawn and prevented from DNA extraction process (Figure 2A).
-Thus, it led to skewed results only from the refrigerated samples
-with culture-based samples.
+As I extracted colonies all from one treatment group, there is a likelihood
+that the results were skewed in a way with culture-based samples.
 
 To demonstrate successful DNA extraction, I measured DNA concentration
 values for each sample using Qubit Fluorometer (Figure 2B). The data
@@ -383,7 +384,12 @@ sample #5 and #6 failed for sequencing, I observed 4 different
 identifications with strong evidence to support the data (Figure 5).
 The identification of the sample #1 through #4 was
 *Acinetobacter baumannii*, *Hafnia paralvei*, *Kocuria rhizophila*, and
-*Staphylococcus saprophyticus* respectively.
+*Staphylococcus saprophyticus* respectively. The value for query cover for
+sample ID #3 was relatively low (77%) compare to other samples and it is
+plausible considering its low sequencing data quality observed from Geneious
+Prime. However, the result is still strongly supported from the data as
+its E-value is almost zero (5e-136).
+
 
 
 ## B. Culture-free samples
@@ -497,6 +503,8 @@ while other samples have around 10,000 sequences (Figure 7B).
 In fact, treatment group B samples in all 3 brands have shorter
 sequences than treatment group A, but the length of the sample 1B is
 especially shorter.
+
+## DADA Analysis
 
 # Figures and Tables
 
