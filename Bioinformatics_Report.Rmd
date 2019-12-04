@@ -398,9 +398,10 @@ its E-value is almost zero (5e-136).
 
 I measured DNA concentration values for culture-free samples using Qubit
 Fluorometer (Figure 6A). The data validated that all samples contain DNA
-in it.  However, I found a bright band only in lane 6 and did not observe
-any bands in other lanes. The gel image showed that there was no DNA
-separated except for the sample #3B in lane 6 (Figure 6C).
+in it.  However, I found a bright band separated only in lane 6 and did not
+observe any bands in other lanes. The DNA concentration value corresponded to
+the observation as the sample ID 3B had the highest value when quantified
+the PCR products using Qubit Fluorometer (Figure 6B).
 
 ### Trimming sequences with Trimmomatic and sequence quality
 
@@ -422,12 +423,18 @@ I looked into the number of different taxa in each sample and compared
 between the two treatment groups: samples stayed refrigerated (A) and
 those stored at room temperature (B). I observed larger number of different
 taxa in sample #2 and 3 for group B as expected, but the first samples showed
-lesser number of taxa in group B (Figure 8A).
-
-In addition, I ran BLAST on bash to find the major taxa of each sample
-based on the number of sequences. Interestingly, I found bacteria as the
-major taxa for all samples except for 1A which identified to be
-*Bos mutus*, the domestic yak (Figure 8B).
+lesser number of taxa in group B (Figure 8A). In addition, I ran BLAST on
+bash to find the major taxa of each sample based on the abundances.
+Interestingly, I found bacteria as the major taxa for all samples except
+for 1A which identified to be *Bos mutus*, the domestic yak (Figure 8B).
+Two other samples, *Bos taurus* (cattle) and *Bos mutus* in 2A *Bos taurus*
+in 3A, also exhibited the same taxa in its results even though these were
+not identified as the major taxa. It is intriguing to see that these taxa
+were found on in the treatment group A, the refrigerated samples but not
+in the room temperature group. The major taxa discovered in sample 1B through
+3B were following: *Carnobacterium divergens*, *Lactobacillus algidus*,
+*Carnobacterium divergens*, *Leuconostoc gelidum* subsp. *gasicomitatum*,
+and *Lelliottia amnigena* repectively.
 
 ### Effect of DADA pipeline on sequences
 
