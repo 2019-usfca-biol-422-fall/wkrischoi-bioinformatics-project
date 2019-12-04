@@ -69,12 +69,21 @@ and is also known as one of the most perishable foods with short shelf life.
 The global consumption of meat is continuously rising in conjunction with
 the growth of average individual incomes and population [@godfray2018meat].
 In response to the increasing demand in meat, sanitary environment for
-slaughtering and handling operations has been developed to prevent any
+slaughtering and packaging operations has been developed to prevent any
 potential contamination from surroundings such as water, air, and soil, and
 tools used in the processing [@stellato2016overlap].
-Furthermore, different research in enhancing antimicrobial meat packaging
-has been actively performed to deliver longer shelf
-life [@mcmillin2017advancements].
+Furthermore, different research and development in enhancing antimicrobial
+meat packaging has been actively performed.
+Brown discolorations, off-odors, and slime meat production are crucial
+factors to consider in packaging process as it results from the microbial
+spoilage [@mcmillin2008map] and directly influences the safety and the
+sales of the products. To compensate these undersirable traits by
+customers and deliver extended shelf life, the use of vacuum and
+modified atmosphere packaging has been implemented as the most popular and
+appropriate technologies in fresh meat packaging [@mcmillin2017advancements].
+The modified atmosphere packaging uses combination of three gases,
+carbon dioxide, oxygen, and nitrogen depending on the physical and chemical
+properties of the food [@lorenzo2012shelf].
 
 The biggest factor that contributes to decay in fresh raw meat is
 considered to be the growth of undesired microorganisms [@borch1996bacterial].
