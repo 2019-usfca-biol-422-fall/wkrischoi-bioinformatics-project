@@ -135,7 +135,12 @@ samples, 2 samples out of 3 from room temperature storage condition
 exhibited more abundant microbial communities than the refrigerated treatment
 group. I also used a software package called DADA2 to visualize and compare
 the data obtained from BLAST and the results generated from the DADA2-based
-data provided a great match. The results supported the hypothesis raised in the paper.
+data provided a great match. *K. rhizophila* found from one of
+the culture-based samples was not observed in neither the BLAST nor DADA2
+results. Throughout the different analysis methods, I found out that
+there was not enough strong evidence to support the hypothesis raised in
+the paper. However, I detected that different bacteria genera were developed
+based on the temperature of the storage.
 
 
 # Methods
@@ -573,13 +578,17 @@ this sample might not be *K. rhizophila*. As far as the phylum diversiy,
 three different phyla were found for each treatment group.
 
 I generated another barplot to investigate the most abundant genera in each
-sample using ggplot (Figure 9C). The first interesting pattern I noticed from
-the barplot was that there was not many overlaps of the genera between the
-two different treatment groups. This observation provided an idea that
-different microbial genera are developed depends on the different storage
-conditions. When generating this barplot, I filtered out to include only
-the genera with more than 100 reads due to the excessive number of genera
-discovered in the samples. Seven different genera were identified from the
+sample using ggplot (Figure 9C). When generating this barplot, I filtered out
+to include only the genera with more than 100 reads due to the excessive
+number of genera discovered in the samples.
+The first interesting pattern I noticed from the barplot was that there was
+not many overlaps of the genera between the two different treatment groups.
+This observation provided an idea that different microbial genera are
+developed depends on the different storage conditions.
+This can be further implemented in the research to enhance the packaging
+methods and handling/distributing operations to avoid specific microbes
+depending on different circumstances. 
+Furthermore, seven different genera were identified from the
 refrigerated group and eight genera for the room temperature group.
 Despite the small difference, the treatment group B still demonstrated more
 diverse microbial communities.
