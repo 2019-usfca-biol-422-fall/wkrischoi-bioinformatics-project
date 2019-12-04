@@ -77,7 +77,7 @@ meat packaging has been actively performed.
 Brown discolorations, off-odors, and slime meat production are crucial
 factors to consider in packaging process as it results from the microbial
 spoilage [@mcmillin2008map] and directly influences the safety and the
-sales of the products. To compensate these undersirable traits by
+sales of the products. To compensate these undesirable traits by
 customers and deliver extended shelf life, the use of vacuum and
 modified atmosphere packaging has been implemented as the most popular and
 appropriate technologies in fresh meat packaging [@mcmillin2017advancements].
@@ -282,8 +282,8 @@ models introduced from Illumina-sequenced amplicon and use it to identify the
 accurate sample composition [@callahan2016dada2]. First of all, I downloaded
 following packages required to operate DADA: dada2, sequinr, mctoolsr, and phyloseq. Then, I set the base path for the input data files, sorted to
 ensure the samples are in order, extracted sample names, and specified
-the full path to each of the filenames forward reads. I checked the quality profiles of first 14 samples and placed filtered files in filtered
-subdirectory. After trimming low quality sequences, I generated a markdown
+the full path to each of the file names forward reads. I checked the quality profiles of first 14 samples and placed filtered files in filtered
+sub-directory. After trimming low quality sequences, I generated a markdown
 table of read counts before and after trimming. I made a path for all of
 the trimmed files, built error models from each of the samples, and checked
 to see if error models matched my data. Then, I removed any duplicated
@@ -293,7 +293,7 @@ the sample names. I ran dada2 to check DADA results for forward reads and
 generated the site by species matrix. Next, I produced a histogram of
 final sequence variant lengths to look at distribution of trimmed and denoised sequences. In the next step, I checked for and removed chimeras and created
 a table that shows how many sequences remain at each step of the pipeline.
-I added proper column names abd row names to the table and made a markdown
+I added proper column names and row names to the table and made a markdown
 table of progress through the pipeline. Then, I removed any sequences
 shorter than 50 as it cannot assign their taxonomy and I assigned taxonomy
 to each sequence variant based on a supplied training set made up of known sequences. I exported the cleaned, trimmed, filtered, denoised sequence
@@ -414,6 +414,13 @@ major taxa for all samples except for 1A which identified to be
 *Bos mutus*, the domestic yak (Figure 8B).
 
 ### Effect of DADA pipeline on sequences
+
+Due to the high quality of the data, I observed no significant loss of
+sequences after trimming the low quality sequences. The reads changed from
+7951 to 7941 for the first sample (sample ID 1A), 3807 to 3804 for sample ID
+1B, 13669 to 13647 for sample ID 2A, 10640 to 10617 for sample ID 2B,
+12207 to 12193 for sample ID 3A, and 10155 to 10144 for sample ID 3B.
+The percentage of the non-chimeric reads came out to be 79.19%.
 
 # Discussion
 
