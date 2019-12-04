@@ -83,44 +83,50 @@ modified atmosphere packaging has been implemented as the most popular and
 appropriate technologies in fresh meat packaging [@mcmillin2017advancements].
 The modified atmosphere packaging uses combination of three gases,
 carbon dioxide, oxygen, and nitrogen depending on the physical and chemical
-properties of the food [@lorenzo2012shelf].
+properties of the food [@lorenzo2012shelf] to meet the specific respiration
+requirements.
 
 The biggest factor that contributes to decay in fresh raw meat is
 considered to be the growth of undesired microorganisms [@borch1996bacterial].
-Raw meat represents a highly perishable ecological niche. Its composition of
-nutrients promotes cell proliferation, allowing for more microbial growth and
-the development of microbial communities ultimately leads to the meat
-spoilage[@pothakos2015lactic]. In an effort to avoid bacterial contamination
-in raw meat, the temperature of storage has been emphasized as a key factor
-along with the advancement in sterile meat processing
+Raw meat represents a highly perishable ecological niche. Its composition
+of nutrients promotes cell proliferation, allowing for more microbial growth
+and the development of microbial communities ultimately leads to the meat
+spoilage[@pothakos2015lactic]. In an effort to avoid or minimize bacterial
+contamination in raw meat, the temperature of storage has been emphasized
+as a key factor along with the advancement in sterile meat processing
 techniques [@doulgeraki2012spoilage].
 
 Considering the identification of the microbes that is responsible
-for meat spoilage can enhance designing effective storage conditions
+for meat spoilage can enhance in designing effective storage conditions
 [@ercolini2006changes], my primary question was to investigate microbial
 communities developed in raw ground beef under different storage conditions.
-I proposed a hypothesis that more diverse microbial communities would be
-developed if the meat was stored at room temperature in comparison to the ones
-kept in a refrigerator as low temperature storage is an essential method to
-prevent or slow microbial growth [@dave2011meat].
+I established two different conditions as the variables in the
+experiment by manipulating storage temperatures. Before the beginning of the
+experiment, I proposed a hypothesis that more diverse microbial communities
+would be developed if the meat was stored at room temperature in comparison
+to the ones kept in a refrigerator as low temperature storage is an essential
+method to prevent or slow microbial growth [@dave2011meat].
 To test my hypothesis, I designed my study to compare 3 different ground beef
 brands stored at either low temperature, 4-5⁰C in a refrigerator, or
 room temperature and prepared culture-based and culture-free samples.
 After DNA extraction and PCR, DNA sequencing was performed using Sanger
-sequencing for culture-based samples and Illumina sequencing for culture-free
+sequencer for culture-based samples and Illumina sequencer for culture-free
 samples.
-I used different statistical methods and generated phylogenetic trees for
-further analysis and identified each sample using BLAST. As a result,
-4 out of 6 samples were successfully identified from culture-based samples
-with strong confidence values and following taxa were found from the samples:
-*Acinetobacter baumannii*, *Hafnia paralvei*, *Kocuria rhizophila*, and
-*Staphylococcus saprophyticus*. Meanwhile, the major taxa determined from the
-culture-free samples were *Bos mutus*, *Carnobacterium divergens* ,
-*Lactobacillus algidus*, *Carnobacterium divergens*,
+For culture-based samples, I used different statistical methods and
+generated phylogenetic trees for further analysis and identified each
+sample using BLAST. As a result, 4 out of 6 samples were successfully
+identified with strong confidence values and following taxa were found
+from the samples: *Acinetobacter baumannii*, *Hafnia paralvei*,
+*Kocuria rhizophila*, and *Staphylococcus saprophyticus*.
+Meanwhile, the major taxa determined from the culture-free samples were
+*Bos mutus*, *Carnobacterium divergens*, *Lactobacillus algidus*,
 *Leuconostoc gelidum* subsp. *gasicomitatum*, and *Lelliottia amnigena*.
-2 samples out of 3 from room temperature storage condition exhibited more
-abundant microbes than the refrigerated treatment group and the results
-supported the hypothesis raised in the paper.
+By investigating different number of taxa discovered in the culture-free
+samples, 2 samples out of 3 from room temperature storage condition
+exhibited more abundant microbial communities than the refrigerated treatment
+group.
+
+the results supported the hypothesis raised in the paper.
 
 # Methods
 
