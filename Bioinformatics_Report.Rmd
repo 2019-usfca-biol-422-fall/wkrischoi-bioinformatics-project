@@ -569,7 +569,8 @@ as well. Although Actinobacteria was found from the culture-based sample in
 Sample ID #3, it was not reflected in both the BLAST results and DADA2-based
 results. As the accuracy of its identification was already suspicious from
 earlier data, DADA2 results supported more evident that the identification of
-this sample might not be *K. rhizophila*.
+this sample might not be *K. rhizophila*. As far as the phylum diversiy,
+three different phyla were found for each treatment group.
 
 I generated another barplot to investigate the most abundant genera in each
 sample using ggplot (Figure 9C). The first interesting pattern I noticed from
@@ -578,8 +579,18 @@ two different treatment groups. This observation provided an idea that
 different microbial genera are developed depends on the different storage
 conditions. When generating this barplot, I filtered out to include only
 the genera with more than 100 reads due to the excessive number of genera
-discovered in the samples.
+discovered in the samples. Seven different genera were identified from the
+refrigerated group and eight genera for the room temperature group.
+Despite the small difference, the treatment group B still demonstrated more
+diverse microbial communities.
 
+I produced a bar graph of alpha-diversity metrics using Shannon and Simpson
+diversity indices (Figure 9D) to visualize the species diversity and variance
+within the samples. The Shannon index exhibited the refrigerated samples at
+a slight higher level in alpha-diversity measure than room temperature samples
+whereas Simpson index showed the other way around. This result was somewhat
+predictable as there was no sufficient difference to show a distinct
+microbial diversity in room temperature samples from the previous results.
 
 # Figures and Tables
 
