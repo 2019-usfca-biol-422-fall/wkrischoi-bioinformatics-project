@@ -494,9 +494,11 @@ and #2 matched with BLAST results. The phylum for both
 both gram-negative and can cause disease in immunocompromised patients.
 On the other hand, *Kocuria rhizophila* is a gram-positive bacterium that can
 be found in environment such as water, air, and soil, and its phylum is
-Actinobacteria. Lastly, *Staphylococcus saprophyticus* is also a gram-positive
-bacterium that can cause urinary tract infections and their phylum is
-Firmicutes.
+Actinobacteria. In fact, this species was re-classified from
+*Micrococcus luteus* in 2003 after a polyphasic study validated evident match
+with the genus *Kocuria* then *Micrococcus* [@tang2003reclassification].
+Lastly, *Staphylococcus saprophyticus* is also a gram-positive bacterium that
+can cause urinary tract infections and their phylum is Firmicutes.
 
 ## Analysis of culture-free samples
 
