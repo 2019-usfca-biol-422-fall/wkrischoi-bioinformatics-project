@@ -229,7 +229,7 @@ to construct phylogenetic trees of the aligned sequences.
 I set the parameters in PhyML to be GTR for substitution model, Bootstrap for
 branch support, and 100 for number of bootstraps. In MrBayes, the parameters
 were set as: GTR for substitution model, invgamma for rate variation,
-*Thermus aquaticus* strain YT-1 16S for outgroup, 1,100,000 for chain length,
+*T. aquaticus* strain YT-1 16S for outgroup, 1,100,000 for chain length,
 200 for subsampling freq, 4 for heated chains, 100,000 for burn-in length,
 0.2 for heated chain temp, and 18, 107 for random seed. Lastly, I loaded the
 3 cleaned sequences and 1 seemingly failed sequence into BLAST to identify its
@@ -365,7 +365,7 @@ After loading the Sanger sequencing data in Geneious Prime, I obtained
 3 solid data, 3 complete failed data including the negative control,
 and 1 seemingly failed data (Figure 4A). I used the 3 successful data after
 trimming to create Maximum Likelihood and Bayesian phylogenetic trees
-with *Thermus aquaticus* as an outgroup (Figure 4A, 4B) and found a strong
+with *T. aquaticus* as an outgroup (Figure 4A, 4B) and found a strong
 evidence from both phylogenies that support to group Sample #1 and 2
 as a monophyletic group (Bayesian posterior probability = 0.9998,
 ML bootstrap = 98).
@@ -383,8 +383,8 @@ original stock of refrigerated Butcher shop from Trader Joe’s. As the
 sample #5 and #6 failed for sequencing, I observed 4 different
 identifications with strong evidence to support the data (Figure 5).
 The identification of the sample #1 through #4 was
-*Acinetobacter baumannii*, *Hafnia paralvei*, *Kocuria rhizophila*, and
-*Staphylococcus saprophyticus* respectively. The value for query cover for
+*A. baumannii*, *H. paralvei*, *K. rhizophila*, and
+*S. saprophyticus* respectively. The value for query cover for
 sample ID #3 was relatively low (77%) compare to other samples and it is
 plausible considering its low sequencing data quality observed from Geneious
 Prime. However, the result is still strongly supported from the data as
@@ -426,15 +426,15 @@ taxa in sample #2 and 3 for group B as expected, but the first samples showed
 lesser number of taxa in group B (Figure 8A). In addition, I ran BLAST on
 bash to find the major taxa of each sample based on the abundances.
 Interestingly, I found bacteria as the major taxa for all samples except
-for 1A which identified to be *Bos mutus*, the domestic yak (Figure 8B).
-Two other samples, *Bos taurus* (cattle) and *Bos mutus* in 2A *Bos taurus*
+for 1A which identified to be *B. mutus*, the domestic yak (Figure 8B).
+Two other samples, *B. taurus* (cattle) and *B. mutus* in 2A *B. taurus*
 in 3A, also exhibited the same taxa in its results even though these were
 not identified as the major taxa. It is intriguing to see that these taxa
 were found on in the treatment group A, the refrigerated samples but not
 in the room temperature group. The major taxa discovered in sample 1B through
-3B were following: *Carnobacterium divergens*, *Lactobacillus algidus*,
-*Carnobacterium divergens*, *Leuconostoc gelidum* subsp. *gasicomitatum*,
-and *Lelliottia amnigena* respectively.
+3B were following: *C. divergens*, *L. algidus*,
+*C. divergens*, *L. gelidum* subsp. *gasicomitatum*,
+and *L. amnigena* respectively.
 
 ### Effect of DADA pipeline on sequences
 
@@ -480,8 +480,8 @@ contamination of tubes and/or pipetting errors when the microbial culture
 was performed.
 
 4 different identifications were generated from BLAST for Sample #1, 2, 3,
-and 4: *Acinetobacter baumannii*, *Hafnia paralvei*,
-*Kocuria rhizophila*, and *Staphylococcus saprophyticus* respectively
+and 4: *A. baumannii*, *H. paralvei*,
+*K. rhizophila*, and *S. saprophyticus* respectively
 (Figure 5). All of the samples except for the complete failures was
 identified with strong confidence to support the results even for
 the Sample #3 which showed a faded band on the gel and provided the
@@ -490,14 +490,14 @@ The results exhibited high percent identity and query coverage values with
 exceptionally small to zero E-values. Furthermore, the phylogenic results
 from Maximum Likelihood and Bayesian phylogenetic tree that grouped Sample #1
 and #2 matched with BLAST results. The phylum for both
-*Acinetobacter baumannii* and *Hafnia paralvei* are Proteobacteria. They are
+*A. baumannii* and *H. paralvei* are Proteobacteria. They are
 both gram-negative and can cause disease in immunocompromised patients.
-On the other hand, *Kocuria rhizophila* is a gram-positive bacterium that can
+On the other hand, *K. rhizophila* is a gram-positive bacterium that can
 be found in environment such as water, air, and soil, and its phylum is
 Actinobacteria. In fact, this species was re-classified from
 *Micrococcus luteus* in 2003 after a polyphasic study validated evident match
 with the genus *Kocuria* then *Micrococcus* [@tang2003reclassification].
-Lastly, *Staphylococcus saprophyticus* is also a gram-positive bacterium that
+Lastly, *S. saprophyticus* is also a gram-positive bacterium that
 can cause urinary tract infections and their phylum is Firmicutes.
 
 ## Analysis of culture-free samples
@@ -510,20 +510,37 @@ expected. Those microbes include: *Serratia*, *Enterobacter*, *Pantoea*,
 observed from cultured samples, *Acinetobacter*,
 *Hafnia*, and *Staphylococcus* groups were also identified
 from culture-free samples and confirmed the matches between culture-based and
-culture-free samples using Sanger sequences and Illumina sequences.
-However, no matches for *Kocuria rhizophila* from sample #3 of cultured sample
-(Figure 5) was found in culture-free sample.
+culture-free samples using Sanger sequencing and Illumina sequencing data.
+However, no matches for *K. rhizophila* from sample #3 of cultured sample
+(Figure 5) was found in culture-free sample, not even its phylum,
+Actinobacteria. As mentioned earlier, *B. mutus*, domestic yak, was
+identified to be the dominant taxa found in sample ID 1A. I looked up the
+next most abundant taxa in the sample and it was *Pseudomonas thivervalensis*,
+a gram-negative soil bacterium under Proteobacteria phylum.
+*C. divergens* from sample ID 1B and 2B is a gram-positive bacterium that
+can be found in the wild and food. It is not known to be pathogenic
+and is a dominant species found in modified atmosphere packed meat products.
+Its phylum is Firmicutes. *L. algidus* in sample ID 2A makes a major part
+of the lactic acid bacteria group and can be easily found in chilled packaged
+meat. Its phylum is also Firmicutes. *L. gelidum* subsp. *Gasicomitatum* was
+the major taxa discovered in sample ID 3A and it is also part of lactic
+acid bacterium that is highly measured to be contributing in the microbial
+communities of chilled meat products. Lastly, *L. amnigena* that was found in
+sample ID 3B is a gram-negative bacterium that can be pathogenic and affects
+immunocompromised patients in urinary and respiratory tracts. Its phylum is
+Proteobacteria.
 
 Initially, I hypothesized to see more developed microorganism communities
 from the samples stored at room temperature than the ones kept refrigerated
-because the temperature conditions play a critical role in meat spoilage
-[@dohlen2017effect]. Two brands out of three exhibited to have more number
+because the cooled temperature storage condition play a critical role in
+slowing down or stopping meat spoilage [@dohlen2017effect].
+Two brands out of three exhibited to have more number
 of different taxa when it was stored at room temperature while the first
-sample, Teva kosher foods from Trader Joe’s, showed less taxa from the room
-temperature storage condition (Figure 8A). Possible justification for
-this unexpected results could have driven from the shorter length of the
-sequences as sample 1B have only 3,638 sequences after trimming
-while other samples have around 10,000 sequences (Figure 7B).
+sample, Teva kosher foods from Trader Joe’s, showed less number of taxa
+from the samples of room temperature storage condition (Figure 8A).
+Possible justification for this unexpected results could have driven from
+the shorter length of the sequences as sample 1B have only 3,638 sequences
+after trimming while other samples have around 10,000 sequences (Figure 7B).
 In fact, treatment group B samples in all 3 brands have shorter
 sequences than treatment group A, but the length of the sample 1B is
 especially shorter.
