@@ -454,7 +454,9 @@ storage conditions and expected to observe more diverse communities from the
 samples stored at room temperature than refrigerated samples. However, the
 petri dishes from the room temperature samples were covered by bacterial lawn
 instead of forming colonies and no distinct morphotypes were observed
-(Figure 2A).
+(Figure 2A). In addition, I was not able to observe different number of taxa
+associated with each sample using Sanger sequencing data and put the results
+into BLAST as the results only provided the most abundant species.
 
 The factor that might have influenced the bacterial lawn in all
 room temperature samples can be the long duration of swabbing on the
@@ -462,26 +464,39 @@ surface when subsampled. As a consequence, the highly concentrated stock
 samples resulted in growing thick bacterial lawn even though it was diluted
 down to 1:100. The boxplots in Figure 3A and 3B were displaying data from
 skewed results due to the unreliable outcomes from room temperature samples.
-A different approach to enhance the results could be by using streaking
-method and/or shortening the time when swabbing the sample on the surface
-to grow distinct colonies from both treatment groups.
+Considering only the room temperature samples were affected by the long
+duration of swabbing, the microbial densities in these sample were higher
+than the refrigerated samples. Some different approaches to enhance the results
+include using a streaking method on the petri dish and/or shortening
+the time when swabbing the sample on the surface to grow distinct colonies
+from both treatment groups.
 
 The gel image from electrophoresis showed no bands for Sample #5 and #6
 which corresponded to the failed Sanger sequencing data, and the faded band
-for Sample #3 corresponded to the seemingly failed Sanger sequencing data.
-Some possible speculations that influenced no bands for Sample #5 and #6
-could be contamination of tubes and/or pipetting errors.
+for Sample #3 corresponded to the seemingly failed Sanger sequencing data with
+low sequencing data quality. Some possible speculations which might have
+influenced no separation of bands for Sample #5 and #6 could be
+contamination of tubes and/or pipetting errors when the microbial culture
+was performed.
 
-4 different identifications were generated from BLAST for Sample
-#1, 2, 3, and 4: *Acinetobacter baumannii*, *Hafnia paralvei*,
+4 different identifications were generated from BLAST for Sample #1, 2, 3,
+and 4: *Acinetobacter baumannii*, *Hafnia paralvei*,
 *Kocuria rhizophila*, and *Staphylococcus saprophyticus* respectively
 (Figure 5). All of the samples except for the complete failures was
 identified with strong confidence to support the results even for
 the Sample #3 which showed a faded band on the gel and provided the
-seemingly failed result from Sanger sequencing data. The results exhibited
-high percent identity and query coverage values with exceptionally small
-to zero E-values. However, the phylogenic results that grouped Sample #1
-and #2 did not match with BLAST results.
+seemingly failed result with low quality from Sanger sequencing data.
+The results exhibited high percent identity and query coverage values with
+exceptionally small to zero E-values. Furthermore, the phylogenic results
+from Maximum Likelihood and Bayesian phylogenetic tree that grouped Sample #1
+and #2 matched with BLAST results. The phylum for both
+*Acinetobacter baumannii* and *Hafnia paralvei* are Proteobacteria. They are
+both gram-negative and can cause disease in immunocompromised patients.
+On the other hand, *Kocuria rhizophila* is a gram-positive bacterium that can
+be found in environment such as water, air, and soil, and its phylum is
+Actinobacteria. Lastly, *Staphylococcus saprophyticus* is also a gram-positive
+bacterium that can cause urinary tract infections and their phylum is
+Firmicutes.
 
 ## Analysis of culture-free samples
 
