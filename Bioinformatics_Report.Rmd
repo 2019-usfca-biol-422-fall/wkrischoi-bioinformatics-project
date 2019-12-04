@@ -556,7 +556,7 @@ especially shorter.
 ## DADA2 Analysis
 
 In comparison between the BLAST results and DADA2-based results, it provided
-almost a perfect match in the two datasets. To compare, I created a barplot
+almost a perfect match in the two data sets. To compare, I created a bar plot
 to display the most abundant phyla discovered in each sample (Figure 9B).
 There were two phyla, Firmicutes and Proteobacteria, discovered in
 sample ID 1A with a slightly higher level of abundance of Proteobacteria.
@@ -574,14 +574,14 @@ as well. Although Actinobacteria was found from the culture-based sample in
 Sample ID #3, it was not reflected in both the BLAST results and DADA2-based
 results. As the accuracy of its identification was already suspicious from
 earlier data, DADA2 results supported more evident that the identification of
-this sample might not be *K. rhizophila*. As far as the phylum diversiy,
+this sample might not be *K. rhizophila*. As far as the phylum diversity,
 three different phyla were found for each treatment group.
 
-I generated another barplot to investigate the most abundant genera in each
-sample using ggplot (Figure 9C). When generating this barplot, I filtered out
+I generated another bar plot to investigate the most abundant genera in each
+sample using ggplot (Figure 9C). When generating this bar plot, I filtered out
 to include only the genera with more than 100 reads due to the excessive
 number of genera discovered in the samples.
-The first interesting pattern I noticed from the barplot was that there was
+The first interesting pattern I noticed from the bar plot was that there was
 not many overlaps of the genera between the two different treatment groups.
 This observation provided an idea that different microbial genera are
 developed depends on the different storage conditions.
