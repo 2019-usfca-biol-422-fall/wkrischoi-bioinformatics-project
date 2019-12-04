@@ -142,19 +142,20 @@ the results supported the hypothesis raised in the paper.
 The model of the experiment was raw ground beef and they were replicated by
 purchasing 3 different brands: Teva kosher foods from Trader Joe’s, Lucky
 California from Lucky Supermarkets, and Butcher shop from Trader Joe’s.
-Before the experiment, I extracted two pieces from each brand in size of
-a quarter, placed them in plastic bags individually, and located them in
-different storage conditions based on the treatment group.
+Before beginning of the experiment, I extracted two pieces from each brand
+approximately in size of a quarter, placed them in plastic bags
+individually, and located them in different storage conditions
+based on their treatment group.
 The first treatment group remained refrigerated while the second treatment
-group was stored at room temperature. For both treatment groups, they were
-stored for 80 hours before subsampled.
+group was stored at room temperature. For both treatment groups, the
+duration of the storage was 80 hours before performing subsample.
 
 ## Subsampling
 
 I dipped a sterile cotton swab in PBS buffer first and swabbed each sample
 on the surface for at least 10 seconds. Then, I broke off the tip of the
-cotton swab into the labeled tube and closed the cap. To conduct
-culturing and culture-free experiment for each sample in later steps,
+cotton swab into a labeled tube and closed the cap. To conduct
+culturing and culture-free experiments for each sample in later steps,
 I collected total of 18 samples (n = 3 per group, 6 total).
 
 ## A. Process of cultured samples
@@ -230,7 +231,7 @@ were set as: GTR for substitution model, invgamma for rate variation,
 *Thermus aquaticus* strain YT-1 16S for outgroup, 1,100,000 for chain length,
 200 for subsampling freq, 4 for heated chains, 100,000 for burn-in length,
 0.2 for heated chain temp, and 18, 107 for random seed. Lastly, I loaded the
-3 cleaned sequences and 1 failed sequence into BLAST to identify its
+3 cleaned sequences and 1 seemingly failed sequence into BLAST to identify its
 gene families.
 
 ## B. Process of culture-free samples
