@@ -64,17 +64,19 @@ melted_phyloseq <- psmelt(phyloseq_obj)
 
 # Introduction
 
-Meat is recognized as an important dietary source of protein including
-essential nutrients such as iron, zinc, and vitamin B12 [@mcafee2010red],
-and is also known as one of the most perishable foods with short shelf life.
 The global consumption of meat is continuously rising in conjunction with
-the growth of average individual incomes and population [@godfray2018meat].
+the growth of average individual incomes and population [@godfray2018meat]
+since meat is recognized as an important dietary source of protein including
+essential nutrients such as iron, zinc, and vitamin B12 [@mcafee2010red].
+However, raw meat also known as one of the most perishable foods with short
+shelf life.
 In response to the increasing demand in meat, sanitary environment for
-slaughtering and packaging operations has been developed to prevent any
-potential contamination from surroundings such as water, air, and soil, and
-tools used in the processing [@stellato2016overlap].
+slaughtering, packaging operations, and distributions has been developed to
+prevent any potential contamination from surroundings such as water, air,
+and soil, and tools used in the processing [@stellato2016overlap].
 Furthermore, different research and development in enhancing antimicrobial
-meat packaging has been actively performed.
+meat packaging has been actively performed to meet the global meat
+consumption level.
 Brown discolorations, off-odors, and slime meat production are crucial
 factors to consider in packaging process as it results from the microbial
 spoilage [@mcmillin2008map] and directly influences the safety and the
@@ -89,7 +91,7 @@ requirements.
 
 The biggest factor that contributes to decay in fresh raw meat is
 considered to be the growth of undesired microorganisms [@borch1996bacterial].
-Raw meat represents a highly perishable ecological niche
+Raw meat describes a decomposable ecological niche
 [@pothakos2015lactic]. Its composition of nutrients promotes cell
 proliferation, allowing for more microbial growth and the development of
 microbial communities ultimately leads to the meat spoilage
@@ -103,7 +105,7 @@ dominant in spoiled meat: *Serratia*, *Enterobacter*, *Pantoea*,
 *Klebsiella*, *Proteus*, *Hafnia*, and *Pseudomonas*
 [@borch1996bacterial; @nychas1998chemical; @ercolini2006changes].
 In addition, lactic acid bacteria, especially *Lactobacillus algidus*,
-greatly contributes in decaying meat as the predominant bacteria from
+greatly contributes in decaying meat as the predominant bacteria in
 vacuum-packaged beef [@kato2000lactobacillus].
 Considering the identification of the microbes that is responsible
 for meat spoilage can enhance in designing effective storage conditions
@@ -112,11 +114,11 @@ communities developed in raw ground beef under different storage conditions.
 I established two different conditions as the variables in the
 experiment by manipulating storage temperatures. Before the beginning of the
 experiment, I proposed a hypothesis that more diverse microbial communities
-would be developed if the meat was stored at room temperature in comparison
+will be developed if the meat was stored at room temperature in comparison
 to the ones kept in a refrigerator as low temperature storage is an essential
 method to prevent or slow microbial growth [@dave2011meat].
 To test my hypothesis, I designed my study to compare 3 different ground beef
-brands stored at either low temperature, 4-5⁰C in a refrigerator, or
+brands stored at either low temperature, 4-5 degree C in a refrigerator, or
 room temperature and prepared culture-based and culture-free samples.
 After DNA extraction and PCR, DNA sequencing was performed using Sanger
 sequencer for culture-based samples and Illumina sequencer for culture-free
@@ -137,7 +139,7 @@ group. I also used a software package called DADA2 to visualize and compare
 the data obtained from BLAST and the results generated from the DADA2-based
 data provided a great match. *K. rhizophila* found from one of
 the culture-based samples was not observed in neither the BLAST nor DADA2
-results. Throughout the different analysis methods, I found out that
+results. Throughout running the different analysis methods, I found out that
 there was not enough strong evidence to support the hypothesis raised in
 the paper. However, I detected that different bacteria genera were developed
 based on the temperature of the storage.
