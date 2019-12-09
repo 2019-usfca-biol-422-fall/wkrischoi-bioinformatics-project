@@ -1,5 +1,5 @@
 ---
-title: 'Development of microbial communities in ground beef under different storage conditions'
+title: 'Development of microbial communities in ground beef under different storage temperatures'
 author: "Kris Choi"
 date: "December 4, 2019"
 output: word_document
@@ -134,14 +134,15 @@ Meanwhile, the major taxa determined from the culture-free samples were
 *Leuconostoc gelidum* subsp. *gasicomitatum*, and *Lelliottia amnigena*.
 By investigating different number of taxa discovered in the culture-free
 samples, 2 samples out of 3 from room temperature storage condition
-exhibited more abundant microbial communities than the refrigerated treatment
+exhibited more developed microbial communities than the refrigerated treatment
 group. I also used a software package called DADA2 to visualize and compare
 the data obtained from BLAST and the results generated from the DADA2-based
 data provided a great match. *K. rhizophila* found from one of
 the culture-based samples was not observed in neither the BLAST nor DADA2
-results. Throughout running the different analysis methods, I found out that
-there was not enough strong evidence to support the hypothesis raised in
-the paper. However, I detected that different bacteria genera were developed
+results. Throughout running the different analysis methods, I found out there
+were more diverse microbial communities developed from the samples that were
+stored at room temperature and it supported the hypothesis raised in
+the paper. Furthermore, I detected that different bacteria genera were developed
 based on the temperature of the storage.
 
 
@@ -583,7 +584,7 @@ I generated another bar plot to investigate the most abundant genera in each
 sample using ggplot (Figure 9C). When generating this bar plot, I filtered out
 to include only the genera with more than 100 reads due to the excessive
 number of genera discovered in the samples.
-The first interesting pattern I noticed from the bar plot was that there was
+The first interesting pattern I noticed from the bar plot was that there were
 not many overlaps of the genera between the two different treatment groups.
 This observation provided an idea that different microbial genera are
 developed depends on the different storage conditions.
@@ -878,8 +879,7 @@ ggtitle("Phyla Abundance in Each Sample") +
   facet_grid(type~., scales = "free_x")
 ```
 
-**Figure 9B:** Barplot of phyla abundance to compare two treatment groups
-and controls.
+**Figure 9B:** Barplot of phyla abundance to compare two treatment groups.
 
 
 ```{r genera-abundance-barplot}
