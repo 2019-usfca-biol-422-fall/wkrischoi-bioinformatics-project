@@ -377,7 +377,7 @@ After loading the Sanger sequencing data in Geneious Prime, I obtained
 and 1 seemingly failed data (Figure 4A). I used the 3 successful data after
 trimming to create Maximum Likelihood and Bayesian phylogenetic trees
 with *T. aquaticus* as an outgroup (Figure 4A, 4B) and found a strong
-evidence from both phylogenies that support to group Sample #1 and 2
+evidence from both phylogenies that support group Sample #1 and 2
 as a monophyletic group (Bayesian posterior probability = 0.9998,
 ML bootstrap = 98).
 
