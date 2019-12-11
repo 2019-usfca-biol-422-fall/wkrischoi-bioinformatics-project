@@ -186,16 +186,17 @@ I collected total of 18 samples (n = 3 per group, 6 total).
 
 I prepared 3 dilutions for each sample: the original stock, 1:10, and 1:100
 using PBS buffer in total volume of 200µL each. While the tips from the cotton
-swabs are placed in each tube, I added 200µL of PBS buffer in the tube for
-original stock and vortexed it for 15 seconds. Then I diluted it down to
-1:10 by transferring 20µL from the original stock to a new sterile tube and
-adding 180µL of PBS buffer. I vortexed it for 5 seconds.
-Lastly, I transferred 20µL from 1:10 stock to another sterile tube and added
-180µL of PBS buffer for 1:100 dilution. I vortexed the tube for 5 seconds.
-After the dilution process, I transferred 100µL of each diluted sample to
-100mm Trypticase soy agar (TSA) plates and spread the solution with
-8 to 10 beads for 10 seconds. The petri dishes were stored in incubator
-for the growth of microbes.
+swabs were placed in each tube, I added 200µL of PBS buffer in the tubes of
+the original stock and vortexed it for 15 seconds. Then I diluted it down to
+1:10 by transferring 20µL from the original stock with PBS buffer tube to a new
+sterile tube, and added 180µL of fresh PBS buffer. I vortexed it for 5 seconds.
+Lastly, I transferred 20µL from 1:10 stock with PBS buffer tube to another
+sterile tube, and added 180µL of fresh PBS buffer for 1:100 dilution.
+I vortexed the tubes for 5 seconds. After the dilution process, I transferred
+100µL from each diluted sample tube to 100mm Trypticase soy agar (TSA) plates
+and spread the solution with 8 to 10 beads for 10 seconds.
+The petri dishes were stored in an incubator for allowing the growth of
+microbes.
 
 ### DNA Extraction and Quantification of DNA concentration
 
