@@ -221,16 +221,15 @@ I prepared the master mix for PCR based on the volume required for each
 ingredients to run a single reaction: 10µL Amp reagent, 0.8µL 27f primer,
 0.8µL 1492r primer, 1µL BSA, and 6.4µL water. Either DNA or water for the
 negative control was added for 1µL, making the total volume to 20µL for
-a single reaction. After aliquoting the master mix
-and adding DNA to each tube, PCR started with denaturing at 95 degrees C for
-5 minutes, another denaturing at 94 degrees C for 30 seconds, annealing
-at 65 degrees C for 30 seconds, and extending at 72 degrees C for 1 minute.
-The temperature for annealing stepped down 1 degrees C per cycle and
-the second denaturing, annealing,and extending steps were repeated for 10
-cycles. Subsequently, additional 25 cycles were started at 94 degrees C
-for 30 seconds, 55 degrees C for 30 seconds, and 72 degrees C for 1 minute.
-The cycle stayed at 72 degrees C for 10 minutes and went down to
-4 degrees C for hold.
+a single reaction. After aliquoting the master mix and adding DNA to each tube,
+PCR started with denaturing at 95 degrees C for 5 minutes, another denaturing
+at 94 degrees C for 30 seconds, annealing at 65 degrees C for 30 seconds,
+and extending at 72 degrees C for 1 minute. The temperature for annealing
+stepped down 1 degrees C per cycle and the second denaturing, annealing, and
+extending steps were repeated for 10 cycles. Subsequently, additional
+25 cycles were started at 94 degrees C for 30 seconds, 55 degrees C for
+30 seconds, and 72 degrees C for 1 minute. The cycle stayed at 72 degrees C
+for 10 minutes and went down to 4 degrees C for hold.
 
 ### Gel Electrophoresis and PCR cleanups
 
@@ -245,23 +244,24 @@ South San Francisco, CA.
 
 I used the software called Geneious Prime to analyze the integrity of the
 Sanger sequencing data delivered from MCLAB. After reviewing the quality
-of the samples, I determined 3 usable raw sequences with long stretches of
-high-quality reads. I trimmed the sequences by removing poor quality reads
-near the primer site and at the end and manually adjusting bases with IUPAC
-ambiguity codes. After cleaning the sequences, I aligned the trimmed
+of the samples, I determined 3 usable raw sequences data with long stretches of
+high-quality reads. I trimmed the sequences by manually removing the
+poor quality reads near the primer site and at the end. Then I adjusted
+ambiguous bases by replacing it with IUPAC ambiguity codes.
+After cleaning the sequences, I aligned the trimmed
 sequences along with *Thermus aquaticus* as an outgroup using MAFFT, the
-program to generate multiple sequence alignment[@katoh2002mafft]. In addition,
-I created a maximum likelihood phylogeny with PhyML[@guindon2010new] and
-Bayesian inference of phylogeny with MrBayes[@huelsenbeck2001mrbayes]
-to construct phylogenetic trees of the aligned sequences.
-I set the parameters in PhyML to be GTR for substitution model, Bootstrap for
-branch support, and 100 for number of bootstraps. In MrBayes, the parameters
-were set as: GTR for substitution model, invgamma for rate variation,
-*T. aquaticus* strain YT-1 16S for outgroup, 1,100,000 for chain length,
-200 for subsampling freq, 4 for heated chains, 100,000 for burn-in length,
-0.2 for heated chain temp, and 18, 107 for random seed. Lastly, I loaded the
-3 cleaned sequences and 1 seemingly failed sequence into BLAST to identify its
-gene families.
+program to generate multiple sequence alignment [@katoh2002mafft].
+In addition, I created a maximum likelihood phylogeny with
+PhyML [@guindon2010new] and Bayesian inference of phylogeny with
+MrBayes [@huelsenbeck2001mrbayes] to construct phylogenetic trees of
+the aligned sequences. I set the parameters in PhyML to be GTR for
+substitution model, Bootstrap for branch support, and 100 for number
+of bootstraps. In MrBayes, I set the parameters as: GTR for substitution
+model, invgamma for rate variation, *T. aquaticus* strain YT-1 16S for
+outgroup, 1,100,000 for chain length, 200 for subsampling freq, 4 for heated
+chains, 100,000 for burn-in length, 0.2 for heated chain temp, and 18, 107
+for random seed. Lastly, I loaded the 3 cleaned sequences data and 1 seemingly
+failed sequence data into BLAST to identify its gene families.
 
 ## B. Process of culture-free samples
 
