@@ -853,7 +853,8 @@ room temperature storage treatment group.
 melted_phyloseq %>%
   filter(student_initials == "KC") %>%
   group_by(type, Phylum) %>%
-  summarize(sum_abundance = sum(Abundance))
+  summarize(sum_abundance = sum(Abundance)) %>%
+  knitr::kable()
 ```
 
 **Figure 9A:** Summary table that shows sum abundance of phyla found from
