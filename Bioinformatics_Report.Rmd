@@ -347,13 +347,13 @@ As I extracted colonies all from one treatment group, there is a likelihood
 that the results were skewed in a way with culture-based samples.
 
 To demonstrate successful DNA extraction, I measured DNA concentration
-values for each sample using Qubit Fluorometer (Figure 2B). The data
+values for each sample using Qubit Fluorometer (Table 1). The data
 validated that all samples contain DNA in it and the values were within
 2-30ng/µL range.  However, I found no bands in lane 6 and 7, sample #5
-and 6 respectively, indicating no DNA separated from the sample (Figure 2C).
+and 6 respectively, indicating no DNA separated from the sample (Figure 2B).
 Sample #1, 2, and 4 showed bright bands while sample #3 produced
 a faded band. All the visible bands are appeared to be about 1.5kb in
-fragment size according to EZ Load 1 kb Molecular Ruler (Figure 2D).
+fragment size according to EZ Load 1 kb Molecular Ruler (Figure 2C).
 
 ### Comparison of colony abundances and morphotypes
 
@@ -374,7 +374,7 @@ confident that the data is random.
 
 After loading the Sanger sequencing data in Geneious Prime, I obtained
 3 solid data, 3 complete failed data including the negative control,
-and 1 seemingly failed data (Figure 4A). I used the 3 successful data after
+and 1 seemingly failed data (Table 2). I used the 3 successful data after
 trimming to create Maximum Likelihood and Bayesian phylogenetic trees
 with *T. aquaticus* as an outgroup (Figure 4A, 4B) and found a strong
 evidence from both phylogenies that support group Sample #1 and 2
@@ -392,7 +392,7 @@ Trader Joe’s, 3 and 4 were extracted from the original stock of refrigerated
 Lucky California from Lucky Supermarkets, and 5 and 6 were extracted from the
 original stock of refrigerated Butcher shop from Trader Joe’s. As the
 sample #5 and #6 failed for sequencing, I observed 4 different
-identifications with strong evidence to support the data (Figure 5).
+identifications with strong evidence to support the data (Table 3).
 The identification of the sample #1 through #4 was
 *A. baumannii*, *H. paralvei*, *K. rhizophila*, and
 *S. saprophyticus* respectively. The value for query cover for
@@ -406,11 +406,11 @@ its E-value is almost zero (5e-136).
 ### Qubit DNA concentration and Gel Image
 
 I measured DNA concentration values for culture-free samples using Qubit
-Fluorometer (Figure 6A). The data validated that all samples contain DNA
+Fluorometer (Table 4A). The data validated that all samples contain DNA
 in it.  However, I found a bright band separated only in lane 6 and did not
-observe any bands in other lanes. The DNA concentration value corresponded to
-the observation as the sample ID 3B had the highest value when quantified
-the PCR products using Qubit Fluorometer (Figure 6B).
+observe any bands in other lanes (Figure 5). The DNA concentration value
+corresponded to the observation as the sample ID 3B had the highest value
+when quantified the PCR products using Qubit Fluorometer (Table 4B).
 
 ### Trimming sequences with Trimmomatic and sequence quality
 
@@ -418,13 +418,13 @@ Before analyzing the sequence data, I inspected the quality of the sequences
 by reviewing FastQC reports. The graph is divided into green, yellow, and
 red regions to represent the quality of the sequences and the blue line (mean
 quality) in every samples remained in green as the indication of great
-quality of all samples (Figure 7A).
+quality of all samples (Figure 6).
 
 As mentioned earlier, I manually trimmed the raw sequence data for the
 cultured samples using the software called Geneious Prime. Contrarily, I ran
 Trimmomatic in bash to automatically trim the culture-free samples and only
 a few hundred sequences were removed for all the samples as a result of the
-great quality of the sequence (Figure 7B).
+great quality of the sequence (Table 5).
 
 ### Command-line BLAST analysis
 
@@ -432,10 +432,10 @@ I looked into the number of different taxa in each sample and compared
 between the two treatment groups: samples stayed refrigerated (A) and
 those stored at room temperature (B). I observed larger number of different
 taxa in sample #2 and 3 for group B as expected, but the first samples showed
-lesser number of taxa in group B (Figure 8A). In addition, I ran BLAST on
+lesser number of taxa in group B (Table 6A). In addition, I ran BLAST on
 bash to find the major taxa of each sample based on the abundances.
 Interestingly, I found bacteria as the major taxa for all samples except
-for 1A which identified to be *B. mutus*, the domestic yak (Figure 8B).
+for 1A which identified to be *B. mutus*, the domestic yak (Table 6B).
 Two other samples, *B. taurus* (cattle) and *B. mutus* in 2A *B. taurus*
 in 3A, also exhibited the same taxa in its results even though these were
 not identified as the major taxa. It is intriguing to see that these taxa
@@ -453,7 +453,7 @@ sequences after trimming the low quality sequences. The reads changed from
 1B, 13669 to 13647 for sample ID 2A, 10640 to 10617 for sample ID 2B,
 12207 to 12193 for sample ID 3A, and 10155 to 10144 for sample ID 3B.
 The percentage of the non-chimeric reads came out to be 79.19%.
-I created a table that shows the total amplicon sequence variants (Figure 9E)
+I created a table that shows the total amplicon sequence variants (Table 8)
 and identified 100 bimeras out of 452 input sequences.
 
 # Discussion
@@ -493,7 +493,7 @@ was performed.
 4 different identifications were generated from BLAST for Sample #1, 2, 3,
 and 4: *A. baumannii*, *H. paralvei*,
 *K. rhizophila*, and *S. saprophyticus* respectively
-(Figure 5). All of the samples except for the complete failures was
+(Table 3). All of the samples except for the complete failures was
 identified with strong confidence to support the results even for
 the Sample #3 which showed a faded band on the gel and provided the
 seemingly failed result with low quality from Sanger sequencing data.
@@ -523,7 +523,7 @@ observed from cultured samples, *Acinetobacter*,
 from culture-free samples and confirmed the matches between culture-based and
 culture-free samples using Sanger sequencing and Illumina sequencing data.
 However, no matches for *K. rhizophila* from sample #3 of cultured sample
-(Figure 5) was found in culture-free sample, not even its phylum,
+(Table 3) was found in culture-free sample, not even its phylum,
 Actinobacteria. As mentioned earlier, *B. mutus*, domestic yak, was
 identified to be the dominant taxa found in sample ID 1A. I looked up the
 next most abundant taxa in the sample and it was *Pseudomonas thivervalensis*,
@@ -548,10 +548,10 @@ slowing down or stopping meat spoilage [@dohlen2017effect].
 Two brands out of three exhibited to have more number
 of different taxa when it was stored at room temperature while the first
 sample, Teva kosher foods from Trader Joe’s, showed less number of taxa
-from the samples of room temperature storage condition (Figure 8A).
+from the samples of room temperature storage condition (Table 6A).
 Possible justification for this unexpected results could have driven from
 the shorter length of the sequences as sample 1B have only 3,638 sequences
-after trimming while other samples have around 10,000 sequences (Figure 7B).
+after trimming while other samples have around 10,000 sequences (Table 5).
 In fact, treatment group B samples in all 3 brands have shorter
 sequences than treatment group A, but the length of the sample 1B is
 especially shorter.
@@ -560,7 +560,7 @@ especially shorter.
 
 In comparison between the BLAST results and DADA2-based results, it provided
 almost a perfect match in the two data sets. To compare, I created a bar plot
-to display the most abundant phyla discovered in each sample (Figure 9B).
+to display the most abundant phyla discovered in each sample (Figure 7A).
 There were two phyla, Firmicutes and Proteobacteria, discovered in
 sample ID 1A with a slightly higher level of abundance of Proteobacteria.
 Even though the dominant taxa found in 1A from the BLAST results was
@@ -581,7 +581,7 @@ this sample might not be *K. rhizophila*. As far as the phylum diversity,
 three different phyla were found for each treatment group.
 
 I generated another bar plot to investigate the most abundant genera in each
-sample using ggplot (Figure 9C). When generating this bar plot, I filtered out
+sample using ggplot (Figure 7B). When generating this bar plot, I filtered out
 to include only the genera with more than 100 reads due to the excessive
 number of genera discovered in the samples.
 The first interesting pattern I noticed from the bar plot was that there were
@@ -597,7 +597,7 @@ Despite the small difference, the treatment group B still demonstrated more
 diverse microbial communities.
 
 I produced a bar graph of alpha-diversity metrics using Shannon and Simpson
-diversity indices (Figure 9D) to visualize the species diversity and variance
+diversity indices (Figure 7C) to visualize the species diversity and variance
 within the samples. The Shannon index exhibited the refrigerated samples at
 a slight higher level in alpha-diversity measure than room temperature samples
 whereas Simpson index showed the other way around. This result was somewhat
@@ -629,6 +629,18 @@ Teva kosher foods, Lucky California for the middle plates (#2), and
 Butcher shop samples on the bottom (#3).
 
 
+![](output/images/Gel_images/2019_09_18_Culture_PCR_gel_image_labeled.png)
+
+**Figure 2B:** Gel image of culture samples. Ladder is shown in lane 1,
+and the samples from 1 to 6 are located in lane 2-7. Negative control is
+located in lane 8.
+
+
+![](output/images/Gel_images/Ladder_EZ_Load_1kb_Molecular_Ruler_1708355.png)
+
+**Figure 2C:** Ladder used in lane 1 (EZ Load 1 kb Molecular Ruler #1708355).
+
+
 | Sample ID | DNA Conc. (ng/µL) |
 |:---------:|:-----------------:|
 |     1     |       10.50       |
@@ -638,25 +650,13 @@ Butcher shop samples on the bottom (#3).
 |     5     |       12.40       |
 |     6     |       14.30       |
 
-**Figure 2B:** DNA concentration values for culture samples. Sample ID 1 was
+**Table 1:** DNA concentration values for culture samples. Sample ID 1 was
 extracted from the original stock of refrigerated Teva kosher foods from
 Trader Joe’s, 2 was extracted from 1:100 dilution of refrigerated Teva
 kosher foods from Trader Joe’s, 3 and 4 were extracted from the original
 stock of refrigerated Lucky California from Lucky Supermarkets, and
 5 and 6 were extracted from the original stock of refrigerated Butcher shop
 from Trader Joe’s.
-
-
-![](output/images/Gel_images/2019_09_18_Culture_PCR_gel_image_labeled.png)
-
-**Figure 2C:** Gel image of culture samples. Ladder is shown in lane 1,
-and the samples from 1 to 6 are located in lane 2-7. Negative control is
-located in lane 8.
-
-
-![](output/images/Gel_images/Ladder_EZ_Load_1kb_Molecular_Ruler_1708355.png)
-
-**Figure 2D:** Ladder used in lane 1 (EZ Load 1 kb Molecular Ruler #1708355).
 
 
 ```{r read-in-culture-data}
@@ -741,18 +741,18 @@ culture_data %>%
 |  6 |  6-KC_27f_F01.ab1  |    6-KC_27f_F01_KC_failed.ab1    |    No   |          N/A          |           N/A           |
 |  7 |  7-KC Neg Control  |    7-KC Neg Control_KC_failed    |    No   |          N/A          |           N/A           |
 
-**Figure 4A:** Sanger sequencing data for each sample analyzed by Geneious
+**Table 2:** Sanger sequencing data for each sample analyzed by Geneious
 Prime.
 
 
 ![](output/images/Phylogenies/Sanger_MrBayes_phylogenies.png)
 
-**Figure 4B:** Bayesian phylogenetic tree constructed by MrBayes.
+**Figure 4A:** Bayesian phylogenetic tree constructed by MrBayes.
 
 
 ![](output/images/Phylogenies/Sanger_PhyML_phylogenies.png)
 
-**Figure 4C:** Maximum Likelihood phylogeny constructed by PhyML.
+**Figure 4B:** Maximum Likelihood phylogeny constructed by PhyML.
 
 
 | ID |           Description          | % Identity | Query cover |  Accession | E-value |
@@ -762,7 +762,7 @@ Prime.
 |  3 |      *Kocuria rhizophila*      |    90.46   |     77%     | KY522908.1 |  5e-136 |
 |  4 | *Staphylococcus saprophyticus* |    98.55   |     100%    | MH930439.1 |    0    |
 
-**Figure 5:** Identification of each sample performed by BLAST.
+**Table 3:** Identification of each sample performed by BLAST.
 
 
 | Sample ID | DNA Conc. (ng/µL) |
@@ -774,7 +774,7 @@ Prime.
 |     3A    |        1.10       |
 |     3B    |        4.62       |
 
-**Figure 6A:** DNA concentration values for culture-free samples. Sample ID
+**Table 4A:** DNA concentration values for culture-free samples. Sample ID
 1A and 1B were extracted from Teva kosher foods (Trader Joe’s), 2A and 2B
 were Lucky California (Lucky Supermarkets), and 3A and 3B were obtained
 from Butcher shop (Trader Joe’s). The letter A corresponds to the refrigerated
@@ -790,21 +790,21 @@ samples and B indicates the storage condition at room temperature.
 |     3A    |        5.70       |
 |     3B    |       16.30       |
 
-**Figure 6B:** DNA concentration values for the PCR product of
+**Table 4B:** DNA concentration values for the PCR product of
 culture-free samples. Notice sample #3B exhibited the highest concentration
 value as it was the only bright band observed on the gel image.
 
 
 ![](output/images/Gel_images/2019_09_25_Culturefree_PCR_gel_image_labeled.png)
 
-**Figure 6C:** Gel image of culture-free samples. Samples from 1A to 3B are
+**Figure 5:** Gel image of culture-free samples. Samples from 1A to 3B are
 located in lane 1-6. Negative control is loaded in lane 7 and the ladder is
 shown in lane 8.
 
 
 ![](output/images/Seq_quality/Fastq_seq_quality.png)
 
-**Figure 7A:** Quality check of the sequences for each sample using FastQC
+**Figure 6:** Quality check of the sequences for each sample using FastQC
 reports. Y-axis shows the quality score and the green region represents great
 quality, reasonable quality in yellow region, and poor quality in red region.
 
@@ -818,7 +818,7 @@ quality, reasonable quality in yellow region, and poor quality in red region.
 |   3A  |      12207      |      11598     |
 |   3B  |      10155      |      9665      |
 
-**Figure 7B:** Number of sequences before and after removing bad sequences
+**Table 5:** Number of sequences before and after removing bad sequences
 using Trimmomatic.
 
 
@@ -831,7 +831,7 @@ using Trimmomatic.
 |     3A    |          15         |
 |     3B    |          24         |
 
-**Figure 8A:** Number of different taxa from each sample. The letter A
+**Table 6A:** Number of different taxa from each sample. The letter A
 corresponds to the refrigerated storage treatment group and B indicates the
 room temperature storage treatment group.
 
@@ -845,7 +845,7 @@ room temperature storage treatment group.
 |     3A    | *Leuconostoc gelidum* subsp. *gasicomitatum* |
 |     3B    |             *Lelliottia amnigena*            |
 
-**Figure 8B:** Major taxa identified for culture-free samples.
+**Table 6B:** Major taxa identified for culture-free samples.
 
 
 ```{r sum-abundance-table}
@@ -857,7 +857,7 @@ melted_phyloseq %>%
   knitr::kable()
 ```
 
-**Figure 9A:** Summary table that shows sum abundance of phyla found from
+**Table 7:** Summary table that shows sum abundance of phyla found from
 each sample
 
 
@@ -880,7 +880,7 @@ ggtitle("Phyla Abundance in Each Sample") +
   facet_grid(type~., scales = "free_x")
 ```
 
-**Figure 9B:** Barplot of phyla abundance to compare two treatment groups.
+**Figure 7A:** Barplot of phyla abundance to compare two treatment groups.
 
 
 ```{r genera-abundance-barplot}
@@ -907,7 +907,7 @@ ggplot(aes(x = Genus,
     geom_col(position = position_dodge())
 ```
 
-**Figure 9C:** Barplot of genera abundance for the two treatment groups.
+**Figure 7B:** Barplot of genera abundance for the two treatment groups.
 Only the genera with more than 100 reads are included due to excessive number
 of genera discovered in the samples.
 
@@ -924,7 +924,7 @@ plot_richness(phyloseq_obj,
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-**Figure 9D:** Bar chart of alpha-diversity metrics using Shannon and Simpson
+**Figure 7C:** Bar chart of alpha-diversity metrics using Shannon and Simpson
 diversity indices.
 
 
@@ -945,6 +945,6 @@ diversity indices.
 |KC-3A_S77_L001_R1_001_filt         |    12153|          12153|         4732|
 |KC-3B_S78_L001_R1_001_filt         |    10136|          10136|         9336|
 
-**Figure 9E:** The total amplicon sequence variants
+**Table 8:** The total amplicon sequence variants
 
 # Sources Cited
