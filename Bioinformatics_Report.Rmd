@@ -208,7 +208,7 @@ and vortexed again for 60 seconds. Next, I added 100µL of dilution solution
 to the tubes and vortexed it for 5 seconds. The extraction and dilution
 solutions and the directions for the DNA extraction were provided from
 the manufacturer’s protocol from the Sigma REDExtract-N-Amp kit.
-After the extraction process, I centrifuged the sample tues for 5 minutes at
+After the extraction process, I centrifuged the sample tubes for 5 minutes at
 14,000 rpm. Then I measured DNA concentration using Qubit fluorometer.
 To quantify DNA concentration of the samples, I prepared Qubit samples
 by adding 198µL of the Qubit solution and 2µL of DNA extraction.
@@ -235,9 +235,11 @@ for 10 minutes and went down to 4 degrees C for hold.
 
 I loaded total of 7 samples, 6 PCR products and a negative control, for 4µL
 each on 2% agarose gel containing SYBR safe dye and ran the electrophoresis
-at 140V for 30 minutes. After inspecting the fluorescent bands under UV light,
-PCR cleanups were performed using Invitrogen Exo-SAP and sent for
-unidirectional Sanger sequencing using 27f primer at MCLAB in
+at 140V for 30 minutes. After inspecting for successful amplification by
+the fluorescent bands under UV light, PCR cleanups were performed on all of
+the reactions using Invitrogen Exo-SAP
+(Exonuclease - Shrimp Alkaline Phosphatase) and sent them for
+unidirectional Sanger sequencing using the 27f primer at MCLAB in
 South San Francisco, CA.
 
 ### Sanger sequencing and Analysis
@@ -276,7 +278,7 @@ Next, I added 100µL of dilution solution to the tubes and vortexed it for
 5 seconds. The extraction and dilution solutions and the directions
 for the DNA extraction were provided from the manufacturer’s protocol from
 the Sigma REDExtract-N-Amp kit.
-After the extraction process, I centrifuged the sample tues for 5 minutes at
+After the extraction process, I centrifuged the sample tubes for 5 minutes at
 14,000 rpm. Then I measured DNA concentration using Qubit fluorometer.
 To quantify DNA concentration of the
 samples, I prepared Qubit samples by adding 198µL of the Qubit solution and
