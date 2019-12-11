@@ -582,7 +582,7 @@ this sample might not be *K. rhizophila*. As far as the phylum diversity,
 three different phyla were found for each treatment group.
 
 I generated another bar plot to investigate the most abundant genera in each
-sample using ggplot (Figure 7C). When generating this bar plot, I filtered out
+sample using ggplot (Figure 7D). When generating this bar plot, I filtered out
 to include only the genera with more than 100 reads due to the excessive
 number of genera discovered in the samples.
 The first interesting pattern I noticed from the bar plot was that there were
@@ -904,6 +904,35 @@ ggtitle("Most Abundant Phyla in Room Temperature Samples") +
 **Figure 7B:** Barplot of phyla abundance for room temperature samples.
 
 
+```{r families-abundance-barplot}
+# to create a barplot of the families abundance for each treatment group
+# I filtered only the families with more than 100 reads beacuse
+# there was too many families found in each treatment group
+melted_phyloseq %>%
+  filter(!grepl(pattern = "control", type)) %>%
+  filter(Abundance > 100) %>%
+  group_by(type, Sample, Family) %>%
+  summarize(mean_abund = mean(Abundance,
+                              na.rm = TRUE),
+            sd_abund = sd(Abundance,
+                          na.rm = TRUE)) %>%
+ggplot(aes(x = Family,
+           y = mean_abund,
+           fill = Sample)) +
+  ggtitle("Most Abundant Families in Each Sample") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  facet_grid(type~., scales = "free_x") +
+  geom_errorbar(aes(ymin = mean_abund - 5,
+                    ymax = mean_abund + sd_abund),
+                position = position_dodge()) +
+    geom_col(position = position_dodge())
+```
+
+**Figure 7C:** Barplot of families abundance for the two treatment groups.
+Only the families with more than 100 reads are included due to excessive number
+of families discovered in the samples.
+
+
 ```{r genera-abundance-barplot}
 # to create a barplot of the genera abundance for each treatment group
 # I filtered only the genera with more than 100 reads beacuse
@@ -928,7 +957,7 @@ ggplot(aes(x = Genus,
     geom_col(position = position_dodge())
 ```
 
-**Figure 7C:** Barplot of genera abundance for the two treatment groups.
+**Figure 7D:** Barplot of genera abundance for the two treatment groups.
 Only the genera with more than 100 reads are included due to excessive number
 of genera discovered in the samples.
 
