@@ -121,7 +121,7 @@ will be developed if the meat was stored at room temperature in comparison
 to the ones kept in a refrigerator as low temperature storage is an essential
 method to prevent or slow microbial growth [@dave2011meat].
 To test my hypothesis, I designed my study to compare 3 different ground beef
-brands stored at either low temperature, 4-5 degree C in a refrigerator, or at
+brands stored at either low temperature, 4-5 degrees C in a refrigerator, or at
 room temperature. Then, I prepared culture-based and culture-free samples
 to process further analysis. After DNA extraction and PCR, DNA sequencing was
 performed using Sanger sequencer for culture-based samples and
@@ -161,13 +161,16 @@ temperature of the storage.
 The model of the experiment was raw ground beef and they were replicated by
 purchasing 3 different brands: Teva kosher foods from Trader Joe’s, Lucky
 California from Lucky Supermarkets, and Butcher shop from Trader Joe’s.
-Before beginning of the experiment, I extracted two pieces from each brand
+Before the beginning of the experiment, I extracted two pieces from each brand
 approximately in size of a quarter, placed them in plastic bags
 individually, and located them in different storage conditions
 based on their treatment group.
 The first treatment group remained refrigerated while the second treatment
-group was stored at room temperature. For both treatment groups, the
-duration of the storage was 80 hours before performing subsample.
+group was stored at room temperature. The storage temperature for the first
+treatment group was around 4-5 degrees in a refrigerator and the second
+treatment group was around 20 degrees C at room temperature.
+For both treatment groups, the duration of the storage was 80 hours before
+performing subsample.
 
 ## Subsampling
 
