@@ -560,7 +560,8 @@ especially shorter.
 
 In comparison between the BLAST results and DADA2-based results, it provided
 almost a perfect match in the two data sets. To compare, I created a bar plot
-to display the most abundant phyla discovered in each sample (Figure 7A).
+to display the most abundant phyla discovered in each treatment group
+(Figure 7A, Figure 7B).
 There were two phyla, Firmicutes and Proteobacteria, discovered in
 sample ID 1A with a slightly higher level of abundance of Proteobacteria.
 Even though the dominant taxa found in 1A from the BLAST results was
@@ -581,7 +582,7 @@ this sample might not be *K. rhizophila*. As far as the phylum diversity,
 three different phyla were found for each treatment group.
 
 I generated another bar plot to investigate the most abundant genera in each
-sample using ggplot (Figure 7B). When generating this bar plot, I filtered out
+sample using ggplot (Figure 7C). When generating this bar plot, I filtered out
 to include only the genera with more than 100 reads due to the excessive
 number of genera discovered in the samples.
 The first interesting pattern I noticed from the bar plot was that there were
@@ -597,7 +598,7 @@ Despite the small difference, the treatment group B still demonstrated more
 diverse microbial communities.
 
 I produced a bar graph of alpha-diversity metrics using Shannon and Simpson
-diversity indices (Figure 7C) to visualize the species diversity and variance
+diversity indices (Figure 7D) to visualize the species diversity and variance
 within the samples. The Shannon index exhibited the refrigerated samples at
 a slight higher level in alpha-diversity measure than room temperature samples
 whereas Simpson index showed the other way around. This result was somewhat
@@ -861,10 +862,10 @@ melted_phyloseq %>%
 each sample
 
 
-```{r phyla-abundance-barplot}
-# to create a barplot of the phyla abundance in each sample
+```{r phyla-abundance-barplot-for-refrigerated-samples}
+# to create a barplot of the phyla abundance for refrigerated samples
 melted_phyloseq %>%
-  filter(student_initials == "KC") %>%
+  filter(type == "Refrigerated") %>%
   group_by(Sample, type, Phylum) %>%
   summarize(mean_abund = mean(Abundance,
                               na.rm = TRUE),
@@ -874,13 +875,33 @@ melted_phyloseq %>%
              y = mean_abund,
              fill = Sample)) +
   geom_col(position = position_dodge()) +
-ggtitle("Most Abundant Phyla in Each Sample") +
+ggtitle("Most Abundant Phyla in Refrigerated Samples") +
   theme_light() +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-  facet_grid(type~., scales = "free_x")
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-**Figure 7A:** Barplot of phyla abundance to compare two treatment groups.
+**Figure 7A:** Barplot of phyla abundance for refrigerated samples.
+
+
+```{r phyla-abundance-barplot-for-RT-samples}
+# to create a barplot of the phyla abundance for room temperature samples
+melted_phyloseq %>%
+  filter(type == "Room temperature") %>%
+  group_by(Sample, type, Phylum) %>%
+  summarize(mean_abund = mean(Abundance,
+                              na.rm = TRUE),
+            sd_abund = sd(Abundance,
+                          na.rm = TRUE)) %>%
+  ggplot(aes(x = Phylum,
+             y = mean_abund,
+             fill = Sample)) +
+  geom_col(position = position_dodge()) +
+ggtitle("Most Abundant Phyla in Room Temperature Samples") +
+  theme_light() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+**Figure 7B:** Barplot of phyla abundance for room temperature samples.
 
 
 ```{r genera-abundance-barplot}
@@ -907,7 +928,7 @@ ggplot(aes(x = Genus,
     geom_col(position = position_dodge())
 ```
 
-**Figure 7B:** Barplot of genera abundance for the two treatment groups.
+**Figure 7C:** Barplot of genera abundance for the two treatment groups.
 Only the genera with more than 100 reads are included due to excessive number
 of genera discovered in the samples.
 
@@ -925,7 +946,7 @@ plot_richness(phyloseq_obj,
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-**Figure 7C:** Bar chart of alpha-diversity metrics using Shannon and Simpson
+**Figure 7D:** Bar chart of alpha-diversity metrics using Shannon and Simpson
 diversity indices.
 
 
