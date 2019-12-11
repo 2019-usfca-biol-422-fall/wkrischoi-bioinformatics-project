@@ -64,30 +64,31 @@ melted_phyloseq <- psmelt(phyloseq_obj)
 
 # Introduction
 
-The global consumption of meat is continuously rising in conjunction with
-the growth of average individual incomes and population [@godfray2018meat]
-since meat is recognized as an important dietary source of protein including
+The global per capita and total amount of meat consumption shows continuous
+growth along with increasing average individual incomes and growing
+population [@godfray2018meat].
+Meat is recognized as an important dietary source of protein including
 essential nutrients such as iron, zinc, and vitamin B12 [@mcafee2010red].
-However, raw meat also known as one of the most perishable foods with short
+However, raw meat is also known as one of the most perishable foods with short
 shelf life.
-In response to the increasing demand in meat, sanitary environment for
-slaughtering, packaging operations, and distributions has been developed to
+In response to the increasing demands in meat, sanitary environment for
+slaughtering, packaging operations, and distributions has been promoted to
 prevent any potential contamination from surroundings such as water, air,
 and soil, and tools used in the processing [@stellato2016overlap].
-Furthermore, different research and development in enhancing antimicrobial
-meat packaging has been actively performed to meet the global meat
-consumption level.
-Brown discolorations, off-odors, and slime meat production are crucial
-factors to consider in packaging process as it results from the microbial
-spoilage [@mcmillin2008map] and directly influences the safety and the
-sales of the products. To compensate these undesirable traits by
-customers and deliver extended shelf life, the use of vacuum and
-modified atmosphere packaging has been implemented as the most popular and
-appropriate technologies in fresh meat packaging [@mcmillin2017advancements].
-The modified atmosphere packaging uses combination of three gases,
-carbon dioxide, oxygen, and nitrogen depending on the physical and chemical
-properties of the food [@lorenzo2012shelf] to meet the specific respiration
-requirements.
+Furthermore, different research and developments in enhancing antimicrobial
+meat packaging has been actively performed to meet the growing meat
+consumption.
+Brown discolorations, off-odors, and slime textures are crucial
+factors to be cautious of during the packaging process because it directly
+influences the safety and the sales of the products. These phenomenons are
+usually observed as a result of the microbial spoilage [@mcmillin2008map].
+To avoid these undesirable traits and deliver extended shelf
+life, the use of vacuum and modified atmosphere packaging has been implemented
+as one of the most popular and appropriate technologies in fresh meat packaging
+[@mcmillin2017advancements]. The modified atmosphere packaging uses
+combination of three gases, carbon dioxide, oxygen, and nitrogen depending
+on the physical and chemical properties of the food [@lorenzo2012shelf] to
+meet the specific respiration requirements.
 
 The biggest factor that contributes to decay in fresh raw meat is
 considered to be the growth of undesired microorganisms [@borch1996bacterial].
@@ -102,8 +103,8 @@ techniques and packaging [@doulgeraki2012spoilage]. In fact, refrigeration
 is the essential condition that needs to be met regardless of any advanced
 methods for extending shelf life [@fernandes2019hyperbaric].
 
-Extensive studies have detected the common genera that can be found and
-dominant in spoiled meat: *Serratia*, *Enterobacter*, *Pantoea*,
+Extensive studies have detected the common and dominating genera that can be
+found in spoiled meat: *Serratia*, *Enterobacter*, *Pantoea*,
 *Klebsiella*, *Proteus*, *Hafnia*, and *Pseudomonas*
 [@borch1996bacterial; @nychas1998chemical; @ercolini2006changes].
 In addition, lactic acid bacteria, especially *Lactobacillus algidus*,
@@ -120,32 +121,37 @@ will be developed if the meat was stored at room temperature in comparison
 to the ones kept in a refrigerator as low temperature storage is an essential
 method to prevent or slow microbial growth [@dave2011meat].
 To test my hypothesis, I designed my study to compare 3 different ground beef
-brands stored at either low temperature, 4-5 degree C in a refrigerator, or
-room temperature and prepared culture-based and culture-free samples.
-After DNA extraction and PCR, DNA sequencing was performed using Sanger
-sequencer for culture-based samples and Illumina sequencer for culture-free
-samples.
+brands stored at either low temperature, 4-5 degree C in a refrigerator, or at
+room temperature. Then, I prepared culture-based and culture-free samples
+to process further analysis. After DNA extraction and PCR, DNA sequencing was
+performed using Sanger sequencer for culture-based samples and
+Illumina sequencer for culture-free samples.
 For culture-based samples, I used different statistical methods and
-generated phylogenetic trees for further analysis and identified each
-sample using BLAST. As a result, 4 out of 6 samples were successfully
-identified with strong confidence values and following taxa were found
-from the samples: *Acinetobacter baumannii*, *Hafnia paralvei*,
-*Kocuria rhizophila*, and *Staphylococcus saprophyticus*.
-Meanwhile, the major taxa determined from the culture-free samples were
-*Bos mutus*, *Carnobacterium divergens*, *Lactobacillus algidus*,
-*Leuconostoc gelidum* subsp. *gasicomitatum*, and *Lelliottia amnigena*.
+generated Bayesian and Maximum Likelihood phylogenetic trees to look at
+phylogenies of the samples and identified each sample using BLAST.
+As a result, 4 out of 6 samples were successfully identified with strong
+confidence values and following taxa were found from the samples:
+*Acinetobacter baumannii*, *Hafnia paralvei*, *Kocuria rhizophila*,
+and *Staphylococcus saprophyticus*. Meanwhile, the major taxa determined
+from the culture-free samples were *Bos mutus*, *Carnobacterium divergens*,
+*Lactobacillus algidus*, *Leuconostoc gelidum* subsp. *gasicomitatum*, and
+*Lelliottia amnigena* using the combination of bash and BLAST.
 By investigating different number of taxa discovered in the culture-free
 samples, 2 samples out of 3 from room temperature storage condition
-exhibited more developed microbial communities than the refrigerated treatment
-group. I also used a software package called DADA2 to visualize and compare
-the data obtained from BLAST and the results generated from the DADA2-based
-data provided a great match. *K. rhizophila* found from one of
-the culture-based samples was not observed in neither the BLAST nor DADA2
-results. Throughout running the different analysis methods, I found out there
+exhibited more developed microbial communities than the refrigerated
+treatment group. I also used a software package called DADA2 and phyloseq
+to visualize and compare the data obtained from BLAST by looking at the most
+abundant phyla, families, and genera as well as alpha diversity. The results
+generated from the DADA2-based data provided a great match to the bash and
+BLAST based results.
+However, *K. rhizophila* and it phylum found from one of the culture-based
+samples was not observed in neither the BLAST nor DADA2 results.
+Throughout running the different analysis methods, I observed that there
 were more diverse microbial communities developed from the samples that were
-stored at room temperature and it supported the hypothesis raised in
-the paper. Furthermore, I detected that different bacteria genera were developed
-based on the temperature of the storage.
+stored at room temperature than the samples remained refrigerated.
+The results supported the hypothesis raised in the paper. Furthermore,
+I detected that different bacteria genera were evolved based on the
+temperature of the storage.
 
 
 # Methods
@@ -463,13 +469,14 @@ and identified 100 bimeras out of 452 input sequences.
 ## Analysis of cultured-samples
 
 I questioned a level of microbial communities in ground beef under different
-storage conditions and expected to observe more diverse communities from the
-samples stored at room temperature than refrigerated samples. However, the
-petri dishes from the room temperature samples were covered by bacterial lawn
-instead of forming colonies and no distinct morphotypes were observed
-(Figure 2A). In addition, I was not able to observe different number of taxa
-associated with each sample using Sanger sequencing data and put the results
-into BLAST as the results only provided the most abundant species.
+storage temperature exposures and expected to observe more diverse communities
+from the samples stored at room temperature than refrigerated samples.
+However, the petri dishes from the room temperature samples were covered
+by bacterial lawn instead of forming colonies and no distinct morphotypes
+were observed (Figure 2A). In addition, I was not able to observe different
+number of taxa associated with each sample using Sanger sequencing data and
+put the results into BLAST as the results only provided the most
+abundant species.
 
 The factor that might have influenced the bacterial lawn in all
 room temperature samples can be the long duration of swabbing on the
