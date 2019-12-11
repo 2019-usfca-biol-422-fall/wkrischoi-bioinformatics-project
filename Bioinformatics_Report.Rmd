@@ -98,7 +98,9 @@ microbial communities ultimately leads to the meat spoilage
 [@pothakos2015lactic]. In an effort to avoid or minimize bacterial
 contamination in raw meat, the temperature of storage has been emphasized
 as a key factor along with the advancement in sterile meat processing
-techniques [@doulgeraki2012spoilage].
+techniques and packaging [@doulgeraki2012spoilage]. In fact, refrigeration
+is the essential condition that needs to be met regardless of any advanced
+methods for extending shelf life [@fernandes2019hyperbaric].
 
 Extensive studies have detected the common genera that can be found and
 dominant in spoiled meat: *Serratia*, *Enterobacter*, *Pantoea*,
