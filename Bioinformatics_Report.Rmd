@@ -917,7 +917,8 @@ of genera discovered in the samples.
 # comparing two diversity indices: Shannon and Simpson
 plot_richness(phyloseq_obj,
               x = "type",
-              measures = c("Shannon", "Simpson")) +
+              measures = c("Shannon", "Simpson"),
+              title = "Alpha-Diversity Metrics using Shannon and Simpson Indicies") +
   xlab("Type of sample") +
   geom_col() +
   theme_light() +
