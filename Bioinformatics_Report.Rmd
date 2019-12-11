@@ -918,7 +918,7 @@ of genera discovered in the samples.
 plot_richness(phyloseq_obj,
               x = "type",
               measures = c("Shannon", "Simpson"),
-              title = "Alpha-Diversity Metrics using Shannon and Simpson Indicies") +
+              title = "Alpha Diversity of Treatment Groups and Controls") +
   xlab("Type of sample") +
   geom_col() +
   theme_light() +
@@ -947,5 +947,6 @@ diversity indices.
 |KC-3B_S78_L001_R1_001_filt         |    10136|          10136|         9336|
 
 **Table 8:** The total amplicon sequence variants
+
 
 # Sources Cited
