@@ -280,10 +280,10 @@ for the DNA extraction were provided from the manufacturer’s protocol from
 the Sigma REDExtract-N-Amp kit.
 After the extraction process, I centrifuged the sample tubes for 5 minutes at
 14,000 rpm. Then I measured DNA concentration using Qubit fluorometer.
-To quantify DNA concentration of the
-samples, I prepared Qubit samples by adding 198µL of the Qubit solution and
-2µL of DNA extraction. I vortexed each tube for 5 seconds and incubated
-it for 5 minutes in dark before putting it in Qubit fluorometer.
+To quantify DNA concentration of the samples, I prepared Qubit samples by
+adding 198µL of the Qubit solution and 2µL of DNA extraction.
+I vortexed each tube for 5 seconds and incubated it for 5 minutes in
+dark before putting it in Qubit fluorometer.
 
 ### PCR and Gel Electrophoresis
 
@@ -301,6 +301,7 @@ for hold. 6 PCR products and a negative control were loaded on 2% agarose gel
 containing SYBR safe dye and ran the electrophoresis at 140V for 30 minutes.
 
 ### Illumina sequencing and Analysis
+
 Following electrophoresis, PCR products were purified using AmpureXP magnetic
 beads (Beckman-Coulter) and quantitated using a PicoGreen fluorescent assay
 (Invitrogen) on a Tecan Infinite M Plex plate reader. Purified PCR products
@@ -308,17 +309,18 @@ were used as the template for a second round of PCR, which served to attach
 unique pairs of forward and reverse Illumina barcodes (Nextera XT Index 2
 kit). All other components of the PCR mixtures were as for the first-round
 PCR. These reactions were cycled at 95 degrees C for 3 minutes, then 8 cycles
-of: 95 degrees C for 30 s, 55 degrees C for 30s, and 72 degrees C for 30s,
-followed by a 5 minute elongation cycle at 72 degrees C. Following this
-amplification, PCR products were purified and normalized with a
-SequelPrep normalization plate (Invitrogen), pooled, and then quantified
-once again with a Qubit 4 fluorometer (Invitrogen) and a TapeStation 4200
-(Agilent) to verify library size and concentration. This library was then
-diluted to the loading concentration (50 pM) and combined with an Illumina
-PhiX spike-in library (5% spike in) and sequenced on an Illumina iSeq
-using a 2 x 150 bp consumable cartridge.
+of: 95 degrees C for 30 seconds, 55 degrees C for 30 seconds, and
+72 degrees C for 30 seconds, followed by a 5 minute elongation cycle at
+72 degrees C. Following this amplification, PCR products were purified and
+normalized with a SequelPrep normalization plate (Invitrogen), pooled, and
+then quantified once again with a Qubit 4 fluorometer (Invitrogen) and
+a TapeStation 4200 (Agilent) to verify library size and concentration.
+This library was then diluted to the loading concentration (50 pM) and
+combined with an Illumina PhiX spike-in library (5% spike in) and sequenced
+on an Illumina iSeq using a 2 x 150 bp consumable cartridge.
 
 ### DADA Analysis Pipeline
+
 I used DADA2 pipeline in addition to BLAST for sample analysis to form error
 models introduced from Illumina-sequenced amplicon and use it to identify the
 accurate sample composition [@callahan2016dada2]. First of all, I downloaded
