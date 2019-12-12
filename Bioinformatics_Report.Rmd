@@ -325,30 +325,31 @@ I used DADA2 pipeline in addition to BLAST for sample analysis to form error
 models introduced from Illumina-sequenced amplicon and use it to identify the
 accurate sample composition [@callahan2016dada2]. First of all, I downloaded
 following packages required to operate DADA: dada2, sequinr, mctoolsr, and
-phyloseq. Then, I set the base path for the input data files, sorted to
+phyloseq. Then I set the base path for the input data files, sorted to
 ensure the samples are in order, extracted sample names, and specified
 the full path to each of the file names forward reads. I checked the quality
 profiles of first 14 samples and placed filtered files in filtered
 sub-directory. After trimming low quality sequences, I generated a markdown
 table of read counts before and after trimming. I made a path for all of
 the trimmed files, built error models from each of the samples, and checked
-to see if error models matched my data. Then, I removed any duplicated
+to see if error models matched my data. Then I removed any duplicated
 sequences to enhance accuracy, named all trimmed files, and extract sample
 names. After the extraction, I also named the derep-class objects by
 the sample names. I ran dada2 to check DADA results for forward reads and
 generated the site by species matrix. Next, I produced a histogram of
 final sequence variant lengths to look at distribution of trimmed and denoised
-sequences. In the next step, I checked for and removed chimeras and created
-a table that shows how many sequences remain at each step of the pipeline.
-I added proper column names and row names to the table and made a markdown
-table of progress through the pipeline. Then, I removed any sequences
-shorter than 50 as it cannot assign their taxonomy and I assigned taxonomy
-to each sequence variant based on a supplied training set made up of known
-sequences. I exported the cleaned, trimmed, filtered, denoised sequence
-variants in fasta file to build a phylogeny. Finally, I saved necessary files
-from DADA pipeline to analyze and visualize phylogenetic sequencing data
-using phyloseq [@mcmurdie2013phyloseq]. To do this, II constructed phyloseq
-object and melted phyloseq to use in the Rmd file.
+sequences. In the next step, I checked for chimeras and removed them and
+created a table that shows how many sequences are remained at each step of
+the pipeline. I added proper column names and row names to the table and
+made a markdown table of progress through the pipeline. Then I removed any
+sequences shorter than 50 as it cannot assign their taxonomy and I assigned
+taxonomy to each sequence variant based on a supplied training set made up of
+known sequences. I exported the cleaned, trimmed, filtered, and denoised
+sequence variants in fasta file to build a phylogeny.
+Finally, I saved necessary files from DADA pipeline to analyze and visualize
+phylogenetic sequencing data using phyloseq [@mcmurdie2013phyloseq].
+To do this, I constructed phyloseq object and melted phyloseq to use in the
+Rmd file.
 
 
 # Results
