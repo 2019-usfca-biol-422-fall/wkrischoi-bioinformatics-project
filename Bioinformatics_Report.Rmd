@@ -274,20 +274,19 @@ failed sequence data into BLAST to identify its gene families.
 ### DNA Extraction and Quantification of DNA concentration
 
 The samples that bypassed culturing process were stored in a freezer for
-DNA extraction. To perform the extraction, I added 100µL of extraction
-solution directly to the tubes with cotton swab tips from the subsample
-and vortexed them for 60 seconds. After vortexing, I incubated the tubes
+DNA extraction. To perform DNA extraction, I added 100µL of extraction
+solution directly to the tubes containing cotton swab tips from the subsample
+process and vortexed it for 60 seconds. After vortexing, I incubated the tubes
 at 95 degrees C for 10 minutes and vortexed again for 60 seconds.
 Next, I added 100µL of dilution solution to the tubes and vortexed it for
-5 seconds. The extraction and dilution solutions and the directions
+5 seconds. The extraction and dilution solutions, and the directions
 for the DNA extraction were provided from the manufacturer’s protocol from
-the Sigma REDExtract-N-Amp kit.
-After the extraction process, I centrifuged the sample tubes for 5 minutes at
-14,000 rpm. Then I measured DNA concentration using Qubit fluorometer.
-To quantify DNA concentration of the samples, I prepared Qubit samples by
-adding 198µL of the Qubit solution and 2µL of DNA extraction.
-I vortexed each tube for 5 seconds and incubated it for 5 minutes in
-dark before putting it in Qubit fluorometer.
+the Sigma REDExtract-N-Amp kit. After the extraction process, I centrifuged
+the sample tubes for 5 minutes at 14,000 rpm. Then I measured DNA
+concentration using Qubit fluorometer. To quantify DNA concentrations of
+the samples, I prepared Qubit samples by adding 198µL of the Qubit solution
+and 2µL of DNA extraction. I vortexed each tube for 5 seconds and incubated
+it for 5 minutes in dark before putting it in Qubit fluorometer.
 
 ### PCR and Gel Electrophoresis
 
