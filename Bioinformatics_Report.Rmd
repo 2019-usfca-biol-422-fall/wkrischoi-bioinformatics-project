@@ -479,15 +479,18 @@ the values within 3ng/µL to 6ng/µL range (Table 4B).
 
 Before analyzing the sequence data, I inspected the quality of the sequences
 by reviewing FastQC reports. The graph is divided into green, yellow, and
-red regions to represent the quality of the sequences and the blue line (mean
-quality) in every samples remained in green as the indication of great
-quality of all samples (Figure 6).
+red regions to represent the quality of the sequences. The quality score
+is represented in y-axis and the green region indicates great quality,
+yellow region demonstrates reasonable quality, and poor quality in red region.
+In addition, the blue line (mean quality) in every samples remained in green
+regions as the indication of great quality of all samples (Figure 6).
 
 As mentioned earlier, I manually trimmed the raw sequence data for the
-cultured samples using the software called Geneious Prime. Contrarily, I ran
-Trimmomatic in bash to automatically trim the culture-free samples and only
-a few hundred sequences were removed for all the samples as a result of the
-great quality of the sequence (Table 5).
+culture-based samples using the software called Geneious Prime.
+In contrast, I ran Trimmomatic in bash to automatically trim the culture-free
+samples to eliminate low quality bases and only a few hundred sequences
+were removed from all of the samples because the overall quality of the
+entire samples was great according to the FastQC reports (Table 5).
 
 ### Command-line BLAST analysis
 
