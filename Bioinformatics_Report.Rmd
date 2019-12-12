@@ -362,8 +362,8 @@ Rmd file.
 
 I performed a visual inspection of the samples before and after the experiment.
 All samples appeared to be fresh with bright red pigment with no noticeable
-odor (Figure 1A). After 80 hours of storage under different temperature
-exposures, I observed some distinct characteristics developed from
+odor and slime (Figure 1A). After 80 hours of storage under different
+temperature exposures, I observed some distinct characteristics developed from
 different treatment groups. For treatment group A from refrigerator,
 sample 1 and 2 still exhibited its original pigmentation in darker pink color
 while sample 3 turned completely to brown (Figure 1B). I also noticed
