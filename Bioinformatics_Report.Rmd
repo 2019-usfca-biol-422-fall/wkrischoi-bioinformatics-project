@@ -80,8 +80,9 @@ meat packaging has been actively performed to meet the growing meat
 consumption.
 Brown discolorations, off-odors, and slime textures are crucial
 factors to be cautious of during the packaging process because it directly
-influences the safety and the revenues of the products. Consumers especially
-prioritize to have the bright cherry-red color at the point of sale.
+influences the safety and the revenues of the products and
+consumers especially prioritize to have the bright cherry-red color at the
+point of sale [@suman2013myoglobin].
 These phenomenons are usually considered as a indication of the microbial
 spoilage [@mcmillin2008map].
 To avoid these undesirable traits and deliver extended shelf
