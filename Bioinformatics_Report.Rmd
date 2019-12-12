@@ -80,8 +80,10 @@ meat packaging has been actively performed to meet the growing meat
 consumption.
 Brown discolorations, off-odors, and slime textures are crucial
 factors to be cautious of during the packaging process because it directly
-influences the safety and the sales of the products. These phenomenons are
-usually observed as a result of the microbial spoilage [@mcmillin2008map].
+influences the safety and the revenues of the products. Consumers especially
+prioritize to have the bright cherry-red color at the point of sale.
+These phenomenons are usually considered as a indication of the microbial
+spoilage [@mcmillin2008map].
 To avoid these undesirable traits and deliver extended shelf
 life, the use of vacuum and modified atmosphere packaging has been implemented
 as one of the most popular and appropriate technologies in fresh meat packaging
@@ -358,17 +360,19 @@ Rmd file.
 
 I performed a visual inspection of the samples before and after the experiment.
 All samples appeared to be fresh with bright red pigment with no noticeable
-odor (Figure 1A). After 80 hours under different storage environments,
-I observed some distinct characteristics developed from different treatment
-groups. For treatment group A, sample 1 and 2 still exhibited its original
-pigmentation but in darker color while sample 3 turned to brown (Figure 1B).
-I noticed subtle unpleasant odor from the samples after 80-hour storage.
+odor (Figure 1A). After 80 hours of storage under different temperature
+exposures, I observed some distinct characteristics developed from
+different treatment groups. For treatment group A from refrigerator,
+sample 1 and 2 still exhibited its original pigmentation in darker pink color
+while sample 3 turned completely to brown (Figure 1B). I also noticed
+subtle unpleasant odor from the samples after 80-hour storage.
 The discoloration of meat is governed by the protein called myoglobin,
-the major protein that is responsible in turning the meat color to brown
-by releasing oxygen [@seideman1984factors]. Releasing oxygen is a trigger
-in changing the meat color as the high oxygen level ensures to maintain the
-red pigment. Meanwhile, treatment group B exhibited more evident indication
-of spoilage by turning into dark purple and brown pigments with pungent odor.
+the sarcoplasmic heme protein that is primary responsible in turning the
+meat color to brown by releasing oxygen [@seideman1984factors].
+Releasing oxygen is a trigger in changing the meat color as the high
+oxygen level ensures to maintain the red pigment. Meanwhile, treatment group B
+exhibited more evident indication of spoilage by turning into dark purple
+and brown pigments with pungent odor.
 
 ## A. Cultured samples
 
