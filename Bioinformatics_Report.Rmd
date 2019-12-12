@@ -465,11 +465,15 @@ were still strongly supported from the data as its E-value is close to zero
 ### Qubit DNA concentration and Gel Image
 
 I measured DNA concentration values for culture-free samples using Qubit
-Fluorometer (Table 4A). The data validated that all samples contain DNA
-in it.  However, I found a bright band separated only in lane 6 and did not
-observe any bands in other lanes (Figure 5). The DNA concentration value
-corresponded to the observation as the sample ID 3B had the highest value
-when quantified the PCR products using Qubit Fluorometer (Table 4B).
+Fluorometer (Table 4A). The data validated that all samples contained DNA
+in it. However, I found a bright band separated only from sample ID 3B
+in lane 6 and did not observe any bands separated from other samples
+(Figure 5). The band separated from sample ID 3B travelled farther than the
+ladder in lane 8, meaning that the size of the band is small and only
+a few hundreds kb. The DNA concentration values matched to the gel image
+observations as the PCR products of sample ID 3B contained the highest
+DNA concentration value, 16.30ng/µL, while other samples only exhibited
+the values within 3ng/µL to 6ng/µL range (Table 4B).
 
 ### Trimming sequences with Trimmomatic and sequence quality
 
