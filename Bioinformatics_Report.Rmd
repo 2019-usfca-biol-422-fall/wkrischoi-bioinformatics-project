@@ -69,8 +69,9 @@ growth along with increasing average individual incomes and growing
 population [@godfray2018meat].
 Meat is recognized as an important dietary source of protein including
 essential nutrients such as iron, zinc, and vitamin B12 [@mcafee2010red].
-However, raw meat is also known as one of the most perishable foods with short
-shelf life.
+However, it provides an optimal conditions for microorganisms to grow and form
+communities due to its nutrient-dense environment and thus it is known as one
+of the most perishable foods with short shelf life.
 In response to the increasing demands in meat, sanitary environment for
 slaughtering, packaging operations, and distributions has been promoted to
 prevent any potential contamination from surroundings such as water, air,
@@ -78,11 +79,11 @@ and soil, and tools used in the processing [@stellato2016overlap].
 Furthermore, different research and developments in enhancing antimicrobial
 meat packaging has been actively performed to meet the growing meat
 consumption.
-Brown discolorations, off-odors, and slime textures are crucial
-factors to be cautious of during the packaging process because it directly
-influences the safety and the revenues of the products and
-consumers especially prioritize to have the bright cherry-red color at the
-point of sale [@suman2013myoglobin].
+Brown discolorations, strong off-odors, and development of slime are the
+main qualitative criteria to be cautious of during the packaging process
+because it has a direct influence on the safety of the consumers and the
+revenues of the products. Consumers especially prioritize in choosing
+bright cherry-red color meat at the point of sale [@suman2013myoglobin].
 These phenomenons are usually considered as a indication of the microbial
 spoilage [@mcmillin2008map].
 To avoid these undesirable traits and deliver extended shelf
