@@ -441,23 +441,25 @@ support sample ID 1 and 2 as a monophyletic group
 
 ### Identification of Samples using BLAST 
 
-I provided the sequences for 3 successfully sequenced samples
-(Sample #1, 2, and 4) and 1 seemingly failed sample (Sample #3) into
-NCBI BLAST website to identify each sample. Sample 1 was extracted from the
-original stock of refrigerated Teva kosher foods from Trader Joe’s,
-2 was extracted from 1:100 dilution of refrigerated Teva kosher foods from
-Trader Joe’s, 3 and 4 were extracted from the original stock of refrigerated
-Lucky California from Lucky Supermarkets, and 5 and 6 were extracted from the
-original stock of refrigerated Butcher shop from Trader Joe’s. As the
-sample #5 and #6 failed for sequencing, I observed 4 different
-identifications with strong evidence to support the data (Table 3).
-The identification of the sample #1 through #4 was
-*A. baumannii*, *H. paralvei*, *K. rhizophila*, and
-*S. saprophyticus* respectively. The value for query cover for
-sample ID #3 was relatively low (77%) compare to other samples and it is
-plausible considering its low sequencing data quality observed from Geneious
-Prime. However, the result is still strongly supported from the data as
-its E-value is almost zero (5e-136).
+I provided the sequence data for 3 successfully sequenced samples
+(sample ID 1, 2, and 4) and 1 seemingly failed sample (sample ID 3) into
+NCBI BLAST website to determine members of gene families of each sample.
+Sample ID 1 was extracted from the original stock of refrigerated Teva kosher
+foods from Trader Joe’s, 2 was extracted from 1:100 dilution of refrigerated
+Teva kosher foods from Trader Joe’s, 3 and 4 were extracted from the original
+stock of refrigerated Lucky California from Lucky Supermarkets, and 5 and
+6 were extracted from the original stock of refrigerated Butcher shop
+from Trader Joe’s. As the sample ID 5 and 6 failed from obtaining the
+sequencing data, I observed 4 different identifications with strong evidence
+to support the data (Table 3). The identifications of the sample ID 1
+through 4 were *A. baumannii*, *H. paralvei*, *K. rhizophila*, and
+*S. saprophyticus* respectively. Sample ID 1, 2, and 4 showed high
+% identity and query cover, and zero E-value, indicating highly confident
+results. Although the value for query cover for sample ID 3 was relatively
+low (77%) compare to other samples, it is plausible considering its low
+sequencing data quality observed from Geneious Prime. However, the results
+were still strongly supported from the data as its E-value is close to zero
+(5e-136) with high % identity (90.46%).
 
 ## B. Culture-free samples
 
