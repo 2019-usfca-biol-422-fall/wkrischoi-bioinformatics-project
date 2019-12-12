@@ -429,12 +429,15 @@ difference in the data is caused by random chance.
 
 After loading the Sanger sequencing data in Geneious Prime, I obtained
 3 solid data, 3 complete failed data including the negative control,
-and 1 seemingly failed data (Table 2). I used the 3 successful data after
-trimming to create Maximum Likelihood and Bayesian phylogenetic trees
-with *T. aquaticus* as an outgroup (Figure 4A, 4B) and found a strong
-evidence from both phylogenies that support group Sample #1 and 2
-as a monophyletic group (Bayesian posterior probability = 0.9998,
-ML bootstrap = 98).
+and 1 seemingly failed data. After removing the poor quality
+sequences near the primer site and at the end, I manually adjusted ambiguous
+bases using IUPAC ambiguity codes. I adjusted 16 bases for sample ID 1,
+36 bases for sample ID 2, and 8 bases for sample ID 4 (Table 2).
+I used these 3 successful data after trimming to create Maximum Likelihood
+and Bayesian phylogenetic trees with *T. aquaticus* as an outgroup
+(Figure 4A, 4B) and found a strong evidence from both phylogenetic trees that
+support sample ID 1 and 2 as a monophyletic group
+(Bayesian posterior probability = 0.9998, ML bootstrap = 98).
 
 ### Identification of Samples using BLAST 
 
