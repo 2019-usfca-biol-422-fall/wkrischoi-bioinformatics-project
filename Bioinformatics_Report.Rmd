@@ -685,10 +685,10 @@ the identification of this sample might not be *K. rhizophila* from the
 culture-based analysis. As far as the phylum diversity, three different phyla
 were found for each treatment group.
 
-Next, I produced a barplot to explore families abundance for the two treatment
+Next, I produced a bar plot to explore families abundance for the two treatment
 groups and I filtered out to display only the families with more than 100
-reads due to excessive number discovered in the samples. From the refrigerated
-sample group, I observed the families of *Carnobacteriaceae*,
+reads due to excessive number discovered in the samples (Figure 7C). From the
+refrigerated sample group, I observed the families of *Carnobacteriaceae*,
 *Enterobacteriaceae*, *Lactobacillaceae*, *Leuconostocaceae*,
 *Pseudomonadaceae*, *Streptococcaceae*, and *Vibrionaceae*. All families except
 for *Lactobacillaceae* and *Leuconostocaceae* contained low mean abundance
@@ -703,18 +703,32 @@ were the dominating phyla identified from both storage conditions.
 I generated another bar plot to investigate the most abundant genera in each
 sample using ggplot (Figure 7D). When generating this bar plot, I filtered out
 to include only the genera with more than 100 reads due to the excessive
-number of genera discovered in the samples.
-The first interesting pattern I noticed from the bar plot was that there were
-not many overlaps of the genera between the two different treatment groups.
-This observation provided an idea that different microbial genera are
-developed depends on the different storage conditions.
+number of genera discovered in the samples. There were 7 different genera
+determined from the refrigerated group: *Carnobacterium*, *Gibbsiella*,
+*Lactobacillus*, *Lactococcus*, *Leuconostoc*, *Photobacterium*, and
+*Pseudomonas* with the highest abundance in *Leuconostoc* as expected.
+It was expected because this was also the case from the abundant families bar
+plot for the treatment group A with the high abundance presented in
+*Leuconostocaceae*. *Lactobacillus* and *Photobacterium* are the next abundant
+genera and only low abundance values were observed for the rest of the genera.
+Sample ID 1A showed the most diverse genera distribution in this treatment
+group as it had 6 different genera in its sample out of 7 total genera found
+in the results. In the room temperature group, 8 different genera were detected
+from the results: *Acinetobacter*, *Buttiauxella*, *Carnobacterium*,
+*Lactococcus*, *Myroides*, *Raoultella*, *Serratia*, and *Vagococcus*.
+*Buttiauxella* and *Carnobacterium* were the most abundant genera of all
+room temperature samples followed by *Myroides*. The first interesting pattern
+I noticed from this bar plot was that there were not many overlaps of the
+genera between the two different treatment groups just as I observed the
+similar patter from the most abundant families bar plot. This observation
+provided an idea that different microbial communities were developed depends
+on the different storage temperatures.
 This can be further implemented in the research to enhance the packaging
 methods and handling/distributing operations to avoid specific microbes
 depending on different circumstances. 
-Furthermore, seven different genera were identified from the
-refrigerated group and eight genera for the room temperature group.
-Despite the small difference, the treatment group B still demonstrated more
-diverse microbial communities.
+Furthermore, 7 different genera were identified from the refrigerated group
+and 8 genera for the room temperature group. Despite the small difference,
+the treatment group B still demonstrated more diverse microbial communities.
 
 I produced a bar graph of alpha-diversity metrics using Shannon and Simpson
 diversity indices (Figure 7D) to visualize the species diversity and variance
