@@ -532,6 +532,8 @@ and identified 100 bimeras out of 452 input sequences.
 I questioned a level of microbial communities in ground beef under different
 storage temperature exposures and expected to observe more diverse communities
 from the samples stored at room temperature than refrigerated samples.
+My hypothesis was raised because the preservation of meat from spoilage is
+fundamentally depends on low temperature storage and anaerobic environment [@coombs2017long].
 However, the petri dishes from the room temperature samples were covered
 by bacterial lawn instead of forming colonies and no distinct morphotypes
 were observed (Figure 2A). In addition, I was not able to observe different
