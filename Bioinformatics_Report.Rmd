@@ -685,6 +685,21 @@ the identification of this sample might not be *K. rhizophila* from the
 culture-based analysis. As far as the phylum diversity, three different phyla
 were found for each treatment group.
 
+Next, I produced a barplot to explore families abundance for the two treatment
+groups and I filtered out to display only the families with more than 100
+reads due to excessive number discovered in the samples. From the refrigerated
+sample group, I observed the families of *Carnobacteriaceae*,
+*Enterobacteriaceae*, *Lactobacillaceae*, *Leuconostocaceae*,
+*Pseudomonadaceae*, *Streptococcaceae*, and *Vibrionaceae*. All families except
+for *Lactobacillaceae* and *Leuconostocaceae* contained low mean abundance
+value and *Leuconostocaceae* exhibited an exceptionally high abundance among
+all other samples but with the greatest error bar. On the other hand,
+I observed *Carnobacteriaceae*, *Enterobacteriaceae*, *Enterococcaceae*,
+*Flavobacteriaceae*, *Moraxellaceae*, and *Streptococcaceae* families from the
+room temperature sample group. It was noticeable that not many of the overlaps
+was found between the two treatment groups when Firmicutes and Proteobacteria
+were the dominating phyla identified from both storage conditions.
+
 I generated another bar plot to investigate the most abundant genera in each
 sample using ggplot (Figure 7D). When generating this bar plot, I filtered out
 to include only the genera with more than 100 reads due to the excessive
