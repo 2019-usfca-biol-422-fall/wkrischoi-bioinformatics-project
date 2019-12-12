@@ -64,98 +64,98 @@ melted_phyloseq <- psmelt(phyloseq_obj)
 
 # Introduction
 
-The global per capita and total amount of meat consumption shows continuous
-growth along with increasing average individual incomes and growing
-population [@godfray2018meat].
-Meat is recognized as an important dietary source of protein including
-essential nutrients such as iron, zinc, and vitamin B12 [@mcafee2010red].
-However, it provides an optimal conditions for microorganisms to grow and form
-communities due to its nutrient-dense environment and thus it is known as one
-of the most perishable foods with short shelf life.
-In response to the increasing demands in meat, sanitary environment for
+The surge and continuous growth of global per capita and a total amount of
+meat consumption is closely related to the increase in average individual
+incomes and growth in global population [@godfray2018meat]. Meat is
+recognized as an important dietary sources of protein, that includes essential
+nutrients such as iron, zinc, and vitamin B12 [@mcafee2010red]. However,
+it provides an optimal conditions for microorganisms to grow and form
+communities due to its nutrient-dense environment and thus it is known as
+one of the most perishable foods with exceptionally short shelf life.
+As a response to the increasing demands for meat, sanitary environment for
 slaughtering, packaging operations, and distributions has been promoted to
-prevent any potential contamination from surroundings such as water, air,
-and soil, and tools used in the processing [@stellato2016overlap].
-Furthermore, different research and developments in enhancing antimicrobial
-meat packaging has been actively performed to meet the growing meat
-consumption.
-Brown discolorations, strong off-odors, and development of slime are the
-main qualitative criteria to be cautious of during the packaging process
-because it has a direct influence on the safety of the consumers and the
-revenues of the products. Consumers especially prioritize in choosing
-bright cherry-red color meat at the point of sale [@suman2013myoglobin].
-These phenomenons are usually considered as a indication of the microbial
-spoilage [@mcmillin2008map].
-To avoid these undesirable traits and deliver extended shelf
-life, the use of vacuum and modified atmosphere packaging has been implemented
-as one of the most popular and appropriate technologies in fresh meat packaging
-[@mcmillin2017advancements]. The modified atmosphere packaging uses
-combination of three gases, carbon dioxide, oxygen, and nitrogen depending
-on the physical and chemical properties of the food [@lorenzo2012shelf] to
-meet the specific respiration requirements.
+minimize any potential contamination from its surroundings such as water,
+air, and soil, as well as from tools used in the processing
+[@stellato2016overlap]. Furthermore, food scientists and researchers
+have been actively performing different study and developments to enhance
+antimicrobial meat packaging in order to meet the growing meat consumption.
+Brown discolorations, strong off-odors, and development of slime are the main
+qualitative criteria to be cautious of during the packaging process because
+those have a direct influence on the safety of the consumers and the
+revenues of the products. These phenomena present detectable cues to the
+observers, and are usually considered the indications of the microbial
+spoilage [@mcmillin2008map]. Consumers especially prefer to see bright
+cherry-red color meat at the point of sale to ensure the product is fresh
+[@suman2013myoglobin]. In order to mitigate these undesirable traits and
+extend product shelf life, the use of vacuum-sealed and modified atmosphere
+packaging has been widely implemented as one of the most popular and
+appropriate technologies in fresh meat packaging [@mcmillin2017advancements].
+The modified atmosphere packaging uses a combination of three gases,
+carbon dioxide, oxygen, and nitrogen, depending on the physical and chemical
+properties of the food [@lorenzo2012shelf] to meet the specific respiration 
+requirements.
 
-The biggest factor that contributes to decay in fresh raw meat is
-considered to be the growth of undesired microorganisms [@borch1996bacterial].
-Raw meat describes a decomposable ecological niche
-[@pothakos2015lactic]. Its composition of nutrients promotes cell
-proliferation, allowing for more microbial growth and the development of
-microbial communities ultimately leads to the meat spoilage
-[@pothakos2015lactic]. In an effort to avoid or minimize bacterial
-contamination in raw meat, the temperature of storage has been emphasized
-as a key factor along with the advancement in sterile meat processing
-techniques and packaging [@doulgeraki2012spoilage]. In fact, refrigeration
-is the essential condition that needs to be met regardless of any advanced
-methods for extending shelf life [@fernandes2019hyperbaric].
+The growth of undesired microorganisms is considered to be the biggest
+factor that contributes to decay in fresh raw meat [@borch1996bacterial],
+as it is made up of highly perishable ecological niche [@pothakos2015lactic].
+Its unique composition of nutrients promotes cell proliferation, allowing for
+faster microbial growth and the development of microbial communities that
+ultimately leads to the meat spoilage [@pothakos2015lactic]. In an effort
+to avoid or minimize bacterial contamination in raw meat, controlled low
+storage temperature has been emphasized as a key approach along with other
+methods in advancement of sterile meat processing techniques and packaging
+[@doulgeraki2012spoilage]. In fact, refrigeration is an essential condition
+that needs to be met regardless of any advanced methods for extending shelf
+life [@fernandes2019hyperbaric].
 
-Extensive studies have detected the common and dominating genera that can be
-found in spoiled meat: *Serratia*, *Enterobacter*, *Pantoea*,
-*Klebsiella*, *Proteus*, *Hafnia*, and *Pseudomonas*
-[@borch1996bacterial; @nychas1998chemical; @ercolini2006changes].
-In addition, lactic acid bacteria, especially *Lactobacillus algidus*,
-greatly contributes in decaying meat as the predominant bacteria in
-vacuum-packaged beef [@kato2000lactobacillus].
-Considering the identification of the microbes that is responsible
-for meat spoilage can enhance in designing effective storage conditions
-[@ercolini2006changes], my primary question was to investigate microbial
-communities developed in raw ground beef under different storage conditions.
-I established two different conditions as the variables in the
-experiment by manipulating storage temperatures. Before the beginning of the
-experiment, I proposed a hypothesis that more diverse microbial communities
-will be developed if the meat was stored at room temperature in comparison
-to the ones kept in a refrigerator as low temperature storage is an essential
-method to prevent or slow microbial growth [@dave2011meat].
-To test my hypothesis, I designed my study to compare 3 different ground beef
-brands stored at either low temperature, 4-5 degrees C in a refrigerator, or at
-room temperature. Then, I prepared culture-based and culture-free samples
-to process further analysis. After DNA extraction and PCR, DNA sequencing was
-performed using Sanger sequencer for culture-based samples and
-Illumina sequencer for culture-free samples.
-For culture-based samples, I used different statistical methods and
-generated Bayesian and Maximum Likelihood phylogenetic trees to look at
-phylogenies of the samples and identified each sample using BLAST.
+Extensive studies have detected the common and dominating genera that can
+be found in spoiled meat: *Serratia*, *Enterobacter*, *Pantoea*,
+*Klebsiella*, *Proteus*, *Hafnia*, and *Pseudomonas* [@borch1996bacterial;
+@nychas1998chemical; @ercolini2006changes]. In addition, lactic acid bacteria,
+especially *Lactobacillus algidus*, is found to have considerable influence
+in the process of meat decay as the predominant bacteria in vacuum-packaged
+beef [@kato2000lactobacillus]. Since the accurate identification of the
+microbes that are responsible for meat spoilage can enhance the design and
+development of effective storage conditions [@ercolini2006changes], my
+primary question was how the microbial communities would develop in raw
+ground beef under different storage conditions and specifically how storage
+temperature affects the growth. I established two different conditions as the
+variables in the experiment by manipulating storage temperatures. Before the
+beginning of the experiment, I proposed a hypothesis that more diverse
+microbial communities will be developed if the meat was stored at room
+temperature in comparison to the ones kept in a refrigerator as low
+temperature storage is an essential method to prevent or slow microbial
+growth [@dave2011meat]. To test my hypothesis, I designed my study to
+compare 3 different ground beef brands stored at either low temperature,
+4-5 degrees C in a refrigerator, or at room temperature. Then, I prepared
+culture-based and culture-free samples to process further analysis.
+After DNA extraction and PCR, DNA sequencing was performed using
+Sanger sequencer for culture-based samples and Illumina sequencer for
+culture-free samples. For culture-based samples, I used different statistical
+methods and generated Bayesian and Maximum Likelihood phylogenetic trees to
+look at phylogenies of the samples and identified each sample using BLAST.
 As a result, 4 out of 6 samples were successfully identified with strong
 confidence values and following taxa were found from the samples:
-*Acinetobacter baumannii*, *Hafnia paralvei*, *Kocuria rhizophila*,
-and *Staphylococcus saprophyticus*. Meanwhile, the major taxa determined
-from the culture-free samples were *Bos mutus*, *Carnobacterium divergens*,
+*Acinetobacter baumannii*, *Hafnia paralvei*, *Kocuria rhizophila*, and
+*Staphylococcus saprophyticus*. Meanwhile, the major taxa determined from the
+culture-free samples were *Bos mutus*, *Carnobacterium divergens*,
 *Lactobacillus algidus*, *Leuconostoc gelidum* subsp. *gasicomitatum*, and
 *Lelliottia amnigena* using the combination of bash and BLAST.
 By investigating different number of taxa discovered in the culture-free
-samples, 2 samples out of 3 from room temperature storage condition
-exhibited more developed microbial communities than the refrigerated
-treatment group. I also used a software package called DADA2 and phyloseq
-to visualize and compare the data obtained from BLAST by looking at the most
-abundant phyla, families, and genera as well as alpha diversity. The results
-generated from the DADA2-based data provided a great match to the bash and
-BLAST based results.
-However, *K. rhizophila* and it phylum found from one of the culture-based
-samples was not observed in neither the BLAST nor DADA2 results.
-Throughout running the different analysis methods, I observed that there
-were more diverse microbial communities developed from the samples that were
+samples, 2 samples out of 3 from room temperature storage condition exhibited
+more developed microbial communities than the refrigerated treatment group.
+I also used a software package called DADA2 and phyloseq to visualize and
+compare the data obtained from BLAST by looking at the most abundant phyla,
+families, and genera as well as alpha diversity. The results generated from
+the DADA2-based data provided a great match to the bash and BLAST based
+results. However, *K. rhizophila* and it phylum found from one of the
+culture-based samples was not observed in neither the BLAST nor DADA2 results.
+Throughout running the different analysis methods, I observed that there were
+more diverse microbial communities developed from the samples that were
 stored at room temperature than the samples remained refrigerated.
-The results supported the hypothesis raised in the paper. Furthermore,
-I detected that different bacteria genera were evolved based on the
-temperature of the storage.
+The results supported the hypothesis raised in the paper. Furthermore, I
+detected that different bacteria genera were evolved based on the temperature
+of the storage.
 
 
 # Methods
@@ -468,7 +468,7 @@ I measured DNA concentration values for culture-free samples using Qubit
 Fluorometer (Table 4A). The data validated that all samples contained DNA
 in it. However, I found a bright band separated only from sample ID 3B
 in lane 6 and did not observe any bands separated from other samples
-(Figure 5). The band separated from sample ID 3B travelled farther than the
+(Figure 5). The band separated from sample ID 3B traveled farther than the
 ladder in lane 8, meaning that the size of the band is small and only
 a few hundreds kb. The DNA concentration values matched to the gel image
 observations as the PCR products of sample ID 3B contained the highest
