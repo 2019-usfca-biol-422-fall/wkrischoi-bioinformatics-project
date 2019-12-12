@@ -413,13 +413,17 @@ In the boxplot to compare the colony abundances of two treatment groups in
 the samples from room temperature treatment group only showed 1,000
 abundances with no other variations (Figure 3A). In fact, 1,000 was an
 arbitrary number to represent the uncountable colony abundance observed
-from all room temperature samples. No statistical significance was found
-between the two storage conditions and it failed to reject the null
-hypothesis (p = 0.20). Similarly in Figure 3B, a broad variation of the
-colony morphotypes was illustrated in the boxplot for refrigerated samples.
-The p-value of 0.81 shown in the data indicated no significant difference
-between the two groups and the p-value close to 1 (0.81) suggested a strong
-confident that the data is random.
+from all room temperature samples as only the thick bacterial lawn developed
+in these samples. No statistical significance was found between the two
+storage temperatures using Wilcox test and it failed to reject the null
+hypothesis (p = 0.20). Similarly in Figure 3B, a broad variations of the
+colony morphotypes were illustrated in the boxplot for refrigerated samples
+whereas only a couple of different morphotypes were observed from the room
+temperature samples. The p-value of 0.81 shown in the statistical data
+indicated that no significant difference existed between the two treatment
+groups and thus it also failed to reject the null hypothesis. 
+The high p-value close to 1 (0.81) suggested a strong confident that the
+difference in the data is caused by random chance.
 
 ### Sanger Sequencing and Phylogenetic Trees
 
