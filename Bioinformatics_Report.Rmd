@@ -644,28 +644,46 @@ data set demonstrated higher microbial diversity from the treatment group B.
 
 ## DADA2 Analysis
 
-In comparison between the BLAST results and DADA2-based results, it provided
-almost a perfect match in the two data sets. To compare, I created a bar plot
-to display the most abundant phyla discovered in each treatment group
-(Figure 7A, Figure 7B).
-There were two phyla, Firmicutes and Proteobacteria, discovered in
-sample ID 1A with a slightly higher level of abundance of Proteobacteria.
+In comparison between the BLAST results and DADA2-based results, both results
+provided almost a perfect match in the two data sets. To begin with, I
+established a table to display the sum abundance of each phylum discovered
+from the samples (Table 7). There were two abundant phyla observed from
+refrigerated samples, Firmicutes and Proteobacteria with higher abundance of
+Proteobacteria. For room temperature samples, three phyla were identified with
+high abundance in Firmicutes and Proteobacteria and Bacteroidetes with less
+abundance. As discussed earlier from both cultured-based and culture-free
+samples, Firmicutes and Proteobacteria were also determined to be the
+abundant phyla found in those data sets. To compare the samples individually,
+I created a bar plot to display the most abundant phyla discovered in each
+sample, separated by the treatment groups (Figure 7A, Figure 7B).
+The two phyla, Firmicutes and Proteobacteria, were identified in
+sample ID 1A with a slightly higher level of abundance for Proteobacteria
+(Figure 7A).
 Even though the dominant taxa found in 1A from the BLAST results was
 *B. mutus*, I also found the next abundant taxa to be *P. thivervalensis* and
-the phylum of this taxa was also Proteobacteria. For sample ID 1B and 2B,
-the phyla was identified to be Firmicutes from the DADA2-based results
-which also matched to the BLAST results. However, I observed a significantly
-high level of abundance of Bacteroidetes in sample ID 2B.
-Next, there was a slight difference in sample 2A in the DADA2 results as it
-included two phyla, Firmicutes and Proteobacteria at a higher abundance level.
-For sample ID 3A and 3B, the results showed only one phylum for each and their
-phyla, Firmicutes and Proteobacteria respectively, matched to the BAST results
-as well. Although Actinobacteria was found from the culture-based sample in
-Sample ID #3, it was not reflected in both the BLAST results and DADA2-based
-results. As the accuracy of its identification was already suspicious from
-earlier data, DADA2 results supported more evident that the identification of
-this sample might not be *K. rhizophila*. As far as the phylum diversity,
-three different phyla were found for each treatment group.
+the phylum of this taxa was also Proteobacteria. Sample ID 2A also exhibited
+abundance in Firmicutes and Proteobacteria with much higher mean abundance
+for Proteobacteria and also a new phylum,  Planctomycetes, that was not yet
+found from the earlier results. Species under the phylum Planctomycetes
+are gram-negative aquatic bacteria that can be found in wide range of aquatic
+environment including marine, freshwater, and sediments and their
+pathogenicity is unknown. Unlike to the first two samples, sample ID 3A only
+appeared to contain Firmicutes. Of the three phyla found in the refrigerated
+samples, Firmicutes was the dominating phylum in all three samples.
+In the room temperature group, the phylum for sample ID 1B and 2B was
+identified to be Firmicutes from the DADA2-based results which also matched
+to the BLAST and bash results (Figure 7B). For sample ID 3A and 3B, the results
+showed only one phylum for each and their phyla, Firmicutes and Proteobacteria respectively, matched to the BLAST and bash results as well. However, I
+observed a significantly high level of abundance of Bacteroidetes in sample ID
+2B and Bacteroidetes was never exposed in any of the previous results.
+Unlike the refrigerated samples, no specific phylum was discovered from all
+three samples. Although Actinobacteria was found from the culture-based sample
+in Sample ID 3, it was not reflected in both the BLAST and bash results and
+DADA2-based results. As the accuracy of its identification lacked in
+confidence from earlier data, DADA2 results offered a stronger evidence that
+the identification of this sample might not be *K. rhizophila* from the
+culture-based analysis. As far as the phylum diversity, three different phyla
+were found for each treatment group.
 
 I generated another bar plot to investigate the most abundant genera in each
 sample using ggplot (Figure 7D). When generating this bar plot, I filtered out
