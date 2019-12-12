@@ -1,7 +1,7 @@
 ---
 title: 'Development of microbial communities in ground beef under different storage temperatures'
 author: "Kris Choi"
-date: "December 4, 2019"
+date: "December 12, 2019"
 output: word_document
 csl: bioinformatics.csl
 bibliography: references.bib
@@ -1066,7 +1066,7 @@ diversity indices.
 |KC-3A_S77_L001_R1_001_filt         |    12153|          12153|         4732|
 |KC-3B_S78_L001_R1_001_filt         |    10136|          10136|         9336|
 
-**Table 8:** The total amplicon sequence variants
+**Table 8:** Table for the total amplicon sequence variants.
 
 
 # Sources Cited
