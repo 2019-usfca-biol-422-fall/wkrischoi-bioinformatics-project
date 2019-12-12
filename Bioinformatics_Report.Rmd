@@ -372,9 +372,10 @@ The discoloration of meat is governed by the protein called myoglobin,
 the sarcoplasmic heme protein that is primary responsible in turning the
 meat color to brown by releasing oxygen [@seideman1984factors].
 Releasing oxygen is a trigger in changing the meat color as the high
-oxygen level ensures to maintain the red pigment. Meanwhile, treatment group B
-exhibited more evident indication of spoilage by turning into dark purple
-and brown pigments with pungent odor.
+oxygen level ensures to maintain the red pigment. In contrast,
+treatment group B exhibited more evident indication of spoilage by
+turning the samples into dark purple and brown for the sample 1 and 2,
+and complete brown for the sample 3 with pungent odor and slime.
 
 ## A. Cultured samples
 
