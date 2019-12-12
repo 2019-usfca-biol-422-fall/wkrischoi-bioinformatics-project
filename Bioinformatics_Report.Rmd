@@ -722,22 +722,31 @@ I noticed from this bar plot was that there were not many overlaps of the
 genera between the two different treatment groups just as I observed the
 similar patter from the most abundant families bar plot. This observation
 provided an idea that different microbial communities were developed depends
-on the different storage temperatures.
+on the different storage temperatures. Furthermore, 7 different genera were
+identified from the refrigerated group and 8 genera for the room temperature
+group. Despite the small difference, the treatment group B still demonstrated
+more diverse microbial communities.
+
+Last but not least, I produced alpha-diversity metrics plot using Shannon and
+Simpson diversity indices to visualize the species diversity and variance
+within the samples (Figure 7D). I chose to use the Simpson index to measure
+the diversity in terms of the number of different taxa and the abundance
+without counting any species with low abundance level. For Shannon index,
+it was chosen to see the richness and evenness including all species
+represented. While both the Shannon index and Simpson index exhibited the
+refrigerated samples at higher level in alpha-diversity measurement than
+room temperature samples, the dispersion between the highest and the lowest
+point of the refrigerated treatment group is much wider than the room
+temperature group in both indicies. The wide spread observed from the
+refrigerated samples 
+The results from alpha-diversity
+metrics were somewhat predictable as the previously presented results did
+not convey an evident difference in microbial diversity between the two
+treatment groups. Instead, 
+
 This can be further implemented in the research to enhance the packaging
 methods and handling/distributing operations to avoid specific microbes
 depending on different circumstances. 
-Furthermore, 7 different genera were identified from the refrigerated group
-and 8 genera for the room temperature group. Despite the small difference,
-the treatment group B still demonstrated more diverse microbial communities.
-
-I produced a bar graph of alpha-diversity metrics using Shannon and Simpson
-diversity indices (Figure 7D) to visualize the species diversity and variance
-within the samples. The Shannon index exhibited the refrigerated samples at
-a slight higher level in alpha-diversity measure than room temperature samples
-whereas Simpson index showed the other way around. This result was somewhat
-predictable as the difference between the two treatment groups was not
-significant enough to convey a distinct microbial diversity in room
-temperature samples as shown in the results previously presented.
 
 # Figures and Tables
 
@@ -1095,20 +1104,19 @@ Only the genera with more than 100 reads are included due to excessive number
 of genera discovered in the samples.
 
 
-```{r alpha-diversity-barchart}
+```{r alpha-diversity-plot}
 # to plot alpha-diversity metrics
 # comparing two diversity indices: Shannon and Simpson
 plot_richness(phyloseq_obj,
               x = "type",
               measures = c("Shannon", "Simpson"),
-              title = "Alpha Diversity of Treatment Groups and Controls") +
+              title = "Alpha-Diversity of Treatment Groups and Controls") +
   xlab("Type of sample") +
-  geom_col() +
   theme_light() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-**Figure 7D:** Bar chart of alpha-diversity metrics using Shannon and Simpson
+**Figure 7D:** Alpha-diversity metrics plot using Shannon and Simpson
 diversity indices.
 
 
