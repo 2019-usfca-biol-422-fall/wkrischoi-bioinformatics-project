@@ -534,53 +534,58 @@ storage temperature exposures and expected to observe more diverse communities
 from the samples stored at room temperature than refrigerated samples.
 My hypothesis was raised because the preservation of meat from spoilage is
 fundamentally depends on low temperature storage and anaerobic environment
-[@coombs2017long]. However, the petri dishes for all of the room temperature
-samples were covered by bacterial lawn instead of forming
-colonies which stopped the samples to proceed to any further steps
-for culture-based samples from the treatment group B (Figure 2A).
+[@coombs2017long]. However, the petri dishes cultured from all of the room
+temperature samples were covered by bacterial lawn instead of forming
+individual colonies which hindered the samples to be processed to further
+steps. As a result, I obtained only the data from the treatment group A
+from culture-based samples (Figure 2A).
 In addition, I was not able to observe different number of taxa associated
-with each sample using Sanger sequencing data and put the results into
-BLAST as the results only provided the most abundant species.
+with each sample using Sanger sequencing data by putting the sequences into
+BLAST as the results only provided the most abundant species with the
+highest match.
 
 The factor that might have influenced the bacterial lawn in all
 room temperature samples can be the long duration of swabbing on the
-surface when subsampled. As a consequence, the highly concentrated stock
-samples resulted in growing thick bacterial lawn even though it was diluted
-down to 1:100. The boxplots in Figure 3A and 3B were displaying data from
-skewed results due to the unreliable outcomes from room temperature samples.
-Considering only the room temperature samples were affected by the long
-duration of swabbing, the microbial densities in these sample were higher
-than the refrigerated samples. Some different approaches to enhance the results
-include using a streaking method on the petri dish and/or shortening
-the time when swabbing the sample on the surface to grow distinct colonies
-from both treatment groups.
+surface when subsampled. Even though the duration of the swabbing was about
+the same for all samples, only the room temperature samples resulted in
+growing the bacterial lawn. As a consequence, the highly
+concentrated stock samples resulted in growing thick bacterial lawn even though
+it was diluted down to 1:10 and 1:100. The boxplots in Figure 3A and 3B
+displayed the data from skewed results due to the inaccurate outcomes from
+room temperature samples. Considering only the room temperature samples were
+affected by the long duration of swabbing, the density of the microbes in
+these sample were much higher than the refrigerated samples and it is an
+indication of more developed microbial communities. Some different approaches
+to enhance the results include using a streaking method on the petri dish
+and/or shortening the time when swabbing the sample on the surface to grow
+distinct colonies from both treatment groups.
 
-The gel image from electrophoresis showed no bands for Sample #5 and #6
-which corresponded to the failed Sanger sequencing data, and the faded band
-for Sample #3 corresponded to the seemingly failed Sanger sequencing data with
-low sequencing data quality. Some possible speculations which might have
-influenced no separation of bands for Sample #5 and #6 could be
+The gel image from electrophoresis showed no bands separated from sample ID
+5 and 6 which corresponded to the failed Sanger sequencing data, and the
+faded band for sample ID 3 corresponded to the seemingly failed Sanger
+sequencing data with low sequencing data quality. The three bright bands from
+sample ID 1, 2, and 4 also matched to the great quality of the data generated
+from Sanger sequencing. Some possible speculations which might have
+influenced no separation of bands for sample ID 5 and 6 could be the
 contamination of tubes and/or pipetting errors when the microbial culture
 was performed.
 
-4 different identifications were generated from BLAST for Sample #1, 2, 3,
-and 4: *A. baumannii*, *H. paralvei*,
-*K. rhizophila*, and *S. saprophyticus* respectively
-(Table 3). All of the samples except for the complete failures was
-identified with strong confidence to support the results even for
-the Sample #3 which showed a faded band on the gel and provided the
-seemingly failed result with low quality from Sanger sequencing data.
+4 different identifications were generated from BLAST for sample ID 1, 2, 3,
+and 4: *A. baumannii*, *H. paralvei*, *K. rhizophila*, and *S. saprophyticus* respectively (Table 3). All of the samples except for the complete failures
+was identified with strong confidence to support the results even for
+the sample ID 3 which showed a faded band on the gel and provided the
+seemingly failed results with low quality from Sanger sequencing data.
 The results exhibited high percent identity and query coverage values with
 exceptionally small to zero E-values. Furthermore, the phylogenic results
-from Maximum Likelihood and Bayesian phylogenetic tree that grouped Sample #1
-and #2 matched with BLAST results. The phylum for both
+produced from Maximum Likelihood and Bayesian phylogenetic tree that grouped
+sample ID 1 and 2 together matched with BLAST results as the phylum for both
 *A. baumannii* and *H. paralvei* are Proteobacteria. They are
 both gram-negative and can cause disease in immunocompromised patients.
 On the other hand, *K. rhizophila* is a gram-positive bacterium that can
 be found in environment such as water, air, and soil, and its phylum is
 Actinobacteria. In fact, this species was re-classified from
-*Micrococcus luteus* in 2003 after a polyphasic study validated evident match
-with the genus *Kocuria* then *Micrococcus* [@tang2003reclassification].
+*Micrococcus luteus* in 2003 after a polyphasic study validated the evident
+match with the genus *Kocuria* then *Micrococcus* [@tang2003reclassification].
 Lastly, *S. saprophyticus* is also a gram-positive bacterium that
 can cause urinary tract infections and their phylum is Firmicutes.
 
@@ -591,43 +596,51 @@ in refrigerated condition and they were identified across from all samples as
 expected. Those microbes include: *Serratia*, *Enterobacter*, *Pantoea*,
 *Proteus*, *Hafnia*, and lactic acid bacteria such as *Lactobacillus* and
 *Carnobacterium* [@ercolini2006changes]. Among the 4 identifications
-observed from cultured samples, *Acinetobacter*,
-*Hafnia*, and *Staphylococcus* groups were also identified
-from culture-free samples and confirmed the matches between culture-based and
-culture-free samples using Sanger sequencing and Illumina sequencing data.
-However, no matches for *K. rhizophila* from sample #3 of cultured sample
-(Table 3) was found in culture-free sample, not even its phylum,
-Actinobacteria. As mentioned earlier, *B. mutus*, domestic yak, was
-identified to be the dominant taxa found in sample ID 1A. I looked up the
-next most abundant taxa in the sample and it was *Pseudomonas thivervalensis*,
-a gram-negative soil bacterium under Proteobacteria phylum.
-*C. divergens* from sample ID 1B and 2B is a gram-positive bacterium that
-can be found in the wild and food. It is not known to be pathogenic
-and is a dominant species found in modified atmosphere packed meat products.
-Its phylum is Firmicutes. *L. algidus* in sample ID 2A makes a major part
-of the lactic acid bacteria group and can be easily found in chilled packaged
-meat. Its phylum is also Firmicutes. *L. gelidum* subsp. *Gasicomitatum* was
-the major taxa discovered in sample ID 3A and it is also part of lactic
-acid bacterium that is highly measured to be contributing in the microbial
-communities of chilled meat products. Lastly, *L. amnigena* that was found in
-sample ID 3B is a gram-negative bacterium that can be pathogenic and affects
-immunocompromised patients in urinary and respiratory tracts. Its phylum is
-Proteobacteria.
+observed from cultured samples, *Hafnia*, and *Staphylococcus* groups were also identified from culture-free samples and confirmed the matches between
+culture-based and culture-free samples using Sanger sequencing and Illumina
+sequencing data. However, no matches for *K. rhizophila* from sample ID 3 of
+culture-based sample (Table 3) was found in culture-free sample and not even
+its phylum, Actinobacteria. As mentioned earlier, *B. mutus*, domestic yak, was
+identified to be the dominant taxa found in sample ID 1A. To investigate
+microbes associated in the sample, I looked up the next most abundant taxa in
+the sample and it was *Pseudomonas thivervalensis*, a gram-negative soil
+bacterium under Proteobacteria phylum. *C. divergens* from sample ID 1B and
+2B is a gram-positive bacterium that can be found in the wild and food.
+It is not known to be pathogenic and is a dominant species found in modified
+atmosphere packed meat products. Its phylum is Firmicutes. *L. algidus* in =
+sample ID 2A makes a major part of the lactic acid bacteria group and can be
+easily found in chilled packaged meat. Its phylum is also Firmicutes.
+*L. gelidum* subsp. *Gasicomitatum* was the major taxa discovered in sample 
+ID 3A and it is also part of lactic acid bacterium that is highly measured to
+be contributing in the microbial communities of chilled meat products.
+Lastly, *L. amnigena* that was found in sample ID 3B is a gram-negative
+bacterium that can be pathogenic and affects immunocompromised patients in
+urinary and respiratory tracts. Its phylum is Proteobacteria. The most abundant
+phylum found in the culture-free samples was Firmicutes as 4 out of 6 samples
+were identified to belong to Firmicutes and 2 out of 6 samples were
+classified to be under Proteobacteria phylum.
 
 Initially, I hypothesized to see more developed microorganism communities
 from the samples stored at room temperature than the ones kept refrigerated
 because the cooled temperature storage condition play a critical role in
-slowing down or stopping meat spoilage [@dohlen2017effect].
-Two brands out of three exhibited to have more number
-of different taxa when it was stored at room temperature while the first
-sample, Teva kosher foods from Trader Joe’s, showed less number of taxa
-from the samples of room temperature storage condition (Table 6A).
-Possible justification for this unexpected results could have driven from
-the shorter length of the sequences as sample 1B have only 3,638 sequences
-after trimming while other samples have around 10,000 sequences (Table 5).
-In fact, treatment group B samples in all 3 brands have shorter
-sequences than treatment group A, but the length of the sample 1B is
-especially shorter.
+slowing down or stopping meat spoilage [@dohlen2017effect]. It was determined
+from the culture-based sample analysis that two brands out of three exhibited
+to have more number of different taxa when it was stored at room temperature
+while the first sample, Teva kosher foods from Trader Joe’s (sample ID 1A
+and 1B), showed less number of taxa from the room temperature treatment group
+samples (Table 6A). Possible justification for this unexpected results could
+have driven by the shorter length of the sequences as sample 1B have only
+3,638 sequences after trimming while other samples have around 10,000
+sequences (Table 5). In fact, treatment group B samples in all 3 brands have
+shorter sequences than treatment group A, but the length of the sample 1B is
+especially shorter. Even though the sample ID 1B exhibited less number of
+taxa than 1A, I determined the mean and the standard deviation of the data
+for each variable to analyze the data overall. The mean and the standard
+deviation for the room temperature group were calculated to be 25.3 average
+number of different taxa with 3.4 (lower) dispersion whereas the refrigerated
+treatment group was determined to have 20.3 average number of different taxa
+with 4.1 (higher) dispersion from the mean. The statistical analysis for this
+dataset demonstrated higher microbial diversity from the treatment group B.
 
 ## DADA2 Analysis
 
