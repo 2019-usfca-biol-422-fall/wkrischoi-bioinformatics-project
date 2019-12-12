@@ -640,7 +640,7 @@ deviation for the room temperature group were calculated to be 25.3 average
 number of different taxa with 3.4 (lower) dispersion whereas the refrigerated
 treatment group was determined to have 20.3 average number of different taxa
 with 4.1 (higher) dispersion from the mean. The statistical analysis for this
-dataset demonstrated higher microbial diversity from the treatment group B.
+data set demonstrated higher microbial diversity from the treatment group B.
 
 ## DADA2 Analysis
 
