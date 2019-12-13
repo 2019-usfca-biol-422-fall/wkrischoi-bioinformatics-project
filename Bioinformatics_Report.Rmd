@@ -574,7 +574,8 @@ contamination of tubes and/or pipetting errors when the microbial culture
 was performed.
 
 4 different identifications were generated from BLAST for sample ID 1, 2, 3,
-and 4: *A. baumannii*, *H. paralvei*, *K. rhizophila*, and *S. saprophyticus* respectively (Table 3). All of the samples except for the complete failures
+and 4: *A. baumannii*, *H. paralvei*, *K. rhizophila*, and *S. saprophyticus*
+respectively (Table 3). All of the samples except for the complete failures
 was identified with strong confidence to support the results even for
 the sample ID 3 which showed a faded band on the gel and provided the
 seemingly failed results with low quality from Sanger sequencing data.
@@ -594,12 +595,13 @@ can cause urinary tract infections and their phylum is Firmicutes.
 
 ## Analysis of culture-free samples
 
-There are commonly known microbial groups that contribute to spoil meat even
+There are commonly known microbial groups that contribute to spoil meat
 in refrigerated condition and they were identified across from all samples as
 expected. Those microbes include: *Serratia*, *Enterobacter*, *Pantoea*,
 *Proteus*, *Hafnia*, and lactic acid bacteria such as *Lactobacillus* and
 *Carnobacterium* [@ercolini2006changes]. Among the 4 identifications
-observed from cultured samples, *Hafnia*, and *Staphylococcus* groups were also identified from culture-free samples and confirmed the matches between
+observed from cultured samples, *Hafnia*, and *Staphylococcus* groups were also
+identified from culture-free samples and confirmed the matches between
 culture-based and culture-free samples using Sanger sequencing and Illumina
 sequencing data. However, no matches for *K. rhizophila* from sample ID 3 of
 culture-based sample (Table 3) was found in culture-free sample and not even
@@ -610,23 +612,23 @@ the sample and it was *Pseudomonas thivervalensis*, a gram-negative soil
 bacterium under Proteobacteria phylum. *B. mutus* and *B. taurus*, domestic
 yak and cattle, were also found in two other samples in 2A and 3A respectively
 with high abundance. Due to the high microbial density associated with the room
-temperature samples, non-microbial species such as *B. mutus* and *B. taurus*
-were only found from the refrigerated samples but not from the room temperature
-group. *C. divergens* from sample ID 1B and 2B is a gram-positive bacterium
-that can be found in the wild and food. It is not known to be pathogenic and is
-a dominant species found in modified atmosphere packed meat products.
-Its phylum is Firmicutes. *L. algidus* in sample ID 2A makes a major part of
-the lactic acid bacteria group and can be easily found in chilled packaged
-meat. Its phylum is also Firmicutes.
-*L. gelidum* subsp. *Gasicomitatum* was the major taxa discovered in sample 
-ID 3A and it is also part of lactic acid bacterium that is highly measured to
-be contributing in the microbial communities of chilled meat products.
-Lastly, *L. amnigena* that was found in sample ID 3B is a gram-negative
-bacterium that can be pathogenic and affects immunocompromised patients in
-urinary and respiratory tracts. Its phylum is Proteobacteria. The most abundant
-phylum found in the culture-free samples was Firmicutes as 4 out of 6 samples
-were identified to belong to Firmicutes and 2 out of 6 samples were
-classified to be under Proteobacteria phylum.
+temperature samples, sequences for non-microbial species such as *B. mutus*
+and *B. taurus* were only found from the refrigerated samples but not from the
+room temperature samples. Next, *C. divergens* from sample ID 1B and 2B is a
+gram-positive bacterium that can be found in the wild and food. 
+It is not known to be pathogenic and is a dominant species found in modified
+atmosphere packed meat products. Its phylum is Firmicutes.
+*L. algidus* in sample ID 2A makes a major part of the lactic acid bacteria
+group and can be easily found in chilled packaged meat. Its phylum is also
+Firmicutes. *L. gelidum* subsp. *Gasicomitatum* was the major taxa discovered
+in sample ID 3A and it is also part of lactic acid bacterium that is highly
+measured to be contributing in the microbial communities of chilled meat
+products. Lastly, *L. amnigena* that was found in sample ID 3B is a
+gram-negative bacterium and it can be pathogenic as it affects
+immunocompromised patients in urinary and respiratory tracts. Its phylum is
+Proteobacteria. The most abundant phylum found in the culture-free samples
+was Firmicutes as4 out of 6 samples were identified to belong to Firmicutes
+and 2 out of 6 samples were classified to be under Proteobacteria phylum.
 
 Initially, I hypothesized to see more developed microorganism communities
 from the samples stored at room temperature than the ones kept refrigerated
@@ -681,7 +683,8 @@ samples, Firmicutes was the dominating phylum in all three samples.
 In the room temperature group, the phylum for sample ID 1B and 2B was
 identified to be Firmicutes from the DADA2-based results which also matched
 to the BLAST and bash results (Figure 7B). For sample ID 3A and 3B, the results
-showed only one phylum for each and their phyla, Firmicutes and Proteobacteria respectively, matched to the BLAST and bash results as well. However, I
+showed only one phylum for each and their phyla, Firmicutes and Proteobacteria
+respectively, matched to the BLAST and bash results as well. However, I
 observed a significantly high level of abundance of Bacteroidetes in sample ID
 2B and Bacteroidetes was never exposed in any of the previous results.
 Unlike the refrigerated samples, no specific phylum was discovered from all
@@ -754,21 +757,26 @@ with narrow distance between the highest and the lowest points.
 
 ## Conclusion and Further research
 
-I found out throughout the experiment and the analysis that more diverse
-microbial communities were developed from the room temperature samples than
-the refrigerated samples and it supported the hypothesis raised in the
-beginning of the paper. Moreover, I determined that different species can
-develop on raw ground beef by manipulating storage temperatures. These findings
-can be further implemented in the research to enhance the packaging
-methods, handling, and/or distributing operations to avoid specific microbes
-depending on different circumstances. Now that sufficient data regarding the
-microbial communities on raw ground beef is gathered based on the storage
-temperatures, a future research can be performed by changing the variables
-such as different levels of humidity or methods of packaging to carry these
-findings forward. Switching to a different meat such as pork, chicken, or lamb
-can also establish a good data set to compare if the phenomena observed from
-this study is specific to the model or if it gets influenced from any other
-variables.
+The primary cause of the the spoilage of meat is considered to be the active
+microbial development and the common practices to minimize the microbial
+spoilage are low storage temperature, appropriate packaging methods, and
+hygienic handling process [@del2017quality]. In this paper, I focused on
+observing how different storage temperature exposures of ground beef
+influence the abundance of meat spoilage bacteria. I found out throughout the
+experiment and the analysis that more diverse microbial communities were
+developed from the room temperature samples than from the refrigerated samples
+and it also supported the hypothesis raised in the beginning of the paper.
+Moreover, I determined that different species can develop on raw ground beef by
+manipulating storage temperatures. These findings can be further implemented
+in the research to enhance the packaging methods, handling, and/or distributing
+operations to avoid specific microbes depending on different circumstances.
+Now that sufficient data regarding the microbial communities on raw ground
+beef is gathered based on the storage temperatures, a future research can be
+performed by changing the variables such as different levels of humidity or
+methods of packaging to carry these findings forward. Switching to a different
+meat such as pork, chicken, or lamb can also establish a good data set to
+compare if the phenomena observed from this study is specific to the model or
+if it gets influenced from any other variables.
 
 
 # Figures and Tables
