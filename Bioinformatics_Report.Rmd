@@ -682,8 +682,10 @@ in Sample ID 3, it was not reflected in both the BLAST and bash results and
 DADA2-based results. As the accuracy of its identification lacked in
 confidence from earlier data, DADA2 results offered a stronger evidence that
 the identification of this sample might not be *K. rhizophila* from the
-culture-based analysis. As far as the phylum diversity, three different phyla
-were found for each treatment group.
+culture-based analysis. The phylum diversity was the same between the two
+treatment group by having 3 different phyla each but the scale of the
+mean abundance on the y-axis was significantly different. The range of the
+mean abundance for room temperature samples is at a much higher value.
 
 Next, I produced a bar plot to explore families abundance for the two treatment
 groups and I filtered out to display only the families with more than 100
@@ -727,7 +729,7 @@ identified from the refrigerated group and 8 genera for the room temperature
 group. Despite the small difference, the treatment group B still demonstrated
 more diverse microbial communities.
 
-Last but not least, I produced a bar plot of alpha-diversity metrics using
+Last but not least, I produced a plot of alpha-diversity metrics using
 Shannon and Simpson diversity indices to visualize the species diversity and
 variance within the samples (Figure 7D). I chose to use the Simpson index to
 measure the diversity in terms of the number of different taxa and the
@@ -738,15 +740,23 @@ refrigerated samples at higher level in alpha-diversity measurement than
 room temperature samples, the dispersion between the highest and the lowest
 point of the refrigerated treatment group is much wider than the room
 temperature group in both indicies. The wide spread observed from the
-refrigerated samples prevented from making 
-The results from alpha-diversity
-metrics were somewhat predictable as the previously presented results did
-not convey an evident difference in microbial diversity between the two
-treatment groups. Instead, 
+refrigerated samples represent a positively skewed data while the room
+temperature samples resembled much like the positive and negative controls
+with narrow distance between the highest and the lowest points.
+
+## Conclusion and Further research
+
+I found out throughout the experiment and the analysis that more diverse
+microbial communities were developed from the room temperature samples than
+the refrigerated samples and it supported the hypothesis raised in the
+beginning of the paper. Moreover, I determined that different species can
+develop on raw ground beef by manipulating storage temperatures. Now that I
+
+To carry these findings forward,
 
 This can be further implemented in the research to enhance the packaging
 methods and handling/distributing operations to avoid specific microbes
-depending on different circumstances. 
+depending on different circumstances.
 
 # Figures and Tables
 
