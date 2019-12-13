@@ -415,15 +415,16 @@ abundances with no other variations (Figure 3A). In fact, 1,000 was an
 arbitrary number to represent the uncountable colony abundance observed
 from all room temperature samples as only the thick bacterial lawn developed
 in these samples. No statistical significance was found between the two
-storage temperatures using Wilcox test and it failed to reject the null
-hypothesis (p = 0.20). Similarly in Figure 3B, a broad variations of the
-colony morphotypes were illustrated in the boxplot for refrigerated samples
-whereas only a couple of different morphotypes were observed from the room
-temperature samples. The p-value of 0.81 shown in the statistical data
-indicated that no significant difference existed between the two treatment
-groups and thus it also failed to reject the null hypothesis. 
-The high p-value close to 1 (0.81) suggested a strong confident that the
-difference in the data is caused by random chance.
+storage temperatures as it was determined using Wilcox test and it failed
+to reject the null hypothesis (p = 0.20). Similarly in Figure 3B, a broad
+variations with negatively skewed data of the colony morphotypes were
+illustrated in the boxplot for refrigerated samples whereas only a couple of
+different morphotypes were observed from the room temperature samples.
+The p-value of 0.81 shown in the statistical data indicated that no
+significant difference existed between the two treatment groups and thus it
+also failed to reject the null hypothesis. The high p-value close to 1 (0.81)
+suggested a strong confident that the difference in the data is caused by
+random chance.
 
 ### Sanger Sequencing and Phylogenetic Trees
 
@@ -606,12 +607,17 @@ its phylum, Actinobacteria. As mentioned earlier, *B. mutus*, domestic yak, was
 identified to be the dominant taxa found in sample ID 1A. To investigate
 microbes associated in the sample, I looked up the next most abundant taxa in
 the sample and it was *Pseudomonas thivervalensis*, a gram-negative soil
-bacterium under Proteobacteria phylum. *C. divergens* from sample ID 1B and
-2B is a gram-positive bacterium that can be found in the wild and food.
-It is not known to be pathogenic and is a dominant species found in modified
-atmosphere packed meat products. Its phylum is Firmicutes. *L. algidus* in =
-sample ID 2A makes a major part of the lactic acid bacteria group and can be
-easily found in chilled packaged meat. Its phylum is also Firmicutes.
+bacterium under Proteobacteria phylum. *B. mutus* and *B. taurus*, domestic
+yak and cattle, were also found in two other samples in 2A and 3A respectively
+with high abundance. Due to the high microbial density associated with the room
+temperature samples, non-microbial species such as *B. mutus* and *B. taurus*
+were only found from the refrigerated samples but not from the room temperature
+group. *C. divergens* from sample ID 1B and 2B is a gram-positive bacterium
+that can be found in the wild and food. It is not known to be pathogenic and is
+a dominant species found in modified atmosphere packed meat products.
+Its phylum is Firmicutes. *L. algidus* in sample ID 2A makes a major part of
+the lactic acid bacteria group and can be easily found in chilled packaged
+meat. Its phylum is also Firmicutes.
 *L. gelidum* subsp. *Gasicomitatum* was the major taxa discovered in sample 
 ID 3A and it is also part of lactic acid bacterium that is highly measured to
 be contributing in the microbial communities of chilled meat products.
