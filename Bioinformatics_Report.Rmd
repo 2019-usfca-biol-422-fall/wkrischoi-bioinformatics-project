@@ -760,23 +760,34 @@ with narrow distance between the highest and the lowest points.
 The primary cause of the the spoilage of meat is considered to be the active
 microbial development and the common practices to minimize the microbial
 spoilage are low storage temperature, appropriate packaging methods, and
-hygienic handling process [@del2017quality]. In this paper, I focused on
-observing how different storage temperature exposures of ground beef
+hygienic handling process [@del2017quality]. Composition of raw meat such as
+glucose, lactate, and non-protein nitrogen, as well as its packaging method
+and storage temperature, all have a tremendous influence on the growth of
+microbial community and their efficiency of metabolism. Glucose in particular
+is susceptible to further encourage bacterial production that contributes to
+the accelerated spoilage in fresh meat; it is the first substrate meat
+spoilage bacteria uses, and it has the tendency to induce highly undesirable
+chemical reactions through catabolism of nitrogenous compounds generated
+by bacteria, such as *Pseudomonas* [@nychas2008meat]. In this paper, I focused
+on observing how different storage temperature exposures of ground beef
 influence the abundance of meat spoilage bacteria. I found out throughout the
 experiment and the analysis that more diverse microbial communities were
 developed from the room temperature samples than from the refrigerated samples
-and it also supported the hypothesis raised in the beginning of the paper.
+and the results supported the hypothesis raised in the beginning of the paper.
 Moreover, I determined that different species can develop on raw ground beef by
 manipulating storage temperatures. These findings can be further implemented
 in the research to enhance the packaging methods, handling, and/or distributing
-operations to avoid specific microbes depending on different circumstances.
-Now that sufficient data regarding the microbial communities on raw ground
-beef is gathered based on the storage temperatures, a future research can be
-performed by changing the variables such as different levels of humidity or
-methods of packaging to carry these findings forward. Switching to a different
-meat such as pork, chicken, or lamb can also establish a good data set to
-compare if the phenomena observed from this study is specific to the model or
-if it gets influenced from any other variables.
+operations to avoid specific microbes that can be developed under certain
+growing environment. Now that sufficient amount of data regarding the microbial
+communities development within raw ground beef is gathered based on the storage
+temperatures, further research can be performed through different perspectives
+and approaches by changing the variables such as different levels of humidity
+or methods of packaging, to expand on the research and carry these preliminary
+findings forward. Experimenting with different test subjects of raw meat such
+as pork, poultry, or lamb can also aid in establishing a more constructive data
+set for improved comparison, if the phenomena observed through this study is
+specific to the model ecosystem or if it is influenced by other variables such
+as environmental factors and handling.
 
 
 # Figures and Tables
