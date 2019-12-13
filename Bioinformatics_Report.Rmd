@@ -77,13 +77,13 @@ slaughtering, packaging operations, and distributions has been promoted to
 minimize any potential contamination from its surroundings such as water,
 air, and soil, as well as from tools used in the processing
 [@stellato2016overlap]. Furthermore, food scientists and researchers
-have been actively performing different study and developments to enhance
+have been actively performing different studies and developments to enhance
 antimicrobial meat packaging in order to meet the growing meat consumption.
 Brown discolorations, strong off-odors, and development of slime are the main
 qualitative criteria to be cautious of during the packaging process because
 those have a direct influence on the safety of the consumers and the
 revenues of the products. These phenomena present detectable cues to the
-observers, and are usually considered the indications of the microbial
+consumers, and are usually considered the indications of the microbial
 spoilage [@mcmillin2008map]. Consumers especially prefer to see bright
 cherry-red color meat at the point of sale to ensure the product is fresh
 [@suman2013myoglobin]. In order to mitigate these undesirable traits and
@@ -127,9 +127,9 @@ temperature in comparison to the ones kept in a refrigerator as low
 temperature storage is an essential method to prevent or slow microbial
 growth [@dave2011meat]. To test my hypothesis, I designed my study to
 compare 3 different ground beef brands stored at either low temperature,
-4-5 degrees C in a refrigerator, or at room temperature. Then, I prepared
-culture-based and culture-free samples to process further analysis.
-After DNA extraction and PCR, DNA sequencing was performed using
+4-5 degrees C in a refrigerator, or at room temperature, around 20 degrees C.
+Then, I prepared culture-based and culture-free samples to process further
+analysis. After DNA extraction and PCR, DNA sequencing was performed using
 Sanger sequencer for culture-based samples and Illumina sequencer for
 culture-free samples. For culture-based samples, I used different statistical
 methods and generated Bayesian and Maximum Likelihood phylogenetic trees to
@@ -172,7 +172,7 @@ based on their treatment group.
 The first treatment group remained refrigerated while the second treatment
 group was stored at room temperature. The storage temperature for the first
 treatment group was around 4-5 degrees in a refrigerator and the second
-treatment group was around 20 degrees C at room temperature.
+treatment group was stored at room temperature, around 20 degrees C.
 For both treatment groups, the duration of the storage was 80 hours before
 performing subsample.
 
@@ -329,12 +329,13 @@ models introduced from Illumina-sequenced amplicon and use it to identify the
 accurate sample composition [@callahan2016dada2]. First of all, I downloaded
 following packages required to operate DADA: dada2, sequinr, mctoolsr, and
 phyloseq. Then I set the base path for the input data files, sorted to
-ensure the samples are in order, extracted sample names, and specified
-the full path to each of the file names forward reads. I checked the quality
-profiles of first 14 samples and placed filtered files in filtered
-sub-directory. After trimming low quality sequences, I generated a markdown
-table of read counts before and after trimming. I made a path for all of
-the trimmed files, built error models from each of the samples, and checked
+ensure the samples are in order, extracted sample names, assuming file names
+have format, and specified the full path to each of the file names forward
+reads. I checked the quality profiles of first 14 samples by generating plots
+and placed filtered files in filtered sub-directory. After trimming low quality 
+sequences, I generated a markdown table of read counts before and after
+trimming. I made a path for all of the trimmed files that made it through
+trimming, leading to build error models from each of the samples, and checked
 to see if error models matched my data. Then I removed any duplicated
 sequences to enhance accuracy, named all trimmed files, and extract sample
 names. After the extraction, I also named the derep-class objects by
