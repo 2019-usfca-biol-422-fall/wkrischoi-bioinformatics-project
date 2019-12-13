@@ -739,7 +739,7 @@ represented. While both the Shannon index and Simpson index exhibited the
 refrigerated samples at higher level in alpha-diversity measurement than
 room temperature samples, the dispersion between the highest and the lowest
 point of the refrigerated treatment group is much wider than the room
-temperature group in both indicies. The wide spread observed from the
+temperature group in both indices. The wide spread observed from the
 refrigerated samples represent a positively skewed data while the room
 temperature samples resembled much like the positive and negative controls
 with narrow distance between the highest and the lowest points.
