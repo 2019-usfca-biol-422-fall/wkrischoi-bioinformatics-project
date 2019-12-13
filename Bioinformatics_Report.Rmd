@@ -757,6 +757,21 @@ with narrow distance between the highest and the lowest points.
 
 ## Conclusion and Further research
 
+First introduction of global distribution for meat in large quantities prompted
+heightened interest in scientific researches for meat microbiology and
+continued to grow and expand with the rise of consumer supermarkets in the
+1950s [@nychas2008meat]. While meat spoilage is not always easily seen or
+perceived at a glance, consumers establish their judgement based on subjective
+criteria which are often influenced by their cultural and economical
+backgrounds as well as by the individual personality and traits; however,
+undoubtedly most are firmly discouraged by tangible signs of decay such as
+dull discoloration, foul odors, and slimy texture. With increase in consumer
+expectation, more demands are urged to enhance the sensory quality and
+nutritional properties of the food while maintaining the purity and safety,
+yet scientific intervention and inorganic additives are seen as negatives
+despite new technologies rapidly being introduced and adapted in general
+outside of the food industry [@nychas2008meat].
+
 The primary cause of the the spoilage of meat is considered to be the active
 microbial development and the common practices to minimize the microbial
 spoilage are low storage temperature, appropriate packaging methods, and
