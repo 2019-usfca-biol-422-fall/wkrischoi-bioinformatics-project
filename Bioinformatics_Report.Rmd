@@ -783,7 +783,15 @@ is susceptible to further encourage bacterial production that contributes to
 the accelerated spoilage in fresh meat; it is the first substrate meat
 spoilage bacteria uses, and it has the tendency to induce highly undesirable
 chemical reactions through catabolism of nitrogenous compounds generated
-by bacteria, such as *Pseudomonas* [@nychas2008meat]. In this paper, I focused
+by bacteria, such as *Pseudomonas* [@nychas2008meat]. Packaging materials also
+play a role in controlling the progression of spoilage as they dictate the
+permeability of gas exchange. Physical properties of meat could potentially
+contribute to the process of microbial growth, such that in minced meat the
+formation occurs both at the surface and within the creases, where production
+of gases is vulnerable to fluctuation depending on its ability to diffuse and
+dissolve and the levels of microbial respiration [@del2017quality].
+
+In this paper, I focused
 on observing how different storage temperature exposures of ground beef
 influence the abundance of meat spoilage bacteria. I found out throughout the
 experiment and the analysis that more diverse microbial communities were
