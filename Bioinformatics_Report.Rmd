@@ -525,6 +525,7 @@ The percentage of the non-chimeric reads came out to be 79.19%.
 I created a table that shows the total amplicon sequence variants (Table 8)
 and identified 100 bimeras out of 452 input sequences.
 
+
 # Discussion
 
 ## Analysis of cultured-samples
@@ -750,13 +751,18 @@ I found out throughout the experiment and the analysis that more diverse
 microbial communities were developed from the room temperature samples than
 the refrigerated samples and it supported the hypothesis raised in the
 beginning of the paper. Moreover, I determined that different species can
-develop on raw ground beef by manipulating storage temperatures. Now that I
+develop on raw ground beef by manipulating storage temperatures. These findings
+can be further implemented in the research to enhance the packaging
+methods, handling, and/or distributing operations to avoid specific microbes
+depending on different circumstances. Now that sufficient data regarding the
+microbial communities on raw ground beef is gathered based on the storage
+temperatures, a future research can be performed by changing the variables
+such as different levels of humidity or methods of packaging to carry these
+findings forward. Switching to a different meat such as pork, chicken, or lamb
+can also establish a good data set to compare if the phenomena observed from
+this study is specific to the model or if it gets influenced from any other
+variables.
 
-To carry these findings forward,
-
-This can be further implemented in the research to enhance the packaging
-methods and handling/distributing operations to avoid specific microbes
-depending on different circumstances.
 
 # Figures and Tables
 
