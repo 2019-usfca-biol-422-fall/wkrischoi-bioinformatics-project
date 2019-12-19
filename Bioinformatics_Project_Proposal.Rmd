@@ -1,7 +1,143 @@
 ---
-title: "Your Title Here"
-author: "Don Francisco"
+title: "BIOL 422 Bioinformatics Project - Microorganisms in Meat"
+author: "Kris Choi"
 date: "8/27/2019"
-output: word_document
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+  pdf_document: default
+csl: bioinformatics.csl
+bibliography: references.bib
 ---
+
+# Overview of Proposed Project
+
+## Questions
+
+Investigating microbial communities developed in ground beef under different storage conditions.
+
+## Hypothesis
+
+More diversed microbial communities will be developed if the meat is stored at room temperature in comparison to the ones kept in a refrigerator as low temperature storage is an essentail method to prevent or slow microbial growth [@dave2011meat].
+
+## Study Design
+
+The experiment will be conducted using ground beef. Two samples will be purchased from each brand (total of six samples, three different brands) and immediately refrigerated after purchase. Once the experiment begins, the first treatment group will remain refrigerated and the second group will be stored at room temperature. Subsampling will be performed after 80 hours from the time it was stored.
+
+* Experiment started at 10:18PM on 31 Aug 2019
+* Experiment ended at 6:18AM on 4 Sep 2019
+
+## Materials
+
+* 1.5mL tubes
+* Cotton Swabs
+* PBS buffer
+* Gloves
+* Tryptic Soy Agar 100 mm Petri dishes
+* Beads
+
+## Methods
+
+### Part 1 - Subsampling
+
+1. Label 12 new tubes with initials, date, and ID number.
+2. Dip a sterile cotton swab in PBS buffer.
+3. Swab a sample on the surface at least 10 seconds.
+4. Break off the tip of the cotton swab into the labeled tube and close the cap.
+
+### Part 2 - 1:10/1:100 Dilution and Cell culture
+
+1. Label 12 new tubes with ID number, dilution factor (1:10 or 1:100), date, and initials.   
+2. Add 200uL of PBS buffer to each sample and vortex for 15 sec.
+3. Add 180uL of PBS buffer to the labeled new tubes.
+4. Add 20uL of the stock from each original sample to the new 1:10 tube and vortex for 5 sec.
+5. Transfer 20uL of the 1:10 diluted solution to the new 1:100 tube and vortex for 5 sec.
+6. Label 18 new TSA petri dishes with ID number, dilution factor, date, and initials.
+7. Transfer 100uL of each sample to the petri dish.
+8. Add 8-10 beads in the petri dish and spread the solution with the beads for 10 sec.
+9. Store the dishes in a incubator.
+
+### Part 3 - DNA Extraction (cell culture)
+
+1. Label 1.5mL tube for each sample.
+2. Add cells from colony to tube using a sterile pipette tip.
+3. Add 100uL of extraction solution.
+4. Vortex for 60 seconds.
+5. Incubate at 95 degree C for 10 min.
+6. Vortex for 60 seconds.
+7. Add 100uL of dilution solution.
+8. Vortex for 5 seconds.
+9. Centrifuge for 5 minutes at 14,000rpm.
+
+### Part 4 - PCR
+
+1. Calculate volumes of reagents needed for Master Mix: (n+1)+10%.
+2. Transfer appropriate volumes for each ingredients.
+3. Aliquot to each sample tubes and make one more for a negative control.
+4. Add 1uL of sample to tubes and 1uL of H2O to a negative control.
+5. Load each sample on a 2% agarose gel containing SYBR safe dye.
+6. Run the electrophoresis for 30 min at 140V.
+7. Observe the gel under UV light.
+
+#### Ingrediants for Master Mix
+
+* 10uL Amp
+* 0.8uL 27f primer
+* 0.8uL 1492r primer
+* 1uL BSA
+* 6.4 H2O
+
+#### PCR Cycle Conditions
+
+1. Denature: 95C for 5 min
+2. Denature: 94C for 30 sec
+3. Annealing: 65C for 30 sec
+4. Elongation: 72C for 1 min
+
+(step down 1C of annealing temperature per cycle and repeat step 2-4 for 10 cycles)
+
+5. 94C for 30 sec
+6. 55C for 30 sec
+7. 72C for 1 min
+
+(Repeat step 5-7 for 25 cycles)
+
+8. 72C for 10 min
+9. 4C hold
+
+## Sample Identification
+
+* 1A: Teva kosher foods @ fridge purchased from Trader Joe's
+* 1B: Teva kosher foods @ RT purchased from Trader Joe's
+* 2A: Lucky @ fridge purchased from Lucky Supermarkets
+* 2B: Lucky @ RT purchased from Lucky Supermarkets
+* 3B: Butcher shop @ fridge purchased from Trader Joe's
+* 3B: Butcher shop @ RT purchased from Trader Joe's
+
+## Results
+
+### DNA concentration from cell culture
+
+* 1: 1A stock - 10.5 ng/uL
+* 2: 1A 1:100 - 25.5 ng/uL
+* 3: 2A stock - 7.56 ng/uL
+* 4: 2A stock - 15.1 ng/uL
+* 5: 3A stock - 12.4 ng/uL
+* 6: 3A stock - 14.3 ng/uL
+
+### DNA concentration from swabs
+
+* 1A - 2.14 ng/uL
+* 1B - 3.39 ng/uL
+* 2A - 2.11 ng/uL
+* 2B - 2.17 ng/uL
+* 3A - 1.10 ng/uL
+* 3B - 4.62 ng/uL
+
+# Sources Cited
+
+
+
+
 

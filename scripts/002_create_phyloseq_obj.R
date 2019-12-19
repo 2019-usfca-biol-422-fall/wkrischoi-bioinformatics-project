@@ -28,10 +28,18 @@ load("output/dada-results/taxatable.Rda")
 # and the `stringsAsFactors = FALSE` tells it not to assume that things are
 # categorical variables
 metadata_in <- read.csv(paste0("data/metadata/",
-                                 "illumina_sample_metadata_for_phyloseq.csv"),
-                          header = TRUE,
-                          stringsAsFactors = FALSE,
-                          row.names = 5) # sets sample IDs to row names
+                               "illumina_sample_metadata_for_phyloseq.csv"),
+                        header = TRUE,
+                        stringsAsFactors = FALSE,
+                        row.names = 4) # sets sample IDs to row names
+
+# fix rownames to match metadata file
+rownames(sequence_table_nochim) <- gsub(pattern = "_.*filt",
+                                        replacement = "",
+                                        rownames(sequence_table_nochim))
+# subset metadata to match taxa table
+metadata_in <- metadata_in[grepl(pattern = "(KC|control)",
+                                 rownames(metadata_in)), ]
 
 # Construct phyloseq object (straightforward from dada2 outputs)
 phyloseq_obj <- phyloseq(otu_table(sequence_table_nochim,
@@ -41,4 +49,3 @@ phyloseq_obj <- phyloseq(otu_table(sequence_table_nochim,
 
 # save phyloseq and melted_phyloseq objects to use in the Rmd file
 save(phyloseq_obj, file = "output/phyloseq_obj.Rda")
-

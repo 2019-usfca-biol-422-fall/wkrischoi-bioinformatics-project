@@ -1,0 +1,381 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={BIOL 422 Bioinformatics Project - Microorganisms in Meat},
+            pdfauthor={Kris Choi},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{BIOL 422 Bioinformatics Project - Microorganisms in Meat}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{Kris Choi}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{8/27/2019}
+
+
+\begin{document}
+\maketitle
+
+\hypertarget{overview-of-proposed-project}{%
+\section{Overview of Proposed
+Project}\label{overview-of-proposed-project}}
+
+\hypertarget{questions}{%
+\subsection{Questions}\label{questions}}
+
+Investigating microbial communities developed in ground beef under
+different storage conditions.
+
+\hypertarget{hypothesis}{%
+\subsection{Hypothesis}\label{hypothesis}}
+
+More diversed microbial communities will be developed if the meat is
+stored at room temperature in comparison to the ones kept in a
+refrigerator as low temperature storage is an essentail method to
+prevent or slow microbial growth (Dave and Ghaly, 2011).
+
+\hypertarget{study-design}{%
+\subsection{Study Design}\label{study-design}}
+
+The experiment will be conducted using ground beef. Two samples will be
+purchased from each brand (total of six samples, three different brands)
+and immediately refrigerated after purchase. Once the experiment begins,
+the first treatment group will remain refrigerated and the second group
+will be stored at room temperature. Subsampling will be performed after
+80 hours from the time it was stored.
+
+\begin{itemize}
+\tightlist
+\item
+  Experiment started at 10:18PM on 31 Aug 2019
+\item
+  Experiment ended at 6:18AM on 4 Sep 2019
+\end{itemize}
+
+\hypertarget{materials}{%
+\subsection{Materials}\label{materials}}
+
+\begin{itemize}
+\tightlist
+\item
+  1.5mL tubes
+\item
+  Cotton Swabs
+\item
+  PBS buffer
+\item
+  Gloves
+\item
+  Tryptic Soy Agar 100 mm Petri dishes
+\item
+  Beads
+\end{itemize}
+
+\hypertarget{methods}{%
+\subsection{Methods}\label{methods}}
+
+\hypertarget{part-1---subsampling}{%
+\subsubsection{Part 1 - Subsampling}\label{part-1---subsampling}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Label 12 new tubes with initials, date, and ID number.
+\item
+  Dip a sterile cotton swab in PBS buffer.
+\item
+  Swab a sample on the surface at least 10 seconds.
+\item
+  Break off the tip of the cotton swab into the labeled tube and close
+  the cap.
+\end{enumerate}
+
+\hypertarget{part-2---1101100-dilution-and-cell-culture}{%
+\subsubsection{Part 2 - 1:10/1:100 Dilution and Cell
+culture}\label{part-2---1101100-dilution-and-cell-culture}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Label 12 new tubes with ID number, dilution factor (1:10 or 1:100),
+  date, and initials.\\
+\item
+  Add 200uL of PBS buffer to each sample and vortex for 15 sec.
+\item
+  Add 180uL of PBS buffer to the labeled new tubes.
+\item
+  Add 20uL of the stock from each original sample to the new 1:10 tube
+  and vortex for 5 sec.
+\item
+  Transfer 20uL of the 1:10 diluted solution to the new 1:100 tube and
+  vortex for 5 sec.
+\item
+  Label 18 new TSA petri dishes with ID number, dilution factor, date,
+  and initials.
+\item
+  Transfer 100uL of each sample to the petri dish.
+\item
+  Add 8-10 beads in the petri dish and spread the solution with the
+  beads for 10 sec.
+\item
+  Store the dishes in a incubator.
+\end{enumerate}
+
+\hypertarget{part-3---dna-extraction-cell-culture}{%
+\subsubsection{Part 3 - DNA Extraction (cell
+culture)}\label{part-3---dna-extraction-cell-culture}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Label 1.5mL tube for each sample.
+\item
+  Add cells from colony to tube using a sterile pipette tip.
+\item
+  Add 100uL of extraction solution.
+\item
+  Vortex for 60 seconds.
+\item
+  Incubate at 95 degree C for 10 min.
+\item
+  Vortex for 60 seconds.
+\item
+  Add 100uL of dilution solution.
+\item
+  Vortex for 5 seconds.
+\item
+  Centrifuge for 5 minutes at 14,000rpm.
+\end{enumerate}
+
+\hypertarget{part-4---pcr}{%
+\subsubsection{Part 4 - PCR}\label{part-4---pcr}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Calculate volumes of reagents needed for Master Mix: (n+1)+10\%.
+\item
+  Transfer appropriate volumes for each ingredients.
+\item
+  Aliquot to each sample tubes and make one more for a negative control.
+\item
+  Add 1uL of sample to tubes and 1uL of H2O to a negative control.
+\item
+  Load each sample on a 2\% agarose gel containing SYBR safe dye.
+\item
+  Run the electrophoresis for 30 min at 140V.
+\item
+  Observe the gel under UV light.
+\end{enumerate}
+
+\hypertarget{ingrediants-for-master-mix}{%
+\paragraph{Ingrediants for Master
+Mix}\label{ingrediants-for-master-mix}}
+
+\begin{itemize}
+\tightlist
+\item
+  10uL Amp
+\item
+  0.8uL 27f primer
+\item
+  0.8uL 1492r primer
+\item
+  1uL BSA
+\item
+  6.4 H2O
+\end{itemize}
+
+\hypertarget{pcr-cycle-conditions}{%
+\paragraph{PCR Cycle Conditions}\label{pcr-cycle-conditions}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Denature: 95C for 5 min
+\item
+  Denature: 94C for 30 sec
+\item
+  Annealing: 65C for 30 sec
+\item
+  Elongation: 72C for 1 min
+\end{enumerate}
+
+(step down 1C of annealing temperature per cycle and repeat step 2-4 for
+10 cycles)
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  94C for 30 sec
+\item
+  55C for 30 sec
+\item
+  72C for 1 min
+\end{enumerate}
+
+(Repeat step 5-7 for 25 cycles)
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{7}
+\tightlist
+\item
+  72C for 10 min
+\item
+  4C hold
+\end{enumerate}
+
+\hypertarget{sample-identification}{%
+\subsection{Sample Identification}\label{sample-identification}}
+
+\begin{itemize}
+\tightlist
+\item
+  1A: Teva kosher foods @ fridge purchased from Trader Joe's
+\item
+  1B: Teva kosher foods @ RT purchased from Trader Joe's
+\item
+  2A: Lucky @ fridge purchased from Lucky Supermarkets
+\item
+  2B: Lucky @ RT purchased from Lucky Supermarkets
+\item
+  3B: Butcher shop @ fridge purchased from Trader Joe's
+\item
+  3B: Butcher shop @ RT purchased from Trader Joe's
+\end{itemize}
+
+\hypertarget{results}{%
+\subsection{Results}\label{results}}
+
+\hypertarget{dna-concentration-from-cell-culture}{%
+\subsubsection{DNA concentration from cell
+culture}\label{dna-concentration-from-cell-culture}}
+
+\begin{itemize}
+\tightlist
+\item
+  1: 1A stock - 10.5 ng/uL
+\item
+  2: 1A 1:100 - 25.5 ng/uL
+\item
+  3: 2A stock - 7.56 ng/uL
+\item
+  4: 2A stock - 15.1 ng/uL
+\item
+  5: 3A stock - 12.4 ng/uL
+\item
+  6: 3A stock - 14.3 ng/uL
+\end{itemize}
+
+\hypertarget{dna-concentration-from-swabs}{%
+\subsubsection{DNA concentration from
+swabs}\label{dna-concentration-from-swabs}}
+
+\begin{itemize}
+\tightlist
+\item
+  1A - 2.14 ng/uL
+\item
+  1B - 3.39 ng/uL
+\item
+  2A - 2.11 ng/uL
+\item
+  2B - 2.17 ng/uL
+\item
+  3A - 1.10 ng/uL
+\item
+  3B - 4.62 ng/uL
+\end{itemize}
+
+\hypertarget{sources-cited}{%
+\section*{Sources Cited}\label{sources-cited}}
+\addcontentsline{toc}{section}{Sources Cited}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-dave2011meat}{}%
+Dave,D. and Ghaly,A.E. (2011) Meat spoilage mechanisms and preservation
+techniques: A critical review. \emph{American Journal of Agricultural
+and Biological Sciences}, \textbf{6}, 486--510.
+
+
+\end{document}
